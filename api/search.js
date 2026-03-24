@@ -1,8 +1,12 @@
-console.log("OPENAI KEY PRESENT:", !!process.env.OPENAI_API_KEY)
-console.log("OPENAI KEY PREFIX:", process.env.OPENAI_API_KEY?.slice(0, 7))
-
 import { createClient } from '@supabase/supabase-js'
 import OpenAI from 'openai'
+
+console.log('ENV CHECK', {
+  supabaseUrlPresent: !!process.env.SUPABASE_URL,
+  supabaseKeyPresent: !!process.env.SUPABASE_KEY,
+  openaiKeyPresent: !!process.env.OPENAI_API_KEY,
+  openaiKeyPrefix: process.env.OPENAI_API_KEY?.slice(0, 7),
+})
 
 const supabase = createClient(
   process.env.SUPABASE_URL,
@@ -10,7 +14,7 @@ const supabase = createClient(
 )
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY
+  apiKey: process.env.OPENAI_API_KEY,
 })
 
 export default async function handler(req, res) {
@@ -21,17 +25,13 @@ export default async function handler(req, res) {
   try {
     const { query } = req.body || {}
 
-    if (!query) {
+    if (!query || typeof query !== 'string') {
       return res.status(400).json({ error: 'Missing query' })
     }
 
-    const aiResponse = await openai.chat.completions.create({
+    const aiResponse = await openai.responses.create({
       model: 'gpt-4.1-mini',
-      response_format: { type: 'json_object' },
-      messages: [
-        {
-          role: 'system',
-          content: `
+      instructions: `
 You convert children's clothing shopping requests into structured JSON filters.
 
 Return ONLY valid JSON in this exact shape:
@@ -55,22 +55,29 @@ Rules:
 - "skaljacka" usually means category "jacket", subcategory "shell"
 - "fleecejacka" usually means category "jacket", subcategory "fleece"
 - "vinterjacka", "varm jacka", "vadderad jacka", "skidjacka" usually imply subcategory "winter"
-- If user says "billig", infer a reasonable max_price only if an explicit amount is not given. Otherwise set max_price to null.
+- If user gives an explicit budget amount, use it as max_price.
+- If user says "billig" without giving an amount, set max_price to null.
 - If user mentions eco / ekologisk / recycled / hållbar, set eco = true.
 - Normalize colors to English lowercase like: pink, navy, blue, purple, green, dark-green, yellow, orange, beige, off-white, black.
 - Normalize pattern to one of: solid, striped, dotted, floral, unicorn, dinosaur, or null.
 - Normalize style to one of: minimal, sporty, playful, retro, outdoor, comfy, ski, classic, or null.
-`
-        },
-        {
-          role: 'user',
-          content: query
-        }
-      ]
+- Return JSON only. No markdown. No explanation.
+      `,
+      input: query,
     })
 
-    const raw = aiResponse.choices?.[0]?.message?.content || '{}'
-    const filters = JSON.parse(raw)
+    const raw = aiResponse.output_text || '{}'
+
+    let filters = {}
+    try {
+      filters = JSON.parse(raw)
+    } catch (parseError) {
+      console.error('PARSE ERROR:', raw)
+      return res.status(500).json({
+        error: 'Failed to parse AI response as JSON',
+        raw,
+      })
+    }
 
     let dbQuery = supabase
       .from('products')
@@ -99,11 +106,21 @@ Rules:
     const { data, error } = await dbQuery.limit(6)
 
     if (error) {
-      return res.status(500).json({ error: error.message, filters })
+      console.error('SUPABASE ERROR:', error)
+      return res.status(500).json({
+        error: error.message,
+        filters,
+      })
     }
 
-    return res.status(200).json({ filters, products: data || [] })
+    return res.status(200).json({
+      filters,
+      products: data || [],
+    })
   } catch (err) {
-    return res.status(500).json({ error: err.message || 'Unknown error' })
+    console.error('FULL ERROR:', err)
+    return res.status(500).json({
+      error: err.message || 'Unknown error',
+    })
   }
 }
