@@ -1,3 +1,6 @@
+console.log("OPENAI KEY PRESENT:", !!process.env.OPENAI_API_KEY)
+console.log("OPENAI KEY PREFIX:", process.env.OPENAI_API_KEY?.slice(0, 7))
+
 import { createClient } from '@supabase/supabase-js'
 import OpenAI from 'openai'
 
