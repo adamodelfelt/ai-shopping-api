@@ -22,7 +22,6 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Missing query' })
     }
 
-    // 1. AI → strukturera intent
     const aiResponse = await openai.chat.completions.create({
       model: 'gpt-4.1-mini',
       response_format: { type: 'json_object' },
@@ -30,9 +29,18 @@ export default async function handler(req, res) {
         {
           role: 'system',
           content: `
-Extract shopping intent from query.
-Return JSON with keys:
-category, color, style
+Extract shopping intent from the user's clothing search.
+
+Return valid JSON with these keys:
+- category
+- color
+- style
+
+Rules:
+- Use English values
+- category should be a simple product type like: jacket, pants, jeans, sweater, shoes, hat
+- color should be a simple color like: black, blue, red, green, beige, pink
+- if unknown, use null
           `
         },
         {
@@ -44,31 +52,52 @@ category, color, style
 
     const filters = JSON.parse(aiResponse.choices[0].message.content)
 
-    // 2. Hämta produkter (enkelt MVP-filter)
-    let dbQuery = supabase.from('products').select('*').limit(20)
+    let dbQuery = supabase
+      .from('products')
+      .select('*')
+      .limit(20)
 
+    // Mjukare filter än eq()
     if (filters.category) {
-      dbQuery = dbQuery.eq('category', filters.category)
+      dbQuery = dbQuery.ilike('category', `%${filters.category}%`)
     }
 
     if (filters.color) {
       dbQuery = dbQuery.ilike('color', `%${filters.color}%`)
     }
 
-    const { data: products, error } = await dbQuery
+    let { data: products, error } = await dbQuery
 
     if (error) throw error
 
-    // 3. Returnera i "groups"-format
+    // Fallback: om filtren gav 0 träffar, returnera ändå något från DB
+    if (!products || products.length === 0) {
+      const fallbackQuery = await supabase
+        .from('products')
+        .select('*')
+        .limit(20)
+
+      if (fallbackQuery.error) throw fallbackQuery.error
+      products = fallbackQuery.data || []
+    }
+
+    const mappedProducts = (products || []).map((product) => ({
+      id: String(product.id),
+      name: product.name,
+      price: product.price_sek ?? 0,
+      store: product.retailer ?? product.brand ?? 'Store',
+      imageQuery: product.name ?? '',
+      color: product.color ?? ''
+    }))
+
     return res.status(200).json({
       groups: [
         {
-          title: 'Top picks',
-          products: products || []
+          category: 'Top picks',
+          products: mappedProducts
         }
       ]
     })
-
   } catch (err) {
     console.error(err)
     return res.status(500).json({ error: 'Something went wrong' })
