@@ -1,11 +1,11 @@
 import http from "http";
 import dotenv from "dotenv";
-import handler from "./api/search.js";
 
 dotenv.config({ path: ".env.local" });
 
-const server = http.createServer(async (req, res) => {
-  // Lägg till helpers som Vercel normalt ger dig
+const { default: handler } = await import("./api/search.js");
+
+const server = http.createServer((req, res) => {
   res.status = function (code) {
     res.statusCode = code;
     return res;
@@ -16,24 +16,15 @@ const server = http.createServer(async (req, res) => {
     res.end(JSON.stringify(data));
   };
 
-  // Parse body för POST/OPTIONS
   let body = "";
+
   req.on("data", (chunk) => {
     body += chunk;
   });
 
   req.on("end", async () => {
     try {
-      if (body) {
-        try {
-          req.body = JSON.parse(body);
-        } catch {
-          req.body = {};
-        }
-      } else {
-        req.body = {};
-      }
-
+      req.body = body ? JSON.parse(body) : {};
       await handler(req, res);
     } catch (error) {
       console.error("Dev server error:", error);
