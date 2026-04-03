@@ -11,6 +11,14 @@ const openai = new OpenAI({
 })
 
 export default async function handler(req, res) {
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8080')
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS')
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type')
+
+  if (req.method === 'OPTIONS') {
+    return res.status(200).end()
+  }
+
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' })
   }
@@ -57,7 +65,6 @@ Rules:
       .select('*')
       .limit(20)
 
-    // Mjukare filter än eq()
     if (filters.category) {
       dbQuery = dbQuery.ilike('category', `%${filters.category}%`)
     }
@@ -70,7 +77,6 @@ Rules:
 
     if (error) throw error
 
-    // Fallback: om filtren gav 0 träffar, returnera ändå något från DB
     if (!products || products.length === 0) {
       const fallbackQuery = await supabase
         .from('products')
@@ -86,7 +92,7 @@ Rules:
       name: product.name,
       price: product.price_sek ?? 0,
       store: product.retailer ?? product.brand ?? 'Store',
-      imageQuery: product.name ?? '',
+      image: product.image_url ?? '',
       color: product.color ?? ''
     }))
 
