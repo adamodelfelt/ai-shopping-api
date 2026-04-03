@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vercel dev"
-  },
+  "dev": "echo 'use npx vercel dev'"
+},
   "dependencies": {
     "@supabase/supabase-js": "^2.100.0",
     "dotenv": "^17.3.1",
