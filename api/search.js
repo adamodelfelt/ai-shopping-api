@@ -165,7 +165,7 @@ function normalizeFilters(aiFilters, query) {
 
 function splitIntoSearchParts(query) {
   return query
-    .split(/\s+och\s+|,|\s+\+\s+|\s+plus\s+/i)
+    .split(/\s+och\s+|,|\s+\+\s+|\s+plus\s+|\s+and\s+/i)
     .map((part) => part.trim())
     .filter(Boolean)
 }
@@ -174,6 +174,7 @@ function buildGroupLabel(part, filters) {
   const pieces = []
 
   if (filters.color) pieces.push(titleCase(filters.color))
+
   if (filters.subcategory) {
     pieces.push(titleCase(filters.subcategory.replaceAll('_', ' ')))
   } else if (filters.category) {
@@ -183,6 +184,19 @@ function buildGroupLabel(part, filters) {
   }
 
   return pieces.join(' ')
+}
+
+function applyExcludeIds(dbQuery, excludeProductIds = []) {
+  if (!excludeProductIds.length) return dbQuery
+
+  const numericIds = excludeProductIds
+    .map((id) => String(id).trim())
+    .filter(Boolean)
+    .filter((id) => /^\d+$/.test(id))
+
+  if (!numericIds.length) return dbQuery
+
+  return dbQuery.not('id', 'in', `(${numericIds.join(',')})`)
 }
 
 function applyFilters(dbQuery, filters, options = {}) {
@@ -210,12 +224,15 @@ function applyFilters(dbQuery, filters, options = {}) {
 }
 
 async function runProductQuery(filters, options = {}) {
+  const { excludeProductIds = [] } = options
+
   let dbQuery = supabase
     .from('products')
     .select('*')
     .eq('in_stock', true)
-    .limit(100)
+    .limit(200)
 
+  dbQuery = applyExcludeIds(dbQuery, excludeProductIds)
   dbQuery = applyFilters(dbQuery, filters, options)
 
   const result = await dbQuery
@@ -271,14 +288,15 @@ Rules:
   }
 }
 
-async function searchOnePart(part) {
+async function searchOnePart(part, excludeProductIds = []) {
   const parsed = await parseSinglePart(part)
   const { filters } = parsed
 
   let products = await runProductQuery(filters, {
     includeCategory: true,
     includeSubcategory: true,
-    includeColor: true
+    includeColor: true,
+    excludeProductIds
   })
 
   let fallbackLevel = 'strict'
@@ -287,7 +305,8 @@ async function searchOnePart(part) {
     products = await runProductQuery(filters, {
       includeCategory: true,
       includeSubcategory: false,
-      includeColor: true
+      includeColor: true,
+      excludeProductIds
     })
     fallbackLevel = 'without_subcategory'
   }
@@ -296,7 +315,8 @@ async function searchOnePart(part) {
     products = await runProductQuery(filters, {
       includeCategory: true,
       includeSubcategory: false,
-      includeColor: false
+      includeColor: false,
+      excludeProductIds
     })
     fallbackLevel = 'category_only'
   }
@@ -307,13 +327,14 @@ async function searchOnePart(part) {
       {
         includeCategory: false,
         includeSubcategory: false,
-        includeColor: false
+        includeColor: false,
+        excludeProductIds
       }
     )
     fallbackLevel = 'all_in_stock'
   }
 
-  const rankedProducts = scoreAndSortProducts(products, filters, part).slice(0, 4)
+  const rankedProducts = scoreAndSortProducts(products, filters, part).slice(0, 24)
 
   return {
     label: buildGroupLabel(part, filters),
@@ -353,7 +374,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { query } = req.body || {}
+    const { query, excludeProductIds = [] } = req.body || {}
 
     if (!query || !String(query).trim()) {
       return res.status(400).json({ error: 'Missing query' })
@@ -365,7 +386,7 @@ export default async function handler(req, res) {
 
     const groups = await Promise.all(
       searches.map(async (part) => {
-        const result = await searchOnePart(part)
+        const result = await searchOnePart(part, excludeProductIds)
 
         return {
           category: result.label,
