@@ -68,6 +68,16 @@ test('stale, unavailable and future stock is not advertised as available', () =>
   assert.equal(sizeMatches('50', '110/116'), false);
   assert.equal(sizeMatches('110 - 116', '110/116'), true);
 });
+test('failed retailer checks log only safe categories and still hide unknown stock', async () => {
+  const reports = [];
+  for (const [error, reason] of [[new Error('Retailer request stopped (HTTP 403)'), 'http_403'], [new DOMException('private details', 'TimeoutError'), 'timeout'], [new Error('private supplier response and credentials'), 'unverified_response']]) {
+    const verify = createStockService({ disk: false, interval: 0, fetchImpl: async () => { throw error; }, reportFailure: entry => reports.push(entry) });
+    const [product] = await verify([{ id: '1', store: 'lindex', url: urls.lindex, price: 349 }]);
+    assert.equal(product.availability.status, 'unknown');
+    assert.deepEqual(reports.at(-1), { event: 'stock_check_failed', retailer: 'lindex', reason });
+  }
+  assert.ok(!JSON.stringify(reports).includes('private'));
+});
 test('striped collars, ribbing, piping and three stripes are not an overall striped pattern', () => {
   for (const text of ['Panther Piping Sweatshirt med randig krage', 'Table Tennis Striped Rib Sweatshirt', 'Tröja med tre ränder', 'Sweatshirt med randig V-ringning', 'Randade ribbade kanter']) assert.equal(appearanceOf(text).pattern_tags.includes('striped'), false, text);
   assert.ok(appearanceOf('Randig tröja med randiga muddar').pattern_tags.includes('striped'));
