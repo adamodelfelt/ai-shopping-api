@@ -69,12 +69,14 @@ test('unsafe product and image URLs are removed; privileged fields never reach c
   const product = publicProduct(row(1, 'arket', { classification: { private: true }, product_url: 'javascript:alert(1)', image_url: 'https://evil.test/a' }));
   assert.equal(product.url, ''); assert.equal(product.image, ''); assert.equal(product.classification, undefined);
 });
-test('pinned products survive refresh, editing, and empty responses', () => {
+test('hearted products survive same-query refresh but cannot bypass an edited search filter', () => {
   let group = makeGroup({ category: 'jacka', sourceQuery: 'jacka', products: [row(1), row(2), row(3), row(4), row(5)] });
   group.pinned.add('2'); assert.equal(visible(group)[0].id, '2');
-  group = mergeRefresh(group, { category: 'blå jacka', products: [row(6), row(2)] }, 'blå jacka');
+  group = mergeRefresh(group, { category: 'jacka', products: [row(6), row(2)] }, 'jacka');
   assert.deepEqual(group.pool.map(product => product.id), ['2', '6']);
   group = mergeRefresh(group, { products: [] }); assert.deepEqual(visible(group).map(product => product.id), ['2']);
+  group = mergeRefresh(group, { category: 'blå jacka', products: [row(7)] }, 'blå jacka');
+  assert.deepEqual(visible(group).map(product => product.id), ['7']); assert.equal(group.pinned.size, 0);
 });
 test('real archived snapshot supports all six stores and representative searches', async () => {
   const data = JSON.parse(await readFile(new URL('../data/catalogue.json', import.meta.url)));

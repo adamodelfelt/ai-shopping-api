@@ -19,6 +19,7 @@ function provider(calls, overrides = {}) {
     if (url.pathname === '/auth/v1/user') return new Response(JSON.stringify(user));
     if (['/auth/v1/verify', '/auth/v1/token'].includes(url.pathname)) return new Response(JSON.stringify(tokens));
     if (url.pathname === '/rest/v1/account_profiles' && options.method === 'GET') return new Response(JSON.stringify([row]));
+    if (url.pathname === '/rest/v1/account_favorites' && options.method === 'GET') return new Response('[]');
     return new Response(null, { status: 204 });
   };
 }
@@ -42,6 +43,23 @@ test('accounts fail closed until explicitly configured and never accept a legacy
   for (const settings of [{}, { ...env, ACCOUNT_AUTH_READY: 'false' }, { ...env, ACCOUNT_SUPABASE_PUBLISHABLE_KEY: 'legacy-token' }, { ...env, ACCOUNT_SUPABASE_URL: 'https://evil.test' }]) assert.equal(accountConfig(settings), null);
   const response = await call(undefined, { settings: {} }); assert.equal(response.body.enabled, false); assert.equal(response.body.profile, null);
   assert.equal((await call({ action: 'save-profile', profile }, { settings: {} })).statusCode, 503);
+});
+test('account favorites are private, bounded and owned by the verified session', async () => {
+  const calls = [], fetchImpl = provider(calls, { '/rest/v1/account_favorites': async (url, options) => options.method === 'GET' ? new Response(JSON.stringify([{ user_id: userId, product_ids: ['1', '2'] }])) : new Response(null, { status: 204 }) });
+  const current = await call(undefined, { cookie: 'whool_access=test-access-token', fetchImpl });
+  assert.deepEqual(current.body.favoriteIds, ['1', '2']);
+  assert.equal(current.body.userId, userId);
+  assert.equal(calls.find(item => item.url.pathname === '/rest/v1/account_favorites').url.searchParams.get('user_id'), `eq.${userId}`);
+  const saved = await call({ action: 'save-favorites', productIds: ['3', '4'] }, { cookie: 'whool_access=test-access-token', fetchImpl });
+  assert.deepEqual(saved.body.favoriteIds, ['3', '4']);
+  const write = calls.find(item => item.url.pathname === '/rest/v1/account_favorites' && item.options.method === 'POST');
+  assert.deepEqual(JSON.parse(write.options.body), { user_id: userId, product_ids: ['3', '4'] });
+  assert.equal((await call({ action: 'save-favorites', productIds: ['1'] })).statusCode, 401);
+  assert.equal((await call({ action: 'save-favorites', productIds: ['1'], user_id: 'someone-else' }, { cookie: 'whool_access=test-access-token' })).statusCode, 400);
+  assert.equal((await call({ action: 'save-favorites', productIds: ['1', '1'] }, { cookie: 'whool_access=test-access-token' })).statusCode, 400);
+  assert.equal((await call({ action: 'save-favorites', productIds: Array(101).fill('1') }, { cookie: 'whool_access=test-access-token' })).statusCode, 400);
+  const wrongOwner = await call(undefined, { cookie: 'whool_access=test-access-token', fetchImpl: provider([], { '/rest/v1/account_favorites': async () => new Response(JSON.stringify([{ user_id: 'another-user', product_ids: ['9'] }])) }) });
+  assert.equal(wrongOwner.statusCode, 503); assert.ok(!JSON.stringify(wrongOwner.body).includes('another-user'));
 });
 test('anonymous requests cannot read profiles; hostile and missing mutation origins are rejected', async () => {
   const calls = [];

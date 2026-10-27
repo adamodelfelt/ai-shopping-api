@@ -2,7 +2,7 @@ import { profileFields, normalizeProfile, validateEmail, autofillValues } from '
 
 const demoProfile = { firstName: 'Alex', lastName: 'Exempel', phone: '+46700000000', addressLine1: 'Exempelgatan 1', addressLine2: '', postalCode: '12345', city: 'Exempelstad', countryCode: 'SE' };
 const $ = selector => document.querySelector(selector);
-const state = { enabled: false, authenticated: false, demo: false, profile: null, email: '', loading: false, generation: 0 };
+const state = { enabled: false, authenticated: false, demo: false, profile: null, email: '', userId: null, favoriteIds: [], loading: false, generation: 0 };
 function node(tag, className, text) { const item = document.createElement(tag); if (className) item.className = className; if (text !== undefined) item.textContent = text; return item; }
 async function accountRequest(body) {
   const response = await fetch('/api/account', { method: body ? 'POST' : 'GET', headers: body ? { 'Content-Type': 'application/json' } : {}, credentials: 'same-origin', cache: 'no-store', signal: AbortSignal.timeout(10_000), body: body ? JSON.stringify(body) : undefined });
@@ -50,6 +50,16 @@ function render() {
   document.dispatchEvent(new Event('whool-account-changed'));
 }
 export function getDeliveryProfile() { return state.profile ? { profile: { ...state.profile }, email: state.email, demo: state.demo } : null; }
+export function getAccountState() { return { enabled: state.enabled, authenticated: state.authenticated, demo: state.demo, userId: state.userId, favoriteIds: [...state.favoriteIds] }; }
+export async function saveAccountFavorites(productIds) {
+  if (!state.authenticated || !state.userId) throw new Error('Logga in för att spara på kontot.');
+  const userId = state.userId;
+  const result = await accountRequest({ action: 'save-favorites', productIds });
+  if (state.userId !== userId || !state.authenticated) throw new Error('Kontot ändrades. Försök igen.');
+  state.favoriteIds = result.favoriteIds;
+  document.dispatchEvent(new Event('whool-account-changed'));
+  return result.favoriteIds;
+}
 export async function openAccount() {
   const dialog = $('#account-dialog'); if (!dialog.open) dialog.showModal();
   if (state.demo || state.loading) { render(); return; }
@@ -71,7 +81,7 @@ function initializeAccount() {
   $('#account-open').addEventListener('click', openAccount);
   $('#account-autofill-demo').addEventListener('click', openAutofillDemo);
   $('#account-demo').addEventListener('click', () => {
-    ++state.generation; Object.assign(state, { demo: true, authenticated: false, email: 'alex@example.com', profile: { ...demoProfile } });
+    ++state.generation; Object.assign(state, { demo: true, authenticated: false, email: 'alex@example.com', profile: { ...demoProfile }, userId: null, favoriteIds: [] });
     message('Testläge med fiktiva uppgifter. Inget konto skapas och ingen information sparas på servern.'); render();
   });
   $('#account-login-form').addEventListener('submit', async event => {
@@ -108,7 +118,7 @@ function initializeAccount() {
     const wasDemo = state.demo; state.loading = true;
     try {
       if (!wasDemo) await accountRequest({ action: 'logout' });
-      ++state.generation; Object.assign(state, { demo: false, authenticated: false, profile: null, email: '' }); $('#profile-form').reset(); $('#login-email').value = ''; $('#login-code').value = ''; $('#account-code-form').hidden = true; render(); message(wasDemo ? 'Testprofilen är borttagen ur denna flik.' : 'Du är utloggad på den här sidan.');
+      ++state.generation; Object.assign(state, { demo: false, authenticated: false, profile: null, email: '', userId: null, favoriteIds: [] }); $('#profile-form').reset(); $('#login-email').value = ''; $('#login-code').value = ''; $('#account-code-form').hidden = true; render(); message(wasDemo ? 'Testprofilen är borttagen ur denna flik.' : 'Du är utloggad på den här sidan.');
     } catch { state.profile = null; state.email = ''; render(); message('Utloggningen kunde inte bekräftas. Profilen är dold i denna flik. Försök att logga ut igen.', true); }
     finally { state.loading = false; }
   });
@@ -134,5 +144,9 @@ function initializeAccount() {
   });
   $('#autofill-demo-form').addEventListener('submit', event => event.preventDefault());
   render();
+  if (['http:', 'https:'].includes(location.protocol)) {
+    const generation = state.generation;
+    accountRequest().then(status => { if (generation === state.generation && !state.loading && !state.demo) { Object.assign(state, status); render(); } }).catch(() => {});
+  }
 }
 initializeAccount();

@@ -16,7 +16,8 @@ async function scan(directory) {
     }
     if (entry.name.endsWith('.json')) JSON.parse(text);
     if (/(?:sk-proj-[A-Za-z0-9_-]{30,}|sb_secret_[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9]{30,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|eyJ[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+)/.test(text)) throw new Error(`Possible secret in ${entry.name}; values withheld`);
-    if (url.pathname.includes('/public/') && /(?:innerHTML|outerHTML|insertAdjacentHTML|eval\(|new Function\(|localStorage|sessionStorage)/.test(text)) throw new Error(`Unsafe browser primitive in ${entry.name}`);
+    if (url.pathname.includes('/public/') && /(?:innerHTML|outerHTML|insertAdjacentHTML|eval\(|new Function\(|sessionStorage)/.test(text)) throw new Error(`Unsafe browser primitive in ${entry.name}`);
+    if (url.pathname.includes('/public/') && /localStorage/.test(text) && !url.pathname.endsWith('/public/favorites-storage.js')) throw new Error(`Persistent storage must use the public favorite-ID adapter: ${entry.name}`);
     count++;
   }
 }

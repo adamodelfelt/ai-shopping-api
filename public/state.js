@@ -6,6 +6,6 @@ export function visible(group) {
   return [...saved, ...rest].slice(0, group.count);
 }
 export function mergeRefresh(group, incoming, query = group.sourceQuery) {
-  const pinned = group.pool.filter(product => group.pinned.has(product.id));
-  return { ...group, ...incoming, sourceQuery: query, pool: unique([...pinned, ...(incoming?.products ?? [])]), dismissed: new Set(), busy: false };
+  const pinned = query === group.sourceQuery ? group.pool.filter(product => group.pinned.has(product.id)) : [];
+  return { ...group, ...incoming, sourceQuery: query, pool: unique([...pinned, ...(incoming?.products ?? [])]), pinned: new Set(pinned.map(product => product.id)), dismissed: new Set(), busy: false };
 }

@@ -16,7 +16,7 @@ export function createApp() {
     if (!['GET', 'HEAD'].includes(req.method)) { res.setHeader('Allow', 'GET, HEAD'); return json(res, 405, { error: 'Metoden är inte tillåten.' }); }
     const assets = { '/': ['index.html', 'text/html; charset=utf-8'], '/app.js': ['app.js', 'text/javascript; charset=utf-8'], '/state.js': ['state.js', 'text/javascript; charset=utf-8'], '/style.css': ['style.css', 'text/css; charset=utf-8'], '/favicon.svg': ['favicon.svg', 'image/svg+xml'] };
     const extraAssets = { '/account.js': ['account.js', 'text/javascript; charset=utf-8'], '/profile.js': ['profile.js', 'text/javascript; charset=utf-8'], '/checkout.js': ['checkout.js', 'text/javascript; charset=utf-8'], '/checkout-model.js': ['checkout-model.js', 'text/javascript; charset=utf-8'] };
-    const asset = assets[pathname] ?? extraAssets[pathname] ?? (['/availability.js', '/retailers.js', '/store-transfer.js', '/transfer-contract.js'].includes(pathname) ? [pathname.slice(1), 'text/javascript; charset=utf-8'] : pathname === '/whool-lindex-safari.zip' ? ['whool-lindex-safari.zip', 'application/zip'] : null);
+    const asset = assets[pathname] ?? extraAssets[pathname] ?? (['/availability.js', '/retailers.js', '/store-transfer.js', '/transfer-contract.js', '/favorites-model.js', '/favorites-storage.js'].includes(pathname) ? [pathname.slice(1), 'text/javascript; charset=utf-8'] : pathname === '/whool-lindex-safari.zip' ? ['whool-lindex-safari.zip', 'application/zip'] : null);
     if (!asset) return json(res, 404, { error: 'Sidan finns inte.' });
     try {
       const content = await readFile(new URL(`./public/${asset[0]}`, import.meta.url));
