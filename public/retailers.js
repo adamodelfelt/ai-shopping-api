@@ -3,7 +3,7 @@
 export const prototypeRetailers = Object.freeze({
   minirodini: 'Mini Rodini',
   pop: 'Polarn O. Pyret',
-  newbie: 'Newbie',
+  newbie: 'Kappahl / Newbie',
   lindex: 'Lindex',
   tretorn: 'Tretorn',
 });

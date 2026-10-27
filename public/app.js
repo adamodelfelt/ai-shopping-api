@@ -156,12 +156,14 @@ function productCard(product, group) {
   const details = element('div', 'product-details');
   const priceVaries = product.availability?.sizes?.some(size => size.available && size.price !== product.price);
   details.append(element('p', 'brand', product.brand || product.store), element('h3', '', product.name), element('p', 'price', `${priceVaries ? 'Från ' : ''}${money(product.price)}`));
+  if (product.store === 'newbie') details.append(element('p', 'small muted retailer-name', 'Säljs hos Kappahl'));
+  if (product.playfulReason) details.append(element('p', 'small muted playful-reason', product.playfulReason));
   if (product.similarity?.reasons?.length) details.append(element('p', 'small muted', product.similarity.reasons.join(' · ')));
   const actions = element('div', 'product-actions');
   const cart = button(state.cart.has(product.id) ? '✓ Tillagd' : '+ Varukorg', () => toggleCart(product), 'save-button');
   cart.disabled = !state.cart.has(product.id) && !availableSizes(product).length;
   cart.dataset.cartId = product.id; cart.setAttribute('aria-pressed', String(state.cart.has(product.id)));
-  actions.append(cart, externalLink(product.url, 'Till butik ↗', 'store-link'));
+  actions.append(cart, externalLink(product.url, product.store === 'newbie' ? 'Till Kappahl ↗' : 'Till butik ↗', 'store-link'));
   details.append(actions);
   details.append(sizePills(product));
   if (group) details.append(button('Hitta liknande', () => findSimilar(product), 'similar-button'));
