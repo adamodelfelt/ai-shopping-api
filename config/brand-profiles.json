@@ -1,0 +1,1211 @@
+{
+  "schema_version": 1,
+  "notes": "Godkända profiler och vardagliga synonymer. Används som mjuka rankningspreferenser, aldrig som fakta om ett enskilt plagg. Forskningsförslag hålls separat.",
+  "brands": [
+    {
+      "slug": "arket",
+      "display_name": "ARKET",
+      "aliases": [
+        "arket"
+      ],
+      "version": 2,
+      "descriptor_mappings": [
+        {
+          "term": "avskalad",
+          "aliases": [
+            "avskalat",
+            "avskalade",
+            "ren stil",
+            "stilren",
+            "stilrent",
+            "stilrena",
+            "utan krusiduller"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.442752+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "tidlös",
+          "aliases": [
+            "tidlösa",
+            "tidlöst",
+            "som aldrig går ur tiden"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443280+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "skandinavisk",
+          "aliases": [
+            "skandinaviska",
+            "skandinaviskt",
+            "nordisk",
+            "nordiska",
+            "nordiskt",
+            "scandi"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443285+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "klassisk",
+          "aliases": [
+            "klassiska",
+            "klassiskt",
+            "klassiker"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443288+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "modern",
+          "aliases": [
+            "moderna",
+            "modernt"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443292+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "enkel",
+          "aliases": [
+            "enkla",
+            "enkelt",
+            "basic",
+            "basplagg",
+            "bas",
+            "enkla kläder"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443295+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "avslappnad",
+          "aliases": [
+            "avslappnade",
+            "avslappnat",
+            "ledig",
+            "lediga",
+            "ledigt",
+            "casual"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443297+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "diskret",
+          "aliases": [
+            "diskreta",
+            "nedtonad",
+            "nedtonade",
+            "nedtonat",
+            "inte skrikig",
+            "inte skrikiga"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443300+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "lekfull",
+          "aliases": [
+            "lekfulla",
+            "lekfullt",
+            "kul",
+            "rolig",
+            "roliga",
+            "roligt",
+            "skojig",
+            "skojiga",
+            "skojigt",
+            "busig",
+            "busiga"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443303+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "vardagsnära",
+          "aliases": [
+            "vardaglig",
+            "vardagliga",
+            "vardagligt",
+            "till vardags",
+            "vardagskläder",
+            "vardags"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443305+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        }
+      ]
+    },
+    {
+      "slug": "minirodini",
+      "display_name": "Mini Rodini",
+      "aliases": [
+        "mini rodini",
+        "minirodini"
+      ],
+      "version": 2,
+      "descriptor_mappings": [
+        {
+          "term": "lekfull",
+          "aliases": [
+            "lekfulla",
+            "lekfullt",
+            "kul",
+            "rolig",
+            "roliga",
+            "roligt",
+            "skojig",
+            "skojiga",
+            "skojigt",
+            "busig",
+            "busiga"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443309+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "fantasifull",
+          "aliases": [
+            "fantasifulla",
+            "fantasifullt",
+            "fantasi",
+            "fantasikläder"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443312+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "uttrycksfull",
+          "aliases": [
+            "uttrycksfulla",
+            "uttrycksfullt",
+            "sticker ut",
+            "något extra",
+            "annorlunda",
+            "ovanlig",
+            "ovanliga"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443315+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "humoristisk",
+          "aliases": [
+            "humoristiska",
+            "humoristiskt",
+            "humor",
+            "med glimten i ögat"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443317+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "kreativ",
+          "aliases": [
+            "kreativa",
+            "kreativt",
+            "kreativ stil"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443320+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "färgstark",
+          "aliases": [
+            "färgstarka",
+            "färgstarkt",
+            "mycket färg",
+            "starka färger",
+            "glada färger"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443323+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "konstnärlig",
+          "aliases": [
+            "konstnärliga",
+            "konstnärligt",
+            "konstigt på ett kul sätt"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443325+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "personlig",
+          "aliases": [
+            "personliga",
+            "personligt",
+            "egen stil"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443328+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "retroinspirerad",
+          "aliases": [
+            "retroinspirerade",
+            "retroinspirerat",
+            "retro",
+            "retrostil"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443331+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "sportig",
+          "aliases": [
+            "sportiga",
+            "sportigt",
+            "sportstil"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443333+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        }
+      ]
+    },
+    {
+      "slug": "pop",
+      "display_name": "Polarn O. Pyret",
+      "aliases": [
+        "polarn o. pyret",
+        "polarn och pyret",
+        "polarn & pyret",
+        "polarnopyret",
+        "pop"
+      ],
+      "version": 2,
+      "descriptor_mappings": [
+        {
+          "term": "funktionell",
+          "aliases": [
+            "funktionella",
+            "funktionellt",
+            "funktion",
+            "funktionskläder"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443336+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "praktisk",
+          "aliases": [
+            "praktiska",
+            "praktiskt",
+            "lätt att använda",
+            "smidig",
+            "smidiga"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443339+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "lekvänlig",
+          "aliases": [
+            "lekvänliga",
+            "lekvänligt",
+            "att leka i",
+            "för lek",
+            "till lek",
+            "förskolekläder",
+            "till förskolan",
+            "dagiskläder"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443342+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "slitstark",
+          "aliases": [
+            "slitstarka",
+            "slitstarkt",
+            "tålig",
+            "tåliga",
+            "tål lek",
+            "som håller",
+            "håller länge"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443345+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "bekväm",
+          "aliases": [
+            "bekväma",
+            "bekvämt",
+            "skön",
+            "sköna",
+            "skönt",
+            "comfy"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443347+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "aktiv",
+          "aliases": [
+            "aktiva",
+            "aktivt",
+            "rörelsevänlig",
+            "rörelsevänliga",
+            "att röra sig i"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443350+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "klassisk",
+          "aliases": [
+            "klassiska",
+            "klassiskt",
+            "klassiker"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443353+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "sportig",
+          "aliases": [
+            "sportiga",
+            "sportigt",
+            "sportstil"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443359+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "färgglad",
+          "aliases": [
+            "färgglada",
+            "färgglatt",
+            "med färg",
+            "färgiga"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443362+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "vardagsnära",
+          "aliases": [
+            "vardaglig",
+            "vardagliga",
+            "vardagligt",
+            "till vardags",
+            "vardagskläder",
+            "vardags"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443365+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        }
+      ]
+    },
+    {
+      "slug": "newbie",
+      "display_name": "Newbie",
+      "aliases": [
+        "newbie"
+      ],
+      "version": 2,
+      "descriptor_mappings": [
+        {
+          "term": "romantisk",
+          "aliases": [
+            "romantiska",
+            "romantiskt",
+            "söt",
+            "söta",
+            "sött",
+            "gullig",
+            "gulliga",
+            "gulligt"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443368+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "nostalgisk",
+          "aliases": [
+            "nostalgiska",
+            "nostalgiskt",
+            "gammaldags",
+            "förr i tiden"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443371+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "sagolik",
+          "aliases": [
+            "sagolika",
+            "sagolikt",
+            "sagostil",
+            "sagokänsla",
+            "drömmig",
+            "drömmiga"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443374+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "vintageinspirerad",
+          "aliases": [
+            "vintageinspirerade",
+            "vintageinspirerat",
+            "vintage",
+            "vintagestil"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443376+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "naturinspirerad",
+          "aliases": [
+            "naturinspirerade",
+            "naturinspirerat",
+            "naturkänsla",
+            "skogskänsla"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443379+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "mjuk",
+          "aliases": [
+            "mjuka",
+            "mjukt",
+            "mjuk och skön",
+            "mjukiskläder",
+            "gosig",
+            "gosiga"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443382+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "ombonad",
+          "aliases": [
+            "ombonade",
+            "ombonat",
+            "mysig",
+            "mysiga",
+            "mysigt",
+            "myskläder",
+            "mys"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443385+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "klassisk",
+          "aliases": [
+            "klassiska",
+            "klassiskt",
+            "klassiker"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443387+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "lekfull",
+          "aliases": [
+            "lekfulla",
+            "lekfullt",
+            "kul",
+            "rolig",
+            "roliga",
+            "roligt",
+            "skojig",
+            "skojiga",
+            "skojigt",
+            "busig",
+            "busiga"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443390+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "detaljrik",
+          "aliases": [
+            "detaljrika",
+            "detaljrikt",
+            "med fina detaljer",
+            "små detaljer"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443393+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        }
+      ]
+    },
+    {
+      "slug": "lindex",
+      "display_name": "Lindex",
+      "aliases": [
+        "lindex"
+      ],
+      "version": 2,
+      "descriptor_mappings": [
+        {
+          "term": "vardagsnära",
+          "aliases": [
+            "vardaglig",
+            "vardagliga",
+            "vardagligt",
+            "till vardags",
+            "vardagskläder",
+            "vardags"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443396+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "bekväm",
+          "aliases": [
+            "bekväma",
+            "bekvämt",
+            "skön",
+            "sköna",
+            "skönt",
+            "comfy"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443398+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "variationsrik",
+          "aliases": [
+            "variationsrika",
+            "variationsrikt",
+            "blandad stil",
+            "lite av varje"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443401+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "lekfull",
+          "aliases": [
+            "lekfulla",
+            "lekfullt",
+            "kul",
+            "rolig",
+            "roliga",
+            "roligt",
+            "skojig",
+            "skojiga",
+            "skojigt",
+            "busig",
+            "busiga"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443404+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "modern",
+          "aliases": [
+            "moderna",
+            "modernt"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443406+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "färgglad",
+          "aliases": [
+            "färgglada",
+            "färgglatt",
+            "med färg",
+            "färgiga"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443409+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "praktisk",
+          "aliases": [
+            "praktiska",
+            "praktiskt",
+            "lätt att använda",
+            "smidig",
+            "smidiga"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443412+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "avslappnad",
+          "aliases": [
+            "avslappnade",
+            "avslappnat",
+            "ledig",
+            "lediga",
+            "ledigt",
+            "casual"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443414+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "mjuk",
+          "aliases": [
+            "mjuka",
+            "mjukt",
+            "mjuk och skön",
+            "mjukiskläder",
+            "gosig",
+            "gosiga"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443417+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "trendnära",
+          "aliases": [
+            "trendnara",
+            "trendig",
+            "trendiga",
+            "trendigt",
+            "på modet"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443420+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        }
+      ]
+    },
+    {
+      "slug": "tretorn",
+      "display_name": "Tretorn",
+      "aliases": [
+        "tretorn"
+      ],
+      "version": 2,
+      "descriptor_mappings": [
+        {
+          "term": "friluftsinspirerad",
+          "aliases": [
+            "friluftsinspirerade",
+            "friluftsinspirerat",
+            "friluft",
+            "utelek",
+            "för utomhuslek",
+            "outdoor",
+            "att vara ute i"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443423+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "funktionell",
+          "aliases": [
+            "funktionella",
+            "funktionellt",
+            "funktion",
+            "funktionskläder"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443425+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "sportig",
+          "aliases": [
+            "sportiga",
+            "sportigt",
+            "sportstil"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443428+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "praktisk",
+          "aliases": [
+            "praktiska",
+            "praktiskt",
+            "lätt att använda",
+            "smidig",
+            "smidiga"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443431+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "aktiv",
+          "aliases": [
+            "aktiva",
+            "aktivt",
+            "rörelsevänlig",
+            "rörelsevänliga",
+            "att röra sig i"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443434+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "robust",
+          "aliases": [
+            "robusta",
+            "rejäl",
+            "rejäla",
+            "rejält"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443436+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "klassisk",
+          "aliases": [
+            "klassiska",
+            "klassiskt",
+            "klassiker"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443439+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "skandinavisk",
+          "aliases": [
+            "skandinaviska",
+            "skandinaviskt",
+            "nordisk",
+            "nordiska",
+            "nordiskt",
+            "scandi"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443442+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "retroinspirerad",
+          "aliases": [
+            "retroinspirerade",
+            "retroinspirerat",
+            "retro",
+            "retrostil"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443444+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "vardagsnära",
+          "aliases": [
+            "vardaglig",
+            "vardagliga",
+            "vardagligt",
+            "till vardags",
+            "vardagskläder",
+            "vardags"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443447+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        }
+      ]
+    },
+    {
+      "slug": "asket",
+      "display_name": "ASKET",
+      "aliases": [
+        "asket"
+      ],
+      "version": 2,
+      "descriptor_mappings": [
+        {
+          "term": "tidlös",
+          "aliases": [
+            "tidlösa",
+            "tidlöst",
+            "som aldrig går ur tiden"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443450+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "avskalad",
+          "aliases": [
+            "avskalat",
+            "avskalade",
+            "ren stil",
+            "stilren",
+            "stilrent",
+            "stilrena",
+            "utan krusiduller"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443453+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "minimalistisk",
+          "aliases": [
+            "minimalistiska",
+            "minimalistiskt",
+            "minimalism"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443455+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "klassisk",
+          "aliases": [
+            "klassiska",
+            "klassiskt",
+            "klassiker"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443458+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "enkel",
+          "aliases": [
+            "enkla",
+            "enkelt",
+            "basic",
+            "basplagg",
+            "bas",
+            "enkla kläder"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443461+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "diskret",
+          "aliases": [
+            "diskreta",
+            "nedtonad",
+            "nedtonade",
+            "nedtonat",
+            "inte skrikig",
+            "inte skrikiga"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443463+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "välklädd",
+          "aliases": [
+            "välklädda",
+            "välklätt",
+            "uppklädd",
+            "uppklädda",
+            "uppklätt"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443466+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        }
+      ]
+    },
+    {
+      "slug": "cdlp",
+      "display_name": "CDLP",
+      "aliases": [
+        "cdlp"
+      ],
+      "version": 2,
+      "descriptor_mappings": [
+        {
+          "term": "modern",
+          "aliases": [
+            "moderna",
+            "modernt"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443469+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "avskalad",
+          "aliases": [
+            "avskalat",
+            "avskalade",
+            "ren stil",
+            "stilren",
+            "stilrent",
+            "stilrena",
+            "utan krusiduller"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443472+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "minimalistisk",
+          "aliases": [
+            "minimalistiska",
+            "minimalistiskt",
+            "minimalism"
+          ],
+          "weight": 3,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443475+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "diskret",
+          "aliases": [
+            "diskreta",
+            "nedtonad",
+            "nedtonade",
+            "nedtonat",
+            "inte skrikig",
+            "inte skrikiga"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443477+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "sofistikerad",
+          "aliases": [
+            "sofistikerade",
+            "sofistikerat",
+            "elegant",
+            "eleganta",
+            "elegant stil"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443480+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "avslappnad",
+          "aliases": [
+            "avslappnade",
+            "avslappnat",
+            "ledig",
+            "lediga",
+            "ledigt",
+            "casual"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443483+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        },
+        {
+          "term": "premium",
+          "aliases": [
+            "premiumkänsla",
+            "lyxig",
+            "lyxiga",
+            "lyxigt",
+            "lite lyxigare"
+          ],
+          "weight": 1,
+          "status": "approved",
+          "reviewed_by": "Codex — på Adams uttryckliga instruktion i chatten",
+          "reviewed_at": "2026-10-26T14:48:45.443486+00:00",
+          "provenance": "user_approved_concepts_agent_expanded_aliases"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+name: Refresh Whool catalogue
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+    inputs:
+      sync_database:
+        description: 'Apply validated complete collections to the database'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: whool-catalogue-v2
+  cancel-in-progress: false
+jobs:
+  refresh:
+    # Explicit operator flag after new credentials and database hardening have been verified.
+    if: vars.WHOOL_ROTATION_VERIFIED == 'true'
+    runs-on: ubuntu-latest
+    environment: catalogue-maintenance
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        store: [arket, minirodini, pop, newbie, lindex, tretorn]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .nvmrc
+      - run: node --test test/*.test.js
+      - name: Collect without database writes
+        if: github.event_name == 'workflow_dispatch' && !inputs.sync_database
+        run: node scripts/scrape.js --store ${{ matrix.store }}
+      - name: Collect and import
+        if: github.event_name == 'schedule' || inputs.sync_database
+        run: node scripts/scrape.js --store ${{ matrix.store }} --import
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_IMPORT_SECRET_KEY: ${{ secrets.SUPABASE_IMPORT_SECRET_KEY }}
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        if: always()
+        with:
+          name: catalogue-${{ matrix.store }}-${{ github.run_id }}
+          path: data/runs/
+          retention-days: 7
+          if-no-files-found: warn

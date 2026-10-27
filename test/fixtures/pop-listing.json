@@ -1,0 +1,1196 @@
+{
+  "market": {
+    "id": "SE",
+    "currency": "SEK"
+  },
+  "page": {
+    "canonicalUrl": "https://www.polarnopyret.se/barnklader",
+    "categoryTree": {
+      "categories": [
+        {
+          "url": "/barnklader/klader"
+        }
+      ]
+    },
+    "productList": {
+      "products": [
+        {
+          "sizes": [
+            {
+              "sizeName": "56",
+              "sizeAge": "1-2 M",
+              "markings": [],
+              "code": "5638382830",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Vinröd",
+              "totalAvailable": 10,
+              "baseInventory": 10
+            },
+            {
+              "sizeName": "62",
+              "sizeAge": "2-4 M",
+              "markings": [],
+              "code": "5638382828",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Vinröd",
+              "totalAvailable": 38,
+              "baseInventory": 38
+            },
+            {
+              "sizeName": "68",
+              "sizeAge": "4-6 M",
+              "markings": [],
+              "code": "5638382829",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Vinröd",
+              "totalAvailable": 60,
+              "baseInventory": 60
+            },
+            {
+              "sizeName": "74",
+              "sizeAge": "6-9 M",
+              "markings": [],
+              "code": "5638382826",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Vinröd",
+              "totalAvailable": 74,
+              "baseInventory": 74
+            },
+            {
+              "sizeName": "80",
+              "sizeAge": "9-12 M",
+              "markings": [],
+              "code": "5638382827",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Vinröd",
+              "totalAvailable": 87,
+              "baseInventory": 87
+            }
+          ],
+          "markings": [],
+          "tags": [
+            {
+              "tag": "NEW",
+              "color": "#5E7997"
+            },
+            {
+              "tag": "ERBJUDANDE 15%",
+              "color": "#5E7997"
+            }
+          ],
+          "sizeRange": "56-80",
+          "preSelectedSizeCode": "5638382830",
+          "preSelectedBarcode": null,
+          "price": {
+            "sellingPrice": 254,
+            "listPrice": 299,
+            "comparePrice": 299
+          },
+          "priceRange": null,
+          "comingSoon": false,
+          "code": "5638374661_674",
+          "displayName": "Stickad tröja baby",
+          "color": "Vinröd",
+          "colorCodes": [
+            "#340c16",
+            "#442c28"
+          ],
+          "ticket": "Ozc7Izs1NjM4Mzc0NjYxXzY3NDsjOyM7L2Zhc2hpb24vREVTS1RPUC9MQU5ESU5HX1BBR0UvTkFWSUdBVElPTl9SRVNVTFQ7IzsjO3Q7MTs4MzsjOyM7L2tpZHMtY2xvdGhlczsjOy9raWRzLWNsb3RoZXM7",
+          "url": "/barnklader/stickad-troja-baby-vinrod-60604028-674",
+          "outOfStock": false,
+          "categoryName": "Sweaters/Hoodies",
+          "itemNumber": "60604028",
+          "compositeItem": false,
+          "oneLineText": "Mjukt stickad med sköna muddar",
+          "imageUrls": [
+            "/globalassets/productimages-polarnopyret/7325858298519.jpg?ref=5DAD9AFF3D",
+            "/globalassets/productimages-polarnopyret/7325858298519_2.jpg?ref=0EA7C11E40"
+          ]
+        },
+        {
+          "sizes": [
+            {
+              "sizeName": "56",
+              "sizeAge": "1-2 M",
+              "markings": [],
+              "code": "5638386601",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Beige",
+              "totalAvailable": 12,
+              "baseInventory": 12
+            },
+            {
+              "sizeName": "62",
+              "sizeAge": "2-4 M",
+              "markings": [],
+              "code": "5638386602",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Beige",
+              "totalAvailable": 111,
+              "baseInventory": 111
+            },
+            {
+              "sizeName": "68",
+              "sizeAge": "4-6 M",
+              "markings": [],
+              "code": "5638386603",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Beige",
+              "totalAvailable": 150,
+              "baseInventory": 150
+            },
+            {
+              "sizeName": "74",
+              "sizeAge": "6-9 M",
+              "markings": [],
+              "code": "5638386604",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Beige",
+              "totalAvailable": 121,
+              "baseInventory": 121
+            },
+            {
+              "sizeName": "80",
+              "sizeAge": "9-12 M",
+              "markings": [],
+              "code": "5638386605",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Beige",
+              "totalAvailable": 137,
+              "baseInventory": 137
+            },
+            {
+              "sizeName": "86",
+              "sizeAge": "1-1.5 Y",
+              "markings": [],
+              "code": "5638386606",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Beige",
+              "totalAvailable": 124,
+              "baseInventory": 124
+            },
+            {
+              "sizeName": "92",
+              "sizeAge": "1.5-2 Y",
+              "markings": [],
+              "code": "5638386607",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Beige",
+              "totalAvailable": 83,
+              "baseInventory": 83
+            }
+          ],
+          "markings": [],
+          "tags": [
+            {
+              "tag": "NEW",
+              "color": "#5E7997"
+            },
+            {
+              "tag": "ERBJUDANDE 15%",
+              "color": "#5E7997"
+            }
+          ],
+          "sizeRange": "56-92",
+          "preSelectedSizeCode": "5638386601",
+          "preSelectedBarcode": null,
+          "price": {
+            "sellingPrice": 212,
+            "listPrice": 249,
+            "comparePrice": 249
+          },
+          "priceRange": null,
+          "comingSoon": false,
+          "code": "5638386600_2013",
+          "displayName": "Stickad hängselbyxa",
+          "color": "Beige",
+          "colorCodes": [
+            "#beb6ab"
+          ],
+          "ticket": "Ozc7Izs1NjM4Mzg2NjAwXzIwMTM7IzsjOy9mYXNoaW9uL0RFU0tUT1AvTEFORElOR19QQUdFL05BVklHQVRJT05fUkVTVUxUOyM7Izt0OzI7ODM7IzsjOy9raWRzLWNsb3RoZXM7Izsva2lkcy1jbG90aGVzOw",
+          "url": "/barnklader/stickad-hangselbyxa-beige-60604160-2013",
+          "outOfStock": false,
+          "categoryName": "Trousers",
+          "itemNumber": "60604160",
+          "compositeItem": false,
+          "oneLineText": "Klassiker till vardag och fest",
+          "imageUrls": [
+            "/globalassets/productimages-polarnopyret/7325858300137.jpg?ref=CE06F71770",
+            "/globalassets/productimages-polarnopyret/7325858300137_2.jpg?ref=238193C579"
+          ]
+        },
+        {
+          "sizes": [
+            {
+              "sizeName": "104",
+              "sizeAge": "3-4 Y",
+              "markings": [
+                "PO.P Weather Pro®",
+                "Best in Test"
+              ],
+              "code": "5638307855",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 71,
+              "baseInventory": 71
+            },
+            {
+              "sizeName": "98",
+              "sizeAge": "2-3 Y",
+              "markings": [
+                "PO.P Weather Pro®",
+                "Best in Test"
+              ],
+              "code": "5638307852",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 83,
+              "baseInventory": 83
+            },
+            {
+              "sizeName": "140",
+              "sizeAge": "9-10 Y",
+              "markings": [
+                "PO.P Weather Pro®",
+                "Best in Test"
+              ],
+              "code": "5638307867",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 112,
+              "baseInventory": 112
+            },
+            {
+              "sizeName": "128",
+              "sizeAge": "7-8 Y",
+              "markings": [
+                "PO.P Weather Pro®",
+                "Best in Test"
+              ],
+              "code": "5638307863",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 312,
+              "baseInventory": 312
+            },
+            {
+              "sizeName": "134",
+              "sizeAge": "8-9 Y",
+              "markings": [
+                "PO.P Weather Pro®",
+                "Best in Test"
+              ],
+              "code": "5638307864",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 322,
+              "baseInventory": 322
+            },
+            {
+              "sizeName": "122",
+              "sizeAge": "6-7 Y",
+              "markings": [
+                "PO.P Weather Pro®",
+                "Best in Test"
+              ],
+              "code": "5638307860",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 277,
+              "baseInventory": 277
+            },
+            {
+              "sizeName": "116",
+              "sizeAge": "5-6 Y",
+              "markings": [
+                "PO.P Weather Pro®",
+                "Best in Test"
+              ],
+              "code": "5638307859",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 288,
+              "baseInventory": 288
+            },
+            {
+              "sizeName": "110",
+              "sizeAge": "4-5 Y",
+              "markings": [
+                "PO.P Weather Pro®",
+                "Best in Test"
+              ],
+              "code": "5638307856",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 52,
+              "baseInventory": 52
+            }
+          ],
+          "markings": [
+            "PO.P Weather Pro®",
+            "Best in Test"
+          ],
+          "tags": [
+            {
+              "tag": "ERBJUDANDE 15%",
+              "color": "#5E7997"
+            }
+          ],
+          "sizeRange": "98-140",
+          "preSelectedSizeCode": "5638307852",
+          "preSelectedBarcode": null,
+          "price": {
+            "sellingPrice": 934,
+            "listPrice": 1099,
+            "comparePrice": 1099
+          },
+          "priceRange": null,
+          "comingSoon": false,
+          "code": "5638307851_198",
+          "displayName": "Vattentät vadderad byxa SNOWY LOW",
+          "color": "Svart",
+          "colorCodes": [
+            "#191918",
+            "#a3a3a3"
+          ],
+          "ticket": "Ozc7Izs1NjM4MzA3ODUxXzE5ODsjOyM7L2Zhc2hpb24vREVTS1RPUC9MQU5ESU5HX1BBR0UvTkFWSUdBVElPTl9SRVNVTFQ7IzsjO3Q7NDE7ODM7IzsjOy9raWRzLWNsb3RoZXM7Izsva2lkcy1jbG90aGVzOw",
+          "url": "/barnklader/vattentat-vadderad-byxa-snowy-low-svart-60602805-198",
+          "outOfStock": false,
+          "categoryName": "OW Trousers",
+          "itemNumber": "60602805",
+          "compositeItem": true,
+          "oneLineText": "Raka ben med kil och justerbar kardborreknäppning",
+          "imageUrls": [
+            "/globalassets/productimages-polarnopyret/7325858206019.jpg?ref=478159E534",
+            "/globalassets/productimages-polarnopyret/7325858206019_2.jpg?ref=6893E177FE"
+          ]
+        },
+        {
+          "sizes": [
+            {
+              "sizeName": "56",
+              "sizeAge": "1-2 M",
+              "markings": [],
+              "code": "5638374632",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Brun",
+              "totalAvailable": 32,
+              "baseInventory": 32
+            },
+            {
+              "sizeName": "62",
+              "sizeAge": "2-4 M",
+              "markings": [],
+              "code": "5638374633",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Brun",
+              "totalAvailable": 47,
+              "baseInventory": 47
+            },
+            {
+              "sizeName": "68",
+              "sizeAge": "4-6 M",
+              "markings": [],
+              "code": "5638374634",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Brun",
+              "totalAvailable": 17,
+              "baseInventory": 17
+            },
+            {
+              "sizeName": "74",
+              "sizeAge": "6-9 M",
+              "markings": [],
+              "code": "5638374635",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Brun",
+              "totalAvailable": 5,
+              "baseInventory": 5
+            },
+            {
+              "sizeName": "80",
+              "sizeAge": "9-12 M",
+              "markings": [],
+              "code": "5638374636",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Brun",
+              "totalAvailable": 0,
+              "baseInventory": 0
+            }
+          ],
+          "markings": [],
+          "tags": [
+            {
+              "tag": "ERBJUDANDE 15%",
+              "color": "#5E7997"
+            }
+          ],
+          "sizeRange": "56-80",
+          "preSelectedSizeCode": "5638374632",
+          "preSelectedBarcode": null,
+          "price": {
+            "sellingPrice": 169,
+            "listPrice": 199,
+            "comparePrice": 199
+          },
+          "priceRange": null,
+          "comingSoon": false,
+          "code": "5638374631_300",
+          "displayName": "Förlängningsbar ribbad body",
+          "color": "Brun",
+          "colorCodes": [
+            "#433228"
+          ],
+          "ticket": "Ozc7Izs1NjM4Mzc0NjMxXzMwMDsjOyM7L2Zhc2hpb24vREVTS1RPUC9MQU5ESU5HX1BBR0UvTkFWSUdBVElPTl9SRVNVTFQ7IzsjO3Q7Mjc7ODM7IzsjOy9raWRzLWNsb3RoZXM7Izsva2lkcy1jbG90aGVzOw",
+          "url": "/barnklader/forlangningsbar-ribbad-body-brun-60603999-300",
+          "outOfStock": false,
+          "categoryName": "Bodies",
+          "itemNumber": "60603999",
+          "compositeItem": false,
+          "oneLineText": "Ribbad i mjuk mix av Tencel™ lyocell och ekologisk bomull",
+          "imageUrls": [
+            "/globalassets/productimages-polarnopyret/7325858290278.jpg?ref=C1FB36E32E",
+            "/globalassets/productimages-polarnopyret/7325858290278_2.jpg?ref=EABA1AB5D0"
+          ]
+        },
+        {
+          "sizes": [
+            {
+              "sizeName": "10 - 12",
+              "sizeAge": "0-1 M",
+              "markings": [],
+              "code": "5638296610",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Vit",
+              "totalAvailable": 596,
+              "baseInventory": 596
+            },
+            {
+              "sizeName": "13 - 15",
+              "sizeAge": "1-4 M",
+              "markings": [],
+              "code": "5638296613",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Vit",
+              "totalAvailable": 1214,
+              "baseInventory": 1214
+            },
+            {
+              "sizeName": "16 - 18",
+              "sizeAge": "4-9 M",
+              "markings": [],
+              "code": "5638296616",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Vit",
+              "totalAvailable": 1577,
+              "baseInventory": 1577
+            },
+            {
+              "sizeName": "19 - 21",
+              "sizeAge": "9-12 M",
+              "markings": [],
+              "code": "5638296619",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Vit",
+              "totalAvailable": 842,
+              "baseInventory": 842
+            }
+          ],
+          "markings": [],
+          "tags": [
+            {
+              "tag": "ERBJUDANDE 15%",
+              "color": "#5E7997"
+            }
+          ],
+          "sizeRange": "10-21",
+          "preSelectedSizeCode": "5638296610",
+          "preSelectedBarcode": null,
+          "price": {
+            "sellingPrice": 67,
+            "listPrice": 79,
+            "comparePrice": 79
+          },
+          "priceRange": null,
+          "comingSoon": false,
+          "code": "5638296608469",
+          "displayName": "Strumpor merinoull baby",
+          "color": "Vit",
+          "colorCodes": [
+            "#ffffff"
+          ],
+          "ticket": "Ozc7Izs1NjM4Mjk2NjA4NDY5OyM7IzsvZmFzaGlvbi9ERVNLVE9QL0xBTkRJTkdfUEFHRS9OQVZJR0FUSU9OX1JFU1VMVDsjOyM7dDsyODs4MzsjOyM7L2tpZHMtY2xvdGhlczsjOy9raWRzLWNsb3RoZXM7",
+          "url": "/barnklader/strumpor-merinoull-baby-vit-60602517-469",
+          "outOfStock": false,
+          "categoryName": "Socks",
+          "itemNumber": "60602517",
+          "compositeItem": false,
+          "oneLineText": "Varma och mjuka i tunn merinoull",
+          "imageUrls": [
+            "/globalassets/productimages-polarnopyret/7325858183235.jpg?ref=1DE123DFD2",
+            "/globalassets/productimages-polarnopyret/7325858183235_2.jpg?ref=B37F59D942"
+          ]
+        },
+        {
+          "sizes": [
+            {
+              "sizeName": "56 - 58",
+              "sizeAge": "9-12Y",
+              "markings": [],
+              "code": "5638297814",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Mörk marinblå",
+              "totalAvailable": 371,
+              "baseInventory": 371
+            },
+            {
+              "sizeName": "48 - 50",
+              "sizeAge": "9 M-2 Y",
+              "markings": [],
+              "code": "5638297810",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Mörk marinblå",
+              "totalAvailable": 15,
+              "baseInventory": 15
+            },
+            {
+              "sizeName": "44 - 46",
+              "sizeAge": "4-9 M",
+              "markings": [],
+              "code": "5638297809",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Mörk marinblå",
+              "totalAvailable": 67,
+              "baseInventory": 67
+            },
+            {
+              "sizeName": "52 - 54",
+              "sizeAge": "2-9 Y",
+              "markings": [],
+              "code": "5638297813",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Mörk marinblå",
+              "totalAvailable": 1548,
+              "baseInventory": 1548
+            }
+          ],
+          "markings": [],
+          "tags": [
+            {
+              "tag": "ERBJUDANDE 15%",
+              "color": "#5E7997"
+            }
+          ],
+          "sizeRange": "44-58",
+          "preSelectedSizeCode": "5638297809",
+          "preSelectedBarcode": null,
+          "price": {
+            "sellingPrice": 212,
+            "listPrice": 249,
+            "comparePrice": 249
+          },
+          "priceRange": null,
+          "comingSoon": false,
+          "code": "5638297807_483",
+          "displayName": "Balaklava merinoull",
+          "color": "Mörk marinblå",
+          "colorCodes": [
+            "#191e2c"
+          ],
+          "ticket": "Ozc7Izs1NjM4Mjk3ODA3XzQ4MzsjOyM7L2Zhc2hpb24vREVTS1RPUC9MQU5ESU5HX1BBR0UvTkFWSUdBVElPTl9SRVNVTFQ7IzsjO3Q7ODc7NTQ7IzsjOy9raWRzLWNsb3RoZXM7Izsva2lkcy1jbG90aGVzOw",
+          "url": "/barnklader/balaklava-merinoull-mork-marinbla-60602613-483",
+          "outOfStock": false,
+          "categoryName": "Hats",
+          "itemNumber": "60602613",
+          "compositeItem": true,
+          "oneLineText": "Varm och mjuk i tunn merinoull",
+          "imageUrls": [
+            "/globalassets/productimages-polarnopyret/7325858190912.jpg?ref=41B7F7D3D2",
+            "/globalassets/productimages-polarnopyret/7325858190912_2.jpg?ref=C1B0A532FC"
+          ]
+        },
+        {
+          "sizes": [
+            {
+              "sizeName": "56 - 58",
+              "sizeAge": "9-12Y",
+              "markings": [],
+              "code": "5638298833",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Mörk marinblå",
+              "totalAvailable": 579,
+              "baseInventory": 579
+            },
+            {
+              "sizeName": "48 - 50",
+              "sizeAge": "9 M-2 Y",
+              "markings": [],
+              "code": "5638298829",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Mörk marinblå",
+              "totalAvailable": 1259,
+              "baseInventory": 1259
+            },
+            {
+              "sizeName": "44 - 46",
+              "sizeAge": "4-9 M",
+              "markings": [],
+              "code": "5638298828",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Mörk marinblå",
+              "totalAvailable": 508,
+              "baseInventory": 508
+            },
+            {
+              "sizeName": "52 - 54",
+              "sizeAge": "2-9 Y",
+              "markings": [],
+              "code": "5638298832",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Mörk marinblå",
+              "totalAvailable": 2511,
+              "baseInventory": 2511
+            }
+          ],
+          "markings": [],
+          "tags": [
+            {
+              "tag": "ERBJUDANDE 15%",
+              "color": "#5E7997"
+            }
+          ],
+          "sizeRange": "44-58",
+          "preSelectedSizeCode": "5638298828",
+          "preSelectedBarcode": null,
+          "price": {
+            "sellingPrice": 212,
+            "listPrice": 249,
+            "comparePrice": 249
+          },
+          "priceRange": null,
+          "comingSoon": false,
+          "code": "5638298826_483",
+          "displayName": "Polokrage merinoull",
+          "color": "Mörk marinblå",
+          "colorCodes": [
+            "#181d2a"
+          ],
+          "ticket": "Ozc7Izs1NjM4Mjk4ODI2XzQ4MzsjOyM7L2Zhc2hpb24vREVTS1RPUC9MQU5ESU5HX1BBR0UvTkFWSUdBVElPTl9SRVNVTFQ7IzsjO3Q7MTAxOzU0OyM7Izsva2lkcy1jbG90aGVzOyM7L2tpZHMtY2xvdGhlczs",
+          "url": "/barnklader/polokrage-merinoull-mork-marinbla-60602616-483",
+          "outOfStock": false,
+          "categoryName": "Other Accessories",
+          "itemNumber": "60602616",
+          "compositeItem": true,
+          "oneLineText": "Tunn och värmande i mjuk merino",
+          "imageUrls": [
+            "/globalassets/productimages-polarnopyret/7325858191179.jpg?ref=18C7CD16A9",
+            "/globalassets/productimages-polarnopyret/7325858191179_2.jpg?ref=EAA2C71E39"
+          ]
+        },
+        {
+          "sizes": [
+            {
+              "sizeName": "XS",
+              "sizeAge": "",
+              "markings": [],
+              "code": "5638377678",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Blå",
+              "totalAvailable": 59,
+              "baseInventory": 59
+            },
+            {
+              "sizeName": "S",
+              "sizeAge": "",
+              "markings": [],
+              "code": "5638377679",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Blå",
+              "totalAvailable": 62,
+              "baseInventory": 62
+            },
+            {
+              "sizeName": "M",
+              "sizeAge": "",
+              "markings": [],
+              "code": "5638377680",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Blå",
+              "totalAvailable": 116,
+              "baseInventory": 116
+            },
+            {
+              "sizeName": "L",
+              "sizeAge": "",
+              "markings": [],
+              "code": "5638377681",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Blå",
+              "totalAvailable": 108,
+              "baseInventory": 108
+            },
+            {
+              "sizeName": "XL",
+              "sizeAge": "",
+              "markings": [],
+              "code": "5638377682",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Blå",
+              "totalAvailable": 27,
+              "baseInventory": 27
+            },
+            {
+              "sizeName": "XXL",
+              "sizeAge": "",
+              "markings": [],
+              "code": "5638377683",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Blå",
+              "totalAvailable": 34,
+              "baseInventory": 34
+            }
+          ],
+          "markings": [],
+          "tags": [
+            {
+              "tag": "ONLINEONLY",
+              "color": "#5E7997"
+            },
+            {
+              "tag": "NEW",
+              "color": "#5E7997"
+            },
+            {
+              "tag": "ERBJUDANDE 15%",
+              "color": "#5E7997"
+            }
+          ],
+          "sizeRange": "XS-XXL",
+          "preSelectedSizeCode": "5638377678",
+          "preSelectedBarcode": null,
+          "price": {
+            "sellingPrice": 552,
+            "listPrice": 649,
+            "comparePrice": 649
+          },
+          "priceRange": null,
+          "comingSoon": false,
+          "code": "5638377677_7020",
+          "displayName": "Pyjamas enfärgad vuxen",
+          "color": "Blå",
+          "colorCodes": [
+            "#aaaaad",
+            "#4f506d"
+          ],
+          "ticket": "Ozc7Izs1NjM4Mzc3Njc3XzcwMjA7IzsjOy9mYXNoaW9uL0RFU0tUT1AvTEFORElOR19QQUdFL05BVklHQVRJT05fUkVTVUxUOyM7Izt0OzUzOzgzOyM7Izsva2lkcy1jbG90aGVzOyM7L2tpZHMtY2xvdGhlczs",
+          "url": "/barnklader/pyjamas-enfargad-vuxen-bla-60604035-7020",
+          "outOfStock": false,
+          "categoryName": "Pyjamas Adult",
+          "itemNumber": "60604035",
+          "compositeItem": false,
+          "oneLineText": "Ekologisk bomull med stretch i enfärgat set",
+          "imageUrls": [
+            "/globalassets/productimages-polarnopyret/7325858290407.jpg?ref=E5C37ACC44",
+            "/globalassets/productimages-polarnopyret/7325858290407_2.jpg?ref=5D1ECC0CC8"
+          ]
+        },
+        {
+          "sizes": [
+            {
+              "sizeName": "XS",
+              "sizeAge": "",
+              "markings": [
+                "PO.P Weather Pro®"
+              ],
+              "code": "5638299054",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 3,
+              "baseInventory": 3
+            },
+            {
+              "sizeName": "S",
+              "sizeAge": "",
+              "markings": [
+                "PO.P Weather Pro®"
+              ],
+              "code": "5638299055",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 125,
+              "baseInventory": 125
+            },
+            {
+              "sizeName": "M",
+              "sizeAge": "",
+              "markings": [
+                "PO.P Weather Pro®"
+              ],
+              "code": "5638299056",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 268,
+              "baseInventory": 268
+            },
+            {
+              "sizeName": "L",
+              "sizeAge": "",
+              "markings": [
+                "PO.P Weather Pro®"
+              ],
+              "code": "5638299057",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 249,
+              "baseInventory": 249
+            },
+            {
+              "sizeName": "XL",
+              "sizeAge": "",
+              "markings": [
+                "PO.P Weather Pro®"
+              ],
+              "code": "5638299058",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 205,
+              "baseInventory": 205
+            }
+          ],
+          "markings": [
+            "PO.P Weather Pro®"
+          ],
+          "tags": [
+            {
+              "tag": "ERBJUDANDE 15%",
+              "color": "#5E7997"
+            }
+          ],
+          "sizeRange": "XS-XL",
+          "preSelectedSizeCode": "5638299054",
+          "preSelectedBarcode": null,
+          "price": {
+            "sellingPrice": 1274,
+            "listPrice": 1499,
+            "comparePrice": 1499
+          },
+          "priceRange": null,
+          "comingSoon": false,
+          "code": "5638299053_198",
+          "displayName": "Vattentät skaljacka Stormy vuxen",
+          "color": "Svart",
+          "colorCodes": [
+            "#1b1b1b"
+          ],
+          "ticket": "Ozc7Izs1NjM4Mjk5MDUzXzE5ODsjOyM7L2Zhc2hpb24vREVTS1RPUC9MQU5ESU5HX1BBR0UvTkFWSUdBVElPTl9SRVNVTFQ7IzsjO3Q7OTM7NTQ7IzsjOy9raWRzLWNsb3RoZXM7Izsva2lkcy1jbG90aGVzOw",
+          "url": "/barnklader/vattentat-skaljacka-stormy-vuxen-svart-60602642-198",
+          "outOfStock": false,
+          "categoryName": "OW Jackets Adult",
+          "itemNumber": "60602642",
+          "compositeItem": false,
+          "oneLineText": "Vind- och vattentät – redo för regn och snålbåst",
+          "imageUrls": [
+            "/globalassets/productimages-polarnopyret/7325858193197.jpg?ref=839DCE9276",
+            "/globalassets/productimages-polarnopyret/7325858193197_3.jpg?ref=1F05AACF0C"
+          ]
+        },
+        {
+          "sizes": [
+            {
+              "sizeName": "Onesize",
+              "sizeAge": "",
+              "markings": [],
+              "code": "5638369660",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Vit",
+              "totalAvailable": 62,
+              "baseInventory": 62
+            }
+          ],
+          "markings": [],
+          "tags": [
+            {
+              "tag": "ERBJUDANDE 15%",
+              "color": "#5E7997"
+            }
+          ],
+          "sizeRange": "Onesize",
+          "preSelectedSizeCode": "5638369660",
+          "preSelectedBarcode": null,
+          "price": {
+            "sellingPrice": 254,
+            "listPrice": 299,
+            "comparePrice": 299
+          },
+          "priceRange": null,
+          "comingSoon": false,
+          "code": "5638369659_545",
+          "displayName": "Filt blommig",
+          "color": "Vit",
+          "colorCodes": [],
+          "ticket": "Ozc7Izs1NjM4MzY5NjU5XzU0NTsjOyM7L2Zhc2hpb24vREVTS1RPUC9MQU5ESU5HX1BBR0UvTkFWSUdBVElPTl9SRVNVTFQ7IzsjO3Q7NDk3OzM0OyM7Izsva2lkcy1jbG90aGVzOyM7L2tpZHMtY2xvdGhlczs",
+          "url": "/barnklader/filt-blommig-vit-60603886-545",
+          "outOfStock": false,
+          "categoryName": "None Clothing Items",
+          "itemNumber": "60603886",
+          "compositeItem": false,
+          "oneLineText": "Gosig babyfilt i ekologisk bomull",
+          "imageUrls": [
+            "/globalassets/productimages-polarnopyret/7325858288305.jpg?ref=82F898BF33",
+            "/globalassets/productimages-polarnopyret/7325858288305_2.jpg?ref=7B4A1128E5"
+          ]
+        },
+        {
+          "sizes": [
+            {
+              "sizeName": "Onesize",
+              "sizeAge": "",
+              "markings": null,
+              "code": "5638320584",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Vit",
+              "totalAvailable": 579,
+              "baseInventory": 579
+            }
+          ],
+          "markings": null,
+          "tags": [
+            {
+              "tag": "ERBJUDANDE 15%",
+              "color": "#5E7997"
+            }
+          ],
+          "sizeRange": "Onesize",
+          "preSelectedSizeCode": "5638320584",
+          "preSelectedBarcode": null,
+          "price": {
+            "sellingPrice": 212,
+            "listPrice": 249,
+            "comparePrice": 249
+          },
+          "priceRange": null,
+          "comingSoon": false,
+          "code": "5638320583_204",
+          "displayName": "Biorestore",
+          "color": "Vit",
+          "colorCodes": [
+            "#ddd2b9"
+          ],
+          "ticket": "Ozc7Izs1NjM4MzIwNTgzXzIwNDsjOyM7L2Zhc2hpb24vREVTS1RPUC9MQU5ESU5HX1BBR0UvTkFWSUdBVElPTl9SRVNVTFQ7IzsjO3Q7Njc3Ozc7IzsjOy9raWRzLWNsb3RoZXM7Izsva2lkcy1jbG90aGVzOw",
+          "url": "/barnklader/biorestore-vit-60603048-204",
+          "outOfStock": false,
+          "categoryName": "Garment Care",
+          "itemNumber": "60603048",
+          "compositeItem": false,
+          "oneLineText": "Tar bort noppor och gör kläderna som nya",
+          "imageUrls": [
+            "/globalassets/productimages-polarnopyret/test_0052.jpg?ref=6EE114363A",
+            "/globalassets/productimages-polarnopyret/test_0058.jpg?ref=850CBD6FC5"
+          ]
+        },
+        {
+          "sizes": [
+            {
+              "sizeName": "24",
+              "sizeAge": "",
+              "markings": null,
+              "code": "5638390343",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 15,
+              "baseInventory": 15
+            },
+            {
+              "sizeName": "25",
+              "sizeAge": "",
+              "markings": null,
+              "code": "5638390337",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 35,
+              "baseInventory": 35
+            },
+            {
+              "sizeName": "26",
+              "sizeAge": "",
+              "markings": null,
+              "code": "5638390338",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 50,
+              "baseInventory": 50
+            },
+            {
+              "sizeName": "27",
+              "sizeAge": "",
+              "markings": null,
+              "code": "5638390341",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 106,
+              "baseInventory": 106
+            },
+            {
+              "sizeName": "28",
+              "sizeAge": "",
+              "markings": null,
+              "code": "5638390345",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 117,
+              "baseInventory": 117
+            },
+            {
+              "sizeName": "29",
+              "sizeAge": "",
+              "markings": null,
+              "code": "5638390344",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 68,
+              "baseInventory": 68
+            },
+            {
+              "sizeName": "30",
+              "sizeAge": "",
+              "markings": null,
+              "code": "5638390342",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 31,
+              "baseInventory": 31
+            },
+            {
+              "sizeName": "31",
+              "sizeAge": "",
+              "markings": null,
+              "code": "5638390339",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 31,
+              "baseInventory": 31
+            },
+            {
+              "sizeName": "32",
+              "sizeAge": "",
+              "markings": null,
+              "code": "5638390336",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 26,
+              "baseInventory": 26
+            },
+            {
+              "sizeName": "33",
+              "sizeAge": "",
+              "markings": null,
+              "code": "5638390340",
+              "barcode": null,
+              "itemNumber": null,
+              "color": "Svart",
+              "totalAvailable": 27,
+              "baseInventory": 27
+            }
+          ],
+          "markings": null,
+          "tags": [
+            {
+              "tag": "ERBJUDANDE 15%",
+              "color": "#5E7997"
+            }
+          ],
+          "sizeRange": "24-33",
+          "preSelectedSizeCode": "5638390343",
+          "preSelectedBarcode": null,
+          "price": {
+            "sellingPrice": 849,
+            "listPrice": 999,
+            "comparePrice": 999
+          },
+          "priceRange": null,
+          "comingSoon": false,
+          "code": "5638389605_198",
+          "displayName": "Vinterkänga ARCTIC",
+          "color": "Svart",
+          "colorCodes": [
+            "#242323",
+            "#a49a8e"
+          ],
+          "ticket": "Ozc7Izs1NjM4Mzg5NjA1XzE5ODsjOyM7L2Zhc2hpb24vREVTS1RPUC9MQU5ESU5HX1BBR0UvTkFWSUdBVElPTl9SRVNVTFQ7IzsjO3Q7NjE7ODM7IzsjOy9raWRzLWNsb3RoZXM7Izsva2lkcy1jbG90aGVzOw",
+          "url": "/barnklader/vinterkanga-arctic-svart-60604217-198",
+          "outOfStock": false,
+          "categoryName": "Winter shoes",
+          "itemNumber": "60604217",
+          "compositeItem": false,
+          "oneLineText": "Varm och tålig - från vår varmaste kollektion",
+          "imageUrls": [
+            "/globalassets/productimages-polarnopyret/7325858306016.jpg?ref=A598D37ED8",
+            "/globalassets/productimages-polarnopyret/7325858306016_11.jpg?ref=839A991C2D"
+          ]
+        }
+      ],
+      "totalItemCount": 12,
+      "currentPageIndex": 1,
+      "totalPages": 1
+    }
+  }
+}
