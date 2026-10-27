@@ -1,6 +1,6 @@
 # Favoriter och träffsäkrare sökning
 
-Rödsökning prioriterar knallrött och inkluderar vinrött. Den fotograferade orange Mini Rodini-byxan har en granskad färgkorrigering. Rutiga, flerfärgade och heltäckande tryck utan verifierad dominerande färg hör till utökad sökning när endast en färg efterfrågas. En uttrycklig mönstersökning kan fortfarande hitta mönstret. Orange släpps inte in i vanlig rödsökning. Ingen bildanalys påstås.
+Rödsökning prioriterar knallrött och inkluderar normalt högst två vinröda förslag bland upp till åtta lagerkontrollerade träffar. Favoritstyrda förslag kan prioritera fler vinröda när det är den valda smaken. Leverantörens råa färgnamn bevaras vid insamling så att exempelvis Vinröd inte förloras genom normalisering till red. Några befintliga, bildgranskade mörka plagg har en separat nyanskorrigering. Den fotograferade orange Mini Rodini-byxan har en granskad färgkorrigering. Rutiga, flerfärgade och heltäckande tryck utan verifierad dominerande färg hör till utökad sökning när endast en färg efterfrågas. En uttrycklig mönstersökning kan fortfarande hitta mönstret. Orange släpps inte in i vanlig rödsökning. Ingen bildanalys påstås.
 
 Vanlig byxsökning utesluter skal-, regn-, vadderade och vattentäta byxor, strumpbyxor och shorts. De går att hitta med sin uttryckliga plaggtyp. Dessa filter behålls även när favoriter påverkar ordningen eller när färgsökningen utökas.
 

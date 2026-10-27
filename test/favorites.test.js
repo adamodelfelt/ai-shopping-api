@@ -5,6 +5,8 @@ import { browserFavoriteStorage } from '../public/favorites-storage.js';
 import { searchCatalogue, parseIntent, rankRows } from '../lib/search.js';
 import { productColor, colorTone } from '../lib/taxonomy.js';
 import { searchBody } from '../lib/http.js';
+import { validateProduct } from '../lib/ingestion/model.js';
+import { searchVerified } from '../lib/search-stock.js';
 
 const row = (id, extra = {}) => ({ id: String(id), name: 'Byxor', category: 'pants', subcategory: 'pants', retailer: 'pop', brand: 'Polarn O. Pyret', color: 'red', price_sek: 249, is_visible: true, in_stock: true, target_age_group: 'kids', product_url: `https://www.polarnopyret.se/barnklader/byxor-${id}`, ...extra });
 test('red keeps vivid red and burgundy, excludes orange and multicolor unless explicitly expanded', () => {
@@ -58,4 +60,15 @@ test('persistent storage adapter refuses profiles, tokens and other keys', () =>
   assert.throws(() => adapter.setItem('whool:favorites:v1', '{"email":"alex@example.com"}'));
   assert.throws(() => adapter.setItem('whool:favorites:v1', '["test-token"]'));
   assert.equal(writes.length, 1);
+});
+test('ingestion preserves supplier shades and standard red results lead with vivid red and at most two burgundy items', async () => {
+  const parsed = validateProduct({ ...row(1), color: 'Vinröd', currency: 'SEK' });
+  assert.equal(parsed.color, 'Vinröd'); assert.equal(colorTone(parsed), 'burgundy');
+  const rows = Array.from({ length: 24 }, (_, index) => row(index + 1, { color: index < 10 ? 'red' : 'Vinröd' }));
+  const stock = async products => products.map(product => ({ ...product, availability: { status: 'verified', checkedAt: new Date().toISOString(), price: 249, sizes: [{ id: 'sku', label: '110/116', available: true, price: 249 }] } }));
+  const normal = (await searchVerified(rows, 'röda byxor', [], {}, stock))[0].products;
+  assert.equal(normal.length, 8); assert.equal(normal.filter(product => product.colorTone === 'burgundy').length, 2);
+  assert.ok(normal.slice(0, 6).every(product => product.colorTone === 'red'));
+  const personal = (await searchVerified(rows, 'röda byxor', [], { favoriteProductIds: ['16'] }, stock))[0].products;
+  assert.ok(personal.filter(product => product.colorTone === 'burgundy').length > 2);
 });
