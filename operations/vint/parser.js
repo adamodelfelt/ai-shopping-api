@@ -25,7 +25,7 @@ export function parseListing(html,source,url,{childScope=false}={}){
  const ns=nodes(html),g=ns.find(x=>x['@type']==='Product'&&x.name);if(!g)throw new Error('product_payload_changed');
  if(g.url&&new URL(g.url,url).pathname!==u.pathname)throw new Error('product_identity_mismatch');
  const offers=Array.isArray(g.offers)?g.offers:[g.offers||{}],offer=offers.find(o=>/InStock$/.test(o.availability||''))||offers[0];
- let title=clean(g.name),brand=clean(typeof g.brand==='string'?g.brand:g.brand?.name),description=clean(g.description).split(/\bSKICK\b/)[0].trim(),size='',condition='',defects=null,material=null,price=Number(offer.price),currency=offer.priceCurrency,price_type='fixed',fee=null,shipping=null,end_date=null;
+ let title=clean(g.name),brand=clean(typeof g.brand==='string'?g.brand:g.brand?.name),description=clean(g.description),size='',condition='',defects=null,material=null,price=Number(offer.price),currency=offer.priceCurrency,price_type='fixed',fee=null,shipping=null,end_date=null;
  let availability=/InStock$/.test(offer.availability||'')?'available':/OutOfStock|SoldOut$/.test(offer.availability||'')?'sold':'unknown';
  const quality_flags=[],evidence={json_ld:{name:g.name,sku:g.sku,brand:g.brand,offers:g.offers,category:g.category},usage:null};
  const visible=clean(html.replace(/<head\b[^>]*>[\s\S]*?<\/head>/i,''));
@@ -53,7 +53,7 @@ export function parseListing(html,source,url,{childScope=false}={}){
   childScope=ns.some(x=>x['@type']==='BreadcrumbList'&&JSON.stringify(x).includes('Barn'));
   evidence.pricing={type:item.itemType,opening_bid:item.openingBid,fixed_price:item.fixedPrice,end_date,fee_sek:fee,shipping_from:shipping};
  }else if(source==='inimini'){
-  const raw=description;condition=raw.match(/\bskick\s*([A-D])\b/i)?.[1];condition=condition?'Skick '+condition:'';
+  description=description.split('SKICK')[0].trim();const raw=description;condition=raw.match(/\bskick\s*([A-D])\b/i)?.[1];condition=condition?'Skick '+condition:'';
   const mat=raw.match(/Material:\s*(.+?)(?=SKICK|$)/);material=mat?mat[1].trim():null;
   defects=raw.replace(/^.*?\bskick\s*[A-D][.\s-]*/i,'').replace(/-?\s*Fotografen uppskattar[\s\S]*/i,'').replace(/Material:[\s\S]*/,'').trim()||null;
   if(/NewCondition$/.test(offer.itemCondition||'')){quality_flags.push('condition_schema_conflict');evidence.condition_resolution='Product-specific secondhand grade overrides generic NewCondition template';}
@@ -68,7 +68,7 @@ export function parseListing(html,source,url,{childScope=false}={}){
  const brand_slug=bm?.[0]||null;if(bm)brand=bm[1];
  if(!size)size=title.match(/(?:storlek|stolek|strl\.?|stl\.?)\s*[:.-]?\s*(\d+(?:[.,]\d+)?(?:\s*[/–-]\s*\d+)?(?:\s*cm)?|[XSML]{1,4})/i)?.[1]||'';
  const type=classify(title,description,sourceCategory);evidence.usage=type.usage_evidence;delete type.usage_evidence;
- const flags=[];if(!bm)flags.push('brand_outside_queue');if(/\bH\s*&\s*M\b|\bZara\b|\bMango\b|\bL\.?O\.?G\.?G\b/i.test(title+' '+description))flags.push('excluded_or_parked_brand');if(!childScope)flags.push('child_audience_unverified');if(!size)flags.push('size_missing');if(type.category==='unknown')flags.push('category_unknown');if(currency!=='SEK'||!Number.isFinite(price)||price<=0||price>20000)flags.push('price_unverified');if(/sport-bh|sportsbh|\bunderkläder\b/i.test(title+' '+description))flags.push('mixed_size_or_underwear');
+ const flags=[];if(!bm)flags.push('brand_outside_queue');if(/\bH\s*&\s*M\b|\bZara\b|\bMango\b|\bL\.?O\.?G\.?G\b/i.test(title+' '+description))flags.push('excluded_or_parked_brand');if(!childScope)flags.push('child_audience_unverified');if(!size)flags.push('size_missing');if(/storleken? saknas|bedöms motsvara|saknar storlekslapp|storlekslappen saknas/i.test(description+' '+(defects||'')))flags.push('size_estimated_or_conflicting');if(type.category==='unknown')flags.push('category_unknown');if(currency!=='SEK'||!Number.isFinite(price)||price<=0||price>20000)flags.push('price_unverified');if(/sport-bh|sportsbh|\bunderkläder\b/i.test(title+' '+description))flags.push('mixed_size_or_underwear');
  let image_url=Array.isArray(g.image)?g.image[0]:g.image;if(image_url&&typeof image_url==='object')image_url=image_url.url;
  try{const image=new URL(image_url,url);if(image.protocol!=='https:')throw new Error();image_url=image.href;}catch{image_url=null;quality_flags.push('image_missing');}
  if(!condition)quality_flags.push('condition_not_stated');

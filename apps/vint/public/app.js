@@ -1,9 +1,9 @@
 import {selectItems,safeProductUrl} from './query.js';
+import {loadFavoriteIds,persistFavoriteIds} from './favorites-storage.js';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const money=n=>new Intl.NumberFormat('sv-SE',{maximumFractionDigits:Number.isInteger(Number(n))?0:2}).format(Number(n))+' kr';
 const date=x=>new Intl.DateTimeFormat('sv-SE',{dateStyle:'short',timeStyle:'short',timeZone:'Europe/Stockholm'}).format(new Date(x));
-const key='whool-vint-favorites-v1';
-let saved;try{saved=new Set(JSON.parse(localStorage.getItem(key)||'[]').filter(x=>typeof x==='string').slice(0,200));}catch{saved=new Set();}
+let saved=loadFavoriteIds();
 let items=[],sources=[],activeDetail=null;
 const state={query:'',source:'',category:'',size:'',brand:'',context:'',format:'',maxPrice:'',sort:'recommended'};
 const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
@@ -12,7 +12,7 @@ function openDialog(id){$(id).showModal();document.body.style.overflow='hidden';
 function closeDialog(d){d.close();document.body.style.overflow='';if(d.id==='detail-dialog'){activeDetail=null;history.replaceState(null,'',location.pathname+location.search);}}
 $$('dialog [data-close]').forEach(n=>n.addEventListener('click',()=>closeDialog(n.closest('dialog'))));
 $$('dialog').forEach(d=>{d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeDialog(d);}});d.addEventListener('close',()=>{document.body.style.overflow='';});d.addEventListener('cancel',()=>{if(d.id==='detail-dialog'){activeDetail=null;history.replaceState(null,'',location.pathname+location.search);}});});
-function persist(){try{localStorage.setItem(key,JSON.stringify([...saved]));}catch{}$('#favorites-count').textContent=saved.size;}
+function persist(){persistFavoriteIds(saved);$('#favorites-count').textContent=saved.size;}
 function toggle(item){saved.has(item.id)?saved.delete(item.id):saved.add(item.id);persist();render();if(activeDetail===item.id)renderDetail(item);if($('#favorites-dialog').open)renderFavorites();}
 function cost(item){return item.price_type==='auction'?'Utropspris / bud. Slutpris och frakt tillkommer.':item.fee_sek!==null&&item.fee_sek!==undefined?money(item.price_sek+item.fee_sek)+' inkl. avgift · frakt tillkommer':'Frakt och eventuella avgifter tillkommer';}
 function context(item){return item.wear_context==='casual'?'Vardag':item.wear_context==='sport'?(item.activity_label||'Sport'):item.wear_context==='mixed'?'Sport & vardag':null;}
