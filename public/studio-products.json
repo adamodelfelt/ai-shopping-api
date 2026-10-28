@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "prototype": true,
+  "catalogueDate": "2026-10-26T14:10:57Z",
+  "products": [
+    {
+      "id": "1369738104526769",
+      "name": "Sweatshirt prickig",
+      "brand": "Polarn O. Pyret",
+      "store": "pop",
+      "retailer": "Polarn O. Pyret",
+      "image": "https://www.polarnopyret.se/globalassets/productimages-polarnopyret/7325858282587_1.jpg?ref=8D8EFED220",
+      "url": "https://www.polarnopyret.se/barnklader/sweatshirt-prickig-vinrod-60603878-674",
+      "referencePrice": 254,
+      "category": "sweater",
+      "subcategory": "sweater",
+      "importedColor": "red",
+      "importedColorId": "red",
+      "currentColorId": "burgundy",
+      "sourceDescription": "Tidlös vardagsfavorit i ekologisk bomull",
+      "sourcePatterns": [
+        "dotted"
+      ],
+      "flags": [
+        "Kontrollera huvudfärg och mönsterfärg var för sig."
+      ],
+      "catalogueDate": "2026-10-26T14:10:57Z"
+    },
+    {
+      "id": "3870861906659172",
+      "name": "Manchester byxor",
+      "brand": "Polarn O. Pyret",
+      "store": "pop",
+      "retailer": "Polarn O. Pyret",
+      "image": "https://www.polarnopyret.se/globalassets/productimages-polarnopyret/7325858301981.jpg?ref=EB711D75F3",
+      "url": "https://www.polarnopyret.se/barnklader/manchester-byxor-morkrod-60604200-674",
+      "referencePrice": 339,
+      "category": "pants",
+      "subcategory": "pants",
+      "importedColor": "red",
+      "importedColorId": "red",
+      "currentColorId": "brown",
+      "sourceDescription": "Mjuk bomullsmanchester med vida ben",
+      "sourcePatterns": [],
+      "flags": [
+        "Färgen upplevs som brun enligt produktägarens återkoppling."
+      ],
+      "catalogueDate": "2026-10-26T14:10:57Z"
+    },
+    {
+      "id": "782309277118013",
+      "name": "Plain Piping Sweatpants",
+      "brand": "Mini Rodini",
+      "store": "minirodini",
+      "retailer": "Mini Rodini",
+      "image": "https://minirodini.centracdn.net/client/dynamic/images/14605_3e6e740b6d-2513010742-1-1350x0.jpg",
+      "url": "https://www.minirodini.com/se/piping-sweatpants-red",
+      "referencePrice": 500,
+      "category": "pants",
+      "subcategory": "pants",
+      "importedColor": "red",
+      "importedColorId": "red",
+      "currentColorId": "orange",
+      "sourceDescription": "Sweatpants gjorda av 100 % GOTS-certifierad ekologisk bomull. Designad med kontrasterande kantband. Skurna i en avslappnad passform med resårmuddar vid benslut och midja. Dekorerad med ett Mini Rodini M på midjan. Modellen är 128 cm lång och bär storlek 116/122.",
+      "sourcePatterns": [],
+      "flags": [
+        "Den importerade röda färgen behöver jämföras med bilden."
+      ],
+      "catalogueDate": "2026-10-26T14:10:57Z"
+    },
+    {
+      "id": "51966768740407",
+      "name": "Table Tennis Print T-Shirt",
+      "brand": "Mini Rodini",
+      "store": "minirodini",
+      "retailer": "Mini Rodini",
+      "image": "https://minirodini.centracdn.net/client/dynamic/images/19287_6f80542b6f-26620134-97-1-1350x0.jpg",
+      "url": "https://www.minirodini.com/se/table-tennis-print-t-shirt-grey",
+      "referencePrice": 320,
+      "category": "t-shirt",
+      "subcategory": "t-shirt",
+      "importedColor": "grey",
+      "importedColorId": "grey",
+      "currentColorId": "grey",
+      "sourceDescription": "T-shirt tillverkad av 100 % GOTS-certifierad ekologisk bomull. Har ett heltäckande Table Tennis-tryck, ribbad rund halsringning, korta ärmar och en liten påsydd bröstficka.",
+      "sourcePatterns": [
+        "printed"
+      ],
+      "flags": [],
+      "catalogueDate": "2026-10-26T14:10:57Z"
+    },
+    {
+      "id": "155915834140489",
+      "name": "T-shirt i slubtrikå med ficka",
+      "brand": "Newbie",
+      "store": "newbie",
+      "retailer": "Kappahl",
+      "image": "https://static.kappahl.com/globalassets/productimages/832428_l.jpg?ref=1C76E7B289",
+      "url": "https://www.kappahl.com/sv-se/newbie/toppar--t-shirts/kortarmat/832428",
+      "referencePrice": 89.5,
+      "category": "t-shirt",
+      "subcategory": "t-shirt",
+      "importedColor": "white",
+      "importedColorId": "white",
+      "currentColorId": "white",
+      "sourceDescription": "",
+      "sourcePatterns": [],
+      "flags": [],
+      "catalogueDate": "2026-10-26T14:10:57Z"
+    },
+    {
+      "id": "1772169498953872",
+      "name": "Randig långärmad pikétröja",
+      "brand": "Newbie",
+      "store": "newbie",
+      "retailer": "Kappahl",
+      "image": "https://static.kappahl.com/globalassets/productimages/905422_l.jpg?ref=06ED38CC64",
+      "url": "https://www.kappahl.com/sv-se/newbie/pojke-0-18-man-44-86/905422",
+      "referencePrice": 249,
+      "category": "sweater",
+      "subcategory": "sweater",
+      "importedColor": "blue",
+      "importedColorId": "blue",
+      "currentColorId": "blue",
+      "sourceDescription": "",
+      "sourcePatterns": [
+        "striped"
+      ],
+      "flags": [],
+      "catalogueDate": "2026-10-26T14:10:57Z"
+    },
+    {
+      "id": "221704869215963",
+      "name": "Långärmad t-shirt jul",
+      "brand": "Polarn O. Pyret",
+      "store": "pop",
+      "retailer": "Polarn O. Pyret",
+      "image": "https://www.polarnopyret.se/globalassets/productimages-polarnopyret/7325858223399.jpg?ref=00D5E73A75",
+      "url": "https://www.polarnopyret.se/barnklader/langarmad-t-shirt-jul-bla-60603076-655",
+      "referencePrice": 254,
+      "category": "t-shirt",
+      "subcategory": "t-shirt",
+      "importedColor": "blue",
+      "importedColorId": "blue",
+      "currentColorId": "blue",
+      "sourceDescription": "Tunn och följsam bomullstrikå med lekfullt print",
+      "sourcePatterns": [
+        "printed"
+      ],
+      "flags": [],
+      "catalogueDate": "2026-10-26T14:10:57Z"
+    },
+    {
+      "id": "238081602283525",
+      "name": "Play T-Shirt",
+      "brand": "Mini Rodini",
+      "store": "minirodini",
+      "retailer": "Mini Rodini",
+      "image": "https://minirodini.centracdn.net/client/dynamic/images/19296_1bb7d23fd9-26620147-11-1-1350x0.jpg",
+      "url": "https://www.minirodini.com/se/play-t-shirt-offwhite",
+      "referencePrice": 320,
+      "category": "t-shirt",
+      "subcategory": "t-shirt",
+      "importedColor": "white",
+      "importedColorId": "white",
+      "currentColorId": "white",
+      "sourceDescription": "T-shirt i 100 % GOTS-certifierad ekologisk bomull. Har ribbad rund halsringning, droppade axlar och ett iögonfallande PLAY-print framtill. Avslutas med en Mini Rodini-patch vid nederkanten.",
+      "sourcePatterns": [],
+      "flags": [],
+      "catalogueDate": "2026-10-26T14:10:57Z"
+    },
+    {
+      "id": "4308551505655991",
+      "name": "Dots T-Shirt",
+      "brand": "Mini Rodini",
+      "store": "minirodini",
+      "retailer": "Mini Rodini",
+      "image": "https://minirodini.centracdn.net/client/dynamic/images/19597_c2354985a5-26520107-28-1-1350x0.jpg",
+      "url": "https://www.minirodini.com/se/dots-t-shirt-pink",
+      "referencePrice": 260,
+      "category": "t-shirt",
+      "subcategory": "t-shirt",
+      "importedColor": "pink",
+      "importedColorId": "pink",
+      "currentColorId": "pink",
+      "sourceDescription": "Kortärmad topp i mjuk bomullsjersey med all-over Dots-print. Avslutad med ribbad rund halsringning, rak nederkant och en Mini Rodini-pandaetikett i sidsömmen.",
+      "sourcePatterns": [
+        "dotted"
+      ],
+      "flags": [],
+      "catalogueDate": "2026-10-26T14:10:57Z"
+    },
+    {
+      "id": "150934858335579",
+      "name": "Polar Insulated Shell Trousers — Vattentät Skalbyxa Barn",
+      "brand": "Tretorn",
+      "store": "tretorn",
+      "retailer": "Tretorn",
+      "image": "https://images.tretorn.eu/product-images/544_939d94c4c0_polar-insulated-shell-trousers-k-model-1-full.jpg",
+      "url": "https://se.tretorn.com/polar-insulated-shell-trousers-vattentat-skalbyxa-barn-800975419",
+      "referencePrice": 899,
+      "category": "pants",
+      "subcategory": "pants",
+      "importedColor": "blue",
+      "importedColorId": "blue",
+      "currentColorId": "blue",
+      "sourceDescription": "Varma vattentäta skalbyxor med återvunnet material, justerbara hängslen och ben – tillverkade för komfort, flexibilitet och skydd i vinterväder.",
+      "sourcePatterns": [],
+      "flags": [],
+      "catalogueDate": "2026-10-26T14:10:57Z"
+    }
+  ]
+}

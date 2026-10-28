@@ -44,3 +44,9 @@ test('the actual three-part query preserves all groups and the owner-approved st
   assert.ok(groups[2].products.every(product => product.playfulReason));
   assert.ok(!groups[2].products.some(product => ['155915834140489', '221704869215963'].includes(product.id)));
 });
+test('dotted tops count as playful, with an explicit dotted reason', () => {
+  const dotted = row(101, { name: 'Sweatshirt prickig', pattern_tags: ['dotted'] });
+  const blank = row(102, { name: 'Enfärgad sweatshirt' });
+  assert.deepEqual(playfulEvidence(dotted), { score: 2, reason: 'Prickigt' });
+  assert.deepEqual(searchCatalogue([blank, dotted], 'rolig tröja')[0].products.map(product => product.id), ['101']);
+});
