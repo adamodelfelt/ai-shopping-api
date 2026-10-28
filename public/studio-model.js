@@ -11,6 +11,7 @@ export const TERMS = [
   { id: 'rolig', name: 'Rolig', definition: 'Kan vara prickigt, randigt, ha tryck eller motiv. Bedöm plaggets uttryck, inte bara varumärket.' },
   { id: 'lekfull', name: 'Lekfull', definition: 'Ett lekfullt uttryck i mönster, detaljer, färgkombination eller form.' },
   { id: 'sot', name: 'Söt', definition: 'En subjektiv bedömning av ett mjukt eller gulligt uttryck. Ange vad du ser.' },
+  { id: 'sportig', name: 'Sportig', definition: 'Ett sportigt uttryck i snitt, detaljer eller motiv. Beskriver stil, inte verifierad funktion.' },
   { id: 'festlig', name: 'Festlig', definition: 'Passar ett festligt sammanhang genom till exempel material, form eller detaljer.' },
   { id: 'avskalad', name: 'Avskalad', definition: 'Ett lugnt uttryck med få visuella detaljer.' },
 ];
@@ -44,7 +45,6 @@ export function validateReview(review, terms = TERMS) {
   for (const term of terms) {
     const value = r.terms[term.id];
     if (!value || !judgments.has(value.verdict) || !Number.isInteger(value.strength) || value.strength < 1 || value.strength > 3 || !Array.isArray(value.evidence) || value.evidence.length > 6 || new Set(value.evidence).size !== value.evidence.length || value.evidence.some(id => !evidenceIds.has(id)) || !cleanText(value.note, 600)) throw new Error('Kontrollera bedömningen för ' + term.name + '.');
-    if (value.verdict === 'yes' && !value.evidence.length && value.note.trim().length < 3) throw new Error('Ange vad som stöder bedömningen för ' + term.name + '.');
   }
   if (c.verdict === 'unreviewed' && r.patternVerdict === 'unreviewed' && Object.values(r.terms).every(value => value.verdict === 'unreviewed')) throw new Error('Bedöm färg, mönster eller minst ett begrepp först.');
   return r;

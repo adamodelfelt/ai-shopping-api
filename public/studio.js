@@ -6,7 +6,7 @@ const categoryNames = { sweater: 'Tröja', 't-shirt': 'T-shirt', pants: 'Byxor',
 const verdictNames = { unreviewed: 'Ej bedömd', yes: 'Passar', no: 'Passar inte', uncertain: 'Osäker' };
 const money = value => new Intl.NumberFormat('sv-SE', { style: 'currency', currency: 'SEK', maximumFractionDigits: 0 }).format(value);
 const timeLabel = value => new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Stockholm', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }).format(new Date(value));
-const state = { workspace: null, selected: null, filter: 'all', search: '', pane: 'color', activeTerm: 'rolig' };
+const state = { workspace: null, selected: null, filter: 'all', search: '', pane: 'terms', activeTerm: 'rolig' };
 let toastTimer;
 function node(tag, className, text) { const item = document.createElement(tag); if (className) item.className = className; if (text !== undefined) item.textContent = text; return item; }
 function button(text, action, className = '') { const item = node('button', className, text); item.type = 'button'; item.addEventListener('click', action); return item; }
@@ -113,9 +113,23 @@ function renderTerms() {
   if (!terms.some(term => term.id === state.activeTerm)) state.activeTerm = terms[0].id;
   const tabs = $('#term-tabs'); tabs.replaceChildren();
   for (const term of terms) {
-    const control = button(term.name, () => { state.activeTerm = term.id; renderTerms(); }, 'term-tab');
-    pressed(control, term.id === state.activeTerm); control.dataset.reviewed = String(draft.terms[term.id].verdict !== 'unreviewed'); tabs.append(control);
+    const selected = draft.terms[term.id].verdict === 'yes';
+    const control = button('', () => {
+      const hadFocus = document.activeElement === control;
+      updateDraft(review => { review.terms[term.id].verdict = review.terms[term.id].verdict === 'yes' ? 'unreviewed' : 'yes'; });
+      state.activeTerm = term.id; renderTerms();
+      if (hadFocus) document.querySelector('[data-tag-id="' + term.id + '"]').focus();
+    }, 'product-tag');
+    control.dataset.tagId = term.id; control.setAttribute('aria-label', term.name); control.title = term.definition;
+    pressed(control, selected);
+    const indicator = node('span', 'tag-indicator', selected ? '✓' : '+'); indicator.setAttribute('aria-hidden', 'true');
+    control.append(indicator, node('span', '', term.name)); tabs.append(control);
   }
+  const selectedTerms = terms.filter(term => draft.terms[term.id].verdict === 'yes');
+  $('#tag-selection-summary').textContent = selectedTerms.length ? selectedTerms.length + (selectedTerms.length === 1 ? ' tagg vald' : ' taggar valda') + ' · ' + selectedTerms.map(term => term.name).join(', ') : 'Inga taggar valda ännu.';
+  const detailSelect = $('#detail-term'); detailSelect.replaceChildren();
+  for (const term of terms) { const option = node('option', '', term.name); option.value = term.id; detailSelect.append(option); }
+  detailSelect.value = state.activeTerm;
   const term = terms.find(term => term.id === state.activeTerm), value = draft.terms[term.id];
   $('#active-term-name').textContent = term.name; $('#active-term-definition').textContent = term.definition;
   $('#term-verdict-label').textContent = 'Passar ”' + term.name.toLocaleLowerCase('sv') + '” på det här plagget?';
@@ -150,7 +164,7 @@ function renderStatus() {
   $('#reset-review').disabled = status !== 'draft';
   $('#export-reviews').disabled = !state.workspace.export().proposals.length;
   $('#history-count').textContent = String(item.history.length);
-  $('#term-reviewed-count').textContent = String(Object.values(item.draft.terms).filter(value => value.verdict !== 'unreviewed').length);
+  $('#term-reviewed-count').textContent = String(Object.values(item.draft.terms).filter(value => value.verdict === 'yes').length);
   if (latest && state.pane === 'history') renderHistory();
 }
 function renderPreview() {
@@ -219,6 +233,7 @@ function exportReviews() {
   toast('Förslagen har exporterats. Ingen verklig katalog har ändrats.');
 }
 function initialize() {
+  $('#detail-term').addEventListener('change', event => { state.activeTerm = event.target.value; renderTerms(); });
   $('#queue-search').addEventListener('input', event => { state.search = event.target.value; renderQueue(); });
   $('#previous-product').addEventListener('click', () => navigate(-1));
   $('#next-product').addEventListener('click', () => navigate(1)); $('#next-product-top').addEventListener('click', () => navigate(1));
@@ -247,7 +262,7 @@ function initialize() {
   $('#add-term-open').addEventListener('click', () => { $('#new-term-form').reset(); $('#new-term-error').hidden = true; $('#new-term-dialog').showModal(); $('#new-term-name').focus(); });
   $('#new-term-form').addEventListener('submit', event => {
     event.preventDefault();
-    try { state.activeTerm = state.workspace.addTerm($('#new-term-name').value, $('#new-term-definition').value); $('#new-term-dialog').close(); renderTerms(); renderQueue(); renderStatus(); renderPreview(); toast('Begreppet finns nu i skissen. Tidigare bedömningar är oförändrade.'); }
+    try { state.activeTerm = state.workspace.addTerm($('#new-term-name').value, $('#new-term-definition').value); $('#new-term-dialog').close(); renderTerms(); renderQueue(); renderStatus(); renderPreview(); toast('Taggen finns nu i skissen. Tryck på den för att tagga plagget.'); }
     catch (error) { $('#new-term-error').textContent = error.message; $('#new-term-error').hidden = false; }
   });
   document.querySelectorAll('[data-tab]').forEach(control => control.addEventListener('click', () => setPane(control.dataset.tab)));

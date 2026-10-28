@@ -14,10 +14,10 @@ test('an error report preserves the current color until a correction is actually
   review.color.primary = 'unknown'; assert.throws(() => validateReview(review), /huvudfärg/);
   review.color.primary = 'brown'; review.color.reason = ''; assert.throws(() => validateReview(review), /varför/);
 });
-test('unknown, explicit no and uncertain remain different judgments, and positive judgments require evidence', () => {
+test('manual tags do not require prose while unknown, explicit no and uncertain remain different', () => {
   const review = positiveReview();
   assert.equal(validateReview(review).terms.festlig.verdict, 'unreviewed');
-  review.terms.rolig.evidence = []; assert.throws(() => validateReview(review), /stöder/);
+  review.terms.rolig.evidence = []; assert.equal(validateReview(review).terms.rolig.verdict, 'yes');
   review.terms.rolig.verdict = 'no'; assert.equal(validateReview(review).terms.rolig.verdict, 'no');
   review.terms.rolig.verdict = 'uncertain'; assert.equal(validateReview(review).terms.rolig.verdict, 'uncertain');
   assert.throws(() => validateReview(initialReview(product)), /Bedöm/);
@@ -59,4 +59,19 @@ test('export includes saved proposals only and explicitly marks them as unapplie
   assert.equal(data.proposals[0].revisions[0].status, 'changes_requested');
   assert.equal(JSON.stringify(data).includes('must not export'), false);
   assert.equal(model.record(product.id).product.currentColorId, 'burgundy');
+});
+
+test('one product retains several independent tags through saving, deselection and export', () => {
+  const model = workspace(), review = initialReview(product);
+  for (const id of ['rolig', 'sot', 'sportig']) review.terms[id].verdict = 'yes';
+  model.update(product.id, review); model.save(product.id);
+  const first = model.export().proposals[0].revisions[0].review;
+  assert.deepEqual(Object.keys(first.terms).filter(id => first.terms[id].verdict === 'yes'), ['rolig', 'sot', 'sportig']);
+  const changed = model.record(product.id).draft; changed.terms.sot.verdict = 'unreviewed'; model.update(product.id, changed); model.save(product.id);
+  const revisions = model.export().proposals[0].revisions;
+  assert.equal(revisions[0].review.terms.sot.verdict, 'yes');
+  assert.equal(revisions[1].review.terms.sot.verdict, 'unreviewed');
+  assert.equal(revisions[1].review.terms.rolig.verdict, 'yes');
+  assert.equal(revisions[1].review.terms.sportig.verdict, 'yes');
+  assert.equal(revisions[1].review.color.verdict, 'unreviewed');
 });
