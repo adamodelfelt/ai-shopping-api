@@ -1,5 +1,7 @@
 # Whool 2
 
+**Fortsätta från molnet:** använd grenen `feature/account-demo` och läs [molnöverlämningen](docs/CLOUD_HANDOFF.md). Den innehåller aktuell status, startkommandon och gränserna för demon. Utvecklingsarbetet finns i [utkast till PR #1](https://github.com/adamodelfelt/ai-shopping-api/pull/1).
+
 Ny implementation av Whools katalogprodukt: sökning på svenska/engelska, flera sökgrupper, 4/8 synliga plagg, fästa val, nya förslag, redigering av grupper, närliggande färger, liknande plagg och en gemensam lista med butikslänkar.
 
 Webb och API ligger i ett repository och körs på samma origin. Inga externa npm-paket, ingen nyckel i webbläsaren och ingen AI-tjänst behövs. Alla JavaScript-filer är nyskrivna; endast produktdata, återförsäljarnas testdata och granskade märkesordlistor har bevarats som data.
