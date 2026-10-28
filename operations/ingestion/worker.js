@@ -1,7 +1,8 @@
 import { retailerClient } from './lib/ingestion/http.js';
 import { parseMarketplace } from './lib/ingestion/marketplaces.js';
+import { brandKey,enrichUsage } from './lib/ingestion/usage.js';
 
-const supported = { stadium: 'https://www.stadium.se', ahlens: 'https://www.ahlens.se' };
+const supported = { stadium: 'https://www.stadium.se', ahlens: 'https://www.ahlens.se',intersport:'https://www.intersport.se' };
 const reply = (status, body) => new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json', 'cache-control': 'no-store', 'x-content-type-options': 'nosniff' } });
 export function failureCategory(error) {
   if (['source_not_allowed','brand_mismatch','staging_failed'].includes(error.message)) return error.message;
@@ -16,7 +17,7 @@ export function failureCategory(error) {
 }
 export function createWorker({ rpc, collectClient = retailerClient, parse = parseMarketplace, now = () => new Date() }) {
   return async request => {
-    if (request.method === 'GET') return reply(200, { service: 'whool-ingest-review', mode: 'allowlisted-products-to-review-only', version: '2026-10-28.1' });
+    if (request.method === 'GET') return reply(200, { service: 'whool-ingest-review', mode: 'allowlisted-products-to-review-only', version: '2026-10-28.2' });
     if (request.method !== 'POST') return reply(405, { error: 'method_not_allowed' });
     if (!request.headers.get('content-type')?.startsWith('application/json')) return reply(415, { error: 'json_required' });
     const bytes = []; let length = 0;
@@ -33,8 +34,8 @@ export function createWorker({ rpc, collectClient = retailerClient, parse = pars
       if (!origin || target.origin!==origin || target.username || target.password || target.port || /^h\s*&?\s*m$/i.test(job.brand)) throw new Error('source_not_allowed');
       const get=await collectClient(origin,{attempts:1,timeout:20_000});
       const html=await get(job.product_url);
-      const evidence=parse(html,job.product_url,job.retailer);
-      if (evidence.proposed_product.brand?.trim().toLowerCase()!==job.brand.trim().toLowerCase()) throw new Error('brand_mismatch');
+      const evidence=enrichUsage(parse(html,job.product_url,job.retailer));
+      if (brandKey(evidence.proposed_product.brand)!==brandKey(job.brand)) throw new Error('brand_mismatch');
       const result=await rpc('complete_ingest_job',{p_job_id:input.job_id,p_token:input.token,p_observed_at:now().toISOString(),p_item:evidence});
       if (!result || result.published!==0 || result.staged+result.duplicates!==1) throw new Error('staging_failed');
       return reply(200,{job_id:input.job_id,status:'staged',...result});

@@ -12,7 +12,7 @@ test('unauthorized, malformed and oversized jobs never contact a retailer',async
  assert.equal(external,0);
 });
 test('a claimed allowlisted product is staged once; no catalogue operation is available',async()=>{
- const calls=[];const worker=createWorker({rpc:async(name,args)=>{calls.push(name);if(name==='claim_ingest_job')return job;assert.equal(name,'complete_ingest_job');assert.deepEqual(args.p_item,evidence);return {run_id:'test',staged:1,duplicates:0,published:0};},collectClient:async(origin,options)=>{assert.equal(origin,'https://www.stadium.se');assert.equal(options.attempts,1);return async()=>'<product>';},parse:()=>evidence});
+ const calls=[];const worker=createWorker({rpc:async(name,args)=>{calls.push(name);if(name==='claim_ingest_job')return job;assert.equal(name,'complete_ingest_job');assert.deepEqual(args.p_item.raw_data,evidence.raw_data);assert.equal(args.p_item.proposed_product.brand,'Adidas');assert.equal(args.p_item.proposed_product.wear_context,'unknown');return {run_id:'test',staged:1,duplicates:0,published:0};},collectClient:async(origin,options)=>{assert.equal(origin,'https://www.stadium.se');assert.equal(options.attempts,1);return async()=>'<product>';},parse:()=>evidence});
  assert.equal((await worker(request(input))).status,200);assert.deepEqual(calls,['claim_ingest_job','complete_ingest_job']);
  const rpc=createRpc({SUPABASE_URL:'https://test.supabase.co',SUPABASE_SERVICE_ROLE_KEY:'test-runtime-only'},async()=>{throw new Error('should not be called');});
  await assert.rejects(rpc('review_scraped_product',{}));await assert.rejects(rpc('products',{}));

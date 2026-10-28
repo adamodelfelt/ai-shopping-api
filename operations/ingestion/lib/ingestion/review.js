@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 
-const fields = ['name','category','subcategory','brand','retailer','product_url','image_url','product_group_id','price_sek','in_stock','target_age_group','target_gender','color','material','source_description','source_pattern','size','eco','print_tags','pattern_tags','motif_tags','decoration_tags','classification'];
+const fields = ['name','category','subcategory','brand','retailer','product_url','image_url','product_group_id','price_sek','in_stock','target_age_group','target_gender','color','material','source_description','source_pattern','size','eco','print_tags','pattern_tags','motif_tags','decoration_tags','classification','wear_context','sport_activities','usage_category','usage_classification'];
 export function stagingPlan(snapshot, { maxProducts = 50 } = {}) {
   if (!snapshot || typeof snapshot.store !== 'string' || !Array.isArray(snapshot.products) || !snapshot.products.length) throw new Error('Nonempty scrape snapshot required');
   if (!Number.isInteger(maxProducts) || maxProducts < 1 || maxProducts > 2000 || snapshot.products.length > maxProducts) throw new Error('Batch exceeds review limit; split or explicitly configure a reviewed batch size');
