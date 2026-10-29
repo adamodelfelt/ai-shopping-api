@@ -1,0 +1,433 @@
+{
+  "mini": {
+    "frontendContext": {
+      "currencyCode": "SEK"
+    },
+    "page": {
+      "meta": {
+        "canonicalUrl": "/se/panther-piping-sweatshirt-grey-melange"
+      },
+      "productData": {
+        "uri": "panther-piping-sweatshirt-grey-melange",
+        "name": "Panther Piping Sweatshirt",
+        "price": {
+          "price": "600.00 SEK",
+          "priceBeforeDiscount": "600.00 SEK",
+          "priceReduction": "0.00 SEK",
+          "priceAsNumber": 600,
+          "priceBeforeDiscountAsNumber": 600,
+          "priceReductionAsNumber": 0,
+          "discountPercent": 0,
+          "showAsOnSale": false,
+          "newProduct": false,
+          "lowestPrice": [
+            {
+              "periodDays": 30,
+              "price": "600.00 SEK",
+              "priceAsNumber": 600,
+              "priceBeforeDiscount": "600.00 SEK",
+              "priceBeforeDiscountAsNumber": 600
+            }
+          ]
+        },
+        "frontendItems": [
+          {
+            "name": "80/86",
+            "item": "36339-70540",
+            "stock": 14
+          },
+          {
+            "name": "92/98",
+            "item": "36339-70541",
+            "stock": 43
+          },
+          {
+            "name": "104/110",
+            "item": "36339-70536",
+            "stock": 45
+          },
+          {
+            "name": "116/122",
+            "item": "36339-70537",
+            "stock": 51
+          },
+          {
+            "name": "128/134",
+            "item": "36339-70538",
+            "stock": 48
+          },
+          {
+            "name": "140/146",
+            "item": "36339-70539",
+            "stock": 5
+          }
+        ],
+        "description": "Sweatshirt i 100 % GOTS-certifierad ekologisk bomull. Har randig krage, paneldetaljer längs axlar och ärmar samt en Panther-patch på bröstet. Avslutas med ribbade muddar och nederkant för en bekväm passform."
+      }
+    }
+  },
+  "pop": {
+    "shell": {},
+    "page": {
+      "url": "/barnklader/badklader-uv-klader/langarmad-uv-troja-randig-rosa-60603553-5014",
+      "canonicalUrl": "https://www.polarnopyret.se/barnklader/badklader-uv-klader/uv-klader/langarmad-uv-troja-randig-rosa-60603553-5014",
+      "code": "5638352663_5014",
+      "price": {
+        "sellingPrice": 349,
+        "listPrice": 349,
+        "comparePrice": 349
+      },
+      "currency": "SEK",
+      "outOfStock": false,
+      "sizes": [
+        {
+          "code": "5638352664",
+          "sizeName": "86 - 92",
+          "totalAvailable": 25,
+          "price": {
+            "sellingPrice": 349,
+            "listPrice": 349,
+            "comparePrice": 349
+          }
+        },
+        {
+          "code": "5638352665",
+          "sizeName": "98 - 104",
+          "totalAvailable": 0,
+          "price": {
+            "sellingPrice": 349,
+            "listPrice": 349,
+            "comparePrice": 349
+          }
+        },
+        {
+          "code": "5638352666",
+          "sizeName": "110 - 116",
+          "totalAvailable": 36,
+          "price": {
+            "sellingPrice": 349,
+            "listPrice": 349,
+            "comparePrice": 349
+          }
+        },
+        {
+          "code": "5638352667",
+          "sizeName": "122 - 128",
+          "totalAvailable": 9,
+          "price": {
+            "sellingPrice": 349,
+            "listPrice": 349,
+            "comparePrice": 349
+          }
+        }
+      ],
+      "trackingProduct": {
+        "skusInStock": []
+      }
+    }
+  },
+  "newbie": {
+    "shell": {
+      "currency": "SEK"
+    },
+    "page": {
+      "url": "/sv-se/newbie/pojke-0-18-man-44-86/905422",
+      "canonicalUrl": "https://www.kappahl.com/sv-se/newbie/toppar--t-shirts/langarmat/905422",
+      "code": "905422",
+      "price": {
+        "current": {
+          "inclVat": 249,
+          "exclVat": 199.2,
+          "vatPercent": 25
+        },
+        "original": {
+          "inclVat": 249,
+          "exclVat": 199.2,
+          "vatPercent": 25
+        },
+        "previous": null,
+        "memberCurrent": {
+          "inclVat": 249,
+          "exclVat": 199.2,
+          "vatPercent": 25
+        },
+        "memberOriginal": {
+          "inclVat": 249,
+          "exclVat": 199.2,
+          "vatPercent": 25
+        },
+        "outlet": null,
+        "unitCurrent": {
+          "inclVat": 249,
+          "exclVat": 199.2,
+          "vatPercent": 25
+        },
+        "hasAttractiveMemberPrice": false,
+        "isPermanentMarkdown": false,
+        "isOutlet": false
+      },
+      "variations": [
+        {
+          "code": "1000836165",
+          "displayName": "86/92",
+          "stock": "high",
+          "price": {
+            "current": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "original": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "previous": null,
+            "memberCurrent": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "memberOriginal": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "outlet": null,
+            "unitCurrent": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "hasAttractiveMemberPrice": false,
+            "isPermanentMarkdown": false,
+            "isOutlet": false
+          }
+        },
+        {
+          "code": "1000836166",
+          "displayName": "98/104",
+          "stock": "high",
+          "price": {
+            "current": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "original": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "previous": null,
+            "memberCurrent": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "memberOriginal": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "outlet": null,
+            "unitCurrent": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "hasAttractiveMemberPrice": false,
+            "isPermanentMarkdown": false,
+            "isOutlet": false
+          }
+        },
+        {
+          "code": "1000836163",
+          "displayName": "110/116",
+          "stock": "high",
+          "price": {
+            "current": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "original": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "previous": null,
+            "memberCurrent": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "memberOriginal": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "outlet": null,
+            "unitCurrent": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "hasAttractiveMemberPrice": false,
+            "isPermanentMarkdown": false,
+            "isOutlet": false
+          }
+        },
+        {
+          "code": "1000836164",
+          "displayName": "122/128",
+          "stock": "high",
+          "price": {
+            "current": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "original": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "previous": null,
+            "memberCurrent": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "memberOriginal": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "outlet": null,
+            "unitCurrent": {
+              "inclVat": 249,
+              "exclVat": 199.2,
+              "vatPercent": 25
+            },
+            "hasAttractiveMemberPrice": false,
+            "isPermanentMarkdown": false,
+            "isOutlet": false
+          }
+        }
+      ],
+      "buyable": true,
+      "trackingProduct": {
+        "skusInStock": [
+          "1000836165",
+          "1000836166",
+          "1000836163",
+          "1000836164"
+        ]
+      }
+    }
+  },
+  "lindex": {
+    "currency": "SEK",
+    "product": {
+      "styleId": "3013902",
+      "colorId": "374",
+      "price": {
+        "value": 249,
+        "formattedValue": "249",
+        "suffix": {
+          "value": ":-",
+          "size": "large"
+        }
+      },
+      "sizes": [
+        {
+          "sizeName": "50",
+          "skuId": "9095108",
+          "stockOnHand": 67,
+          "status": "Available"
+        },
+        {
+          "sizeName": "56",
+          "skuId": "9095109",
+          "stockOnHand": 150,
+          "status": "Available"
+        },
+        {
+          "sizeName": "62",
+          "skuId": "9095110",
+          "stockOnHand": 191,
+          "status": "Available"
+        },
+        {
+          "sizeName": "68",
+          "skuId": "9095111",
+          "stockOnHand": 167,
+          "status": "Available"
+        }
+      ]
+    }
+  },
+  "tretorn": {
+    "page": {
+      "data": {
+        "sku": "800636719",
+        "name": "Rainshower Set — Regnställ Barn",
+        "price": {
+          "id": 19,
+          "price": 599,
+          "onSale": false,
+          "discount": 0,
+          "salePrice": 599,
+          "newProduct": false,
+          "priceHistory": {
+            "price": 599,
+            "periodInDays": 30,
+            "priceWithCurrency": "599 SEK",
+            "priceBeforeDiscount": null,
+            "priceBeforeDiscountWithCurrency": null
+          },
+          "discountPercentage": 0,
+          "priceWithCurrency": "599 SEK",
+          "discountWithCurrency": "0 SEK",
+          "salePriceWithCurrency": "599 SEK",
+          "currency": {
+            "id": "SEK",
+            "name": "SEK",
+            "prefix": "",
+            "suffix": " SEK",
+            "decimalPoint": ".",
+            "decimalDigits": null
+          }
+        },
+        "variations": [
+          {
+            "id": "1613-8070",
+            "name": "74/80",
+            "inStock": true
+          },
+          {
+            "id": "1613-8071",
+            "name": "86/92",
+            "inStock": true
+          },
+          {
+            "id": "1613-8072",
+            "name": "98/104",
+            "inStock": true
+          },
+          {
+            "id": "1613-8068",
+            "name": "110/116",
+            "inStock": true
+          },
+          {
+            "id": "1613-8069",
+            "name": "122/128",
+            "inStock": true
+          }
+        ]
+      }
+    }
+  }
+}

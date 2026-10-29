@@ -1,0 +1,47 @@
+{
+  "measuredAt": "2026-10-27T15:36:55.334Z",
+  "targetSeconds": 60,
+  "mode": "local_simulated_payment",
+  "method": "Automated browser interaction, from choosing a supplier size on an already found product through basket, stock API, prefilled checkout and visible demo payment confirmation.",
+  "searchTimeIncluded": false,
+  "realPayment": false,
+  "stock": "Live verified supplier inventory reused within five-minute freshness limit.",
+  "limitation": "One representative product per retailer, automated input. No guarantee about human typing time or external merchant payment.",
+  "results": [
+    {
+      "retailer": "minirodini",
+      "product": "Mini Rodini society T-shirt",
+      "seconds": 2.405,
+      "profileSetupIncluded": true,
+      "passed": true
+    },
+    {
+      "retailer": "pop",
+      "product": "Tröja enhörning",
+      "seconds": 1.899,
+      "profileSetupIncluded": false,
+      "passed": true
+    },
+    {
+      "retailer": "newbie",
+      "product": "Tröja med björnar",
+      "seconds": 1.833,
+      "profileSetupIncluded": false,
+      "passed": true
+    },
+    {
+      "retailer": "lindex",
+      "product": "Stickad tröja",
+      "seconds": 1.932,
+      "profileSetupIncluded": false,
+      "passed": true
+    },
+    {
+      "retailer": "tretorn",
+      "product": "Rainshower Set — Regnställ Barn",
+      "seconds": 1.884,
+      "profileSetupIncluded": false,
+      "passed": true
+    }
+  ]
+}

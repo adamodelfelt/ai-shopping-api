@@ -1,0 +1,1299 @@
+{
+  "newbie": [
+    {
+      "linkIdentifier": "Ozc7Izs5MzY2MjU7IzsjOy9mYXNoaW9uL0RFU0tUT1AvTEFORElOR19QQUdFL05BVklHQVRJT05fUkVTVUxUOyM7Izt0OzE7Njk7IzsjOzEwNzM3NDE4NThfX0NhdGFsb2dDb250ZW50OyM7L25ld2JpZTs",
+      "url": "/sv-se/newbie/sovklader/pyjamas/936625",
+      "shouldCache": true,
+      "meta": {
+        "title": null,
+        "elements": {}
+      },
+      "images": [
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Framsida av ett barn i röd och beige rutig pyjamas.",
+          "imageType": "modelImage",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/936625_f.jpg?ref=B992BFBCE4"
+        },
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Framsida av barns röda och beiga ginghamrutiga pyjamasset: knäppt tröja, dragskobyxor.",
+          "imageType": "frontCutOut",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/936625_l.jpg?ref=87C2D89956"
+        },
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Framifrån på ett barn i röd- och beigerutig pyjamasskjorta med matchande byxor.",
+          "imageType": "modelImageExtra",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/936625_d.jpg?ref=0E6D9BF33C"
+        }
+      ],
+      "price": {
+        "current": {
+          "inclVat": 399,
+          "exclVat": 319.2,
+          "vatPercent": 25
+        },
+        "original": {
+          "inclVat": 399,
+          "exclVat": 319.2,
+          "vatPercent": 25
+        },
+        "previous": null,
+        "memberCurrent": {
+          "inclVat": 399,
+          "exclVat": 319.2,
+          "vatPercent": 25
+        },
+        "memberOriginal": {
+          "inclVat": 399,
+          "exclVat": 319.2,
+          "vatPercent": 25
+        },
+        "outlet": null,
+        "unitCurrent": {
+          "inclVat": 399,
+          "exclVat": 319.2,
+          "vatPercent": 25
+        },
+        "hasAttractiveMemberPrice": false,
+        "isPermanentMarkdown": false,
+        "isOutlet": false
+      },
+      "displayName": "Långärmad julpyjamas i flanell",
+      "nameShort": null,
+      "code": "936625",
+      "articleNumber": "936625",
+      "variationCode": null,
+      "buyable": true,
+      "isNew": true,
+      "variationCount": 5,
+      "variationIds": [
+        "1001005179",
+        "1001005180",
+        "1001005176",
+        "1001005177",
+        "1001005178"
+      ],
+      "addToCartRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936625",
+          "discoveryKey": null,
+          "type": "addToCart",
+          "algorithm": "addToCartRecs"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "sliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936625",
+          "discoveryKey": null,
+          "type": "slider",
+          "algorithm": "alternatives"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "secondSliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936625",
+          "discoveryKey": null,
+          "type": "secondSlider",
+          "algorithm": "upsell"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "thirdSliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936625",
+          "discoveryKey": null,
+          "type": "thirdSlider",
+          "algorithm": "recentlyViewed"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "quickShop": {
+        "type": "Avensia.Common.Features.SiteLayout.QuickShop.QuickShopDetailsDataViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936625"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "promotionName": null,
+      "memberPromotionName": null,
+      "isPriceProduct": false,
+      "badgeBackgroundColor": null,
+      "badgeTheme": "light",
+      "swatches": [
+        {
+          "primaryHex": "#7B1F2F",
+          "secondaryHex": null
+        }
+      ],
+      "brandName": "Newbie",
+      "siblingCount": 1,
+      "isComingSoon": false,
+      "color": "Röd",
+      "businessArea": "Kids",
+      "customBadge": null,
+      "secondaryColor": null,
+      "pattern": "Rutigt",
+      "isPopular": true,
+      "existsInContentIndex": true,
+      "isOnlineExclusive": true,
+      "collectionReleaseDate": null,
+      "customHintContent": null,
+      "isPreAccess": false,
+      "lipscoreProductCode": "730773",
+      "hasOfferBanner": false,
+      "pcsPerSalesPack": 1,
+      "usp": "Matchande julpyjamas för familjen",
+      "$cache": "partial",
+      "componentName": "Avensia.Common.Features.Product.ProductViewModel"
+    },
+    {
+      "linkIdentifier": "Ozc7Izs5MzY2MzM7IzsjOy9mYXNoaW9uL0RFU0tUT1AvTEFORElOR19QQUdFL05BVklHQVRJT05fUkVTVUxUOyM7Izt0OzI7Njk7IzsjOzEwNzM3NDE4NThfX0NhdGFsb2dDb250ZW50OyM7L25ld2JpZTs",
+      "url": "/sv-se/newbie/newbie-woman/sovklader/936633",
+      "shouldCache": true,
+      "meta": {
+        "title": null,
+        "elements": {}
+      },
+      "images": [
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Framifrån, kvinna i vinröd och beige rutig pyjamas med två ringar.",
+          "imageType": "modelImage",
+          "additional": {
+            "modelLength": "180",
+            "modelSize": "S",
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/936633_f.jpg?ref=F278A3E673"
+        },
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Framsida av en röd-beige rutig pyjamas med långärmad skjorta och byxor.",
+          "imageType": "frontCutOut",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/936633_l.jpg?ref=0200D0CF03"
+        },
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Framifrån, kvinna i röd- och vitrutig långärmad pyjamas.",
+          "imageType": "modelImageExtra",
+          "additional": {
+            "modelLength": "180",
+            "modelSize": "S",
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/936633_d.jpg?ref=F01005A67C"
+        }
+      ],
+      "price": {
+        "current": {
+          "inclVat": 799,
+          "exclVat": 639.2,
+          "vatPercent": 25
+        },
+        "original": {
+          "inclVat": 799,
+          "exclVat": 639.2,
+          "vatPercent": 25
+        },
+        "previous": null,
+        "memberCurrent": {
+          "inclVat": 799,
+          "exclVat": 639.2,
+          "vatPercent": 25
+        },
+        "memberOriginal": {
+          "inclVat": 799,
+          "exclVat": 639.2,
+          "vatPercent": 25
+        },
+        "outlet": null,
+        "unitCurrent": {
+          "inclVat": 799,
+          "exclVat": 639.2,
+          "vatPercent": 25
+        },
+        "hasAttractiveMemberPrice": false,
+        "isPermanentMarkdown": false,
+        "isOutlet": false
+      },
+      "displayName": "Julpyjamas i flanell Newbie Woman",
+      "nameShort": null,
+      "code": "936633",
+      "articleNumber": "936633",
+      "variationCode": null,
+      "buyable": true,
+      "isNew": true,
+      "variationCount": 5,
+      "variationIds": [
+        "1001005175",
+        "1001005173",
+        "1001005172",
+        "1001005171",
+        "1001005174"
+      ],
+      "addToCartRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936633",
+          "discoveryKey": null,
+          "type": "addToCart",
+          "algorithm": "addToCartRecs"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "sliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936633",
+          "discoveryKey": null,
+          "type": "slider",
+          "algorithm": "alternatives"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "secondSliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936633",
+          "discoveryKey": null,
+          "type": "secondSlider",
+          "algorithm": "upsell"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "thirdSliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936633",
+          "discoveryKey": null,
+          "type": "thirdSlider",
+          "algorithm": "recentlyViewed"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "quickShop": {
+        "type": "Avensia.Common.Features.SiteLayout.QuickShop.QuickShopDetailsDataViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936633"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "promotionName": null,
+      "memberPromotionName": null,
+      "isPriceProduct": false,
+      "badgeBackgroundColor": null,
+      "badgeTheme": "light",
+      "swatches": [
+        {
+          "primaryHex": "#7B1F2F",
+          "secondaryHex": null
+        }
+      ],
+      "brandName": "Newbie",
+      "siblingCount": 1,
+      "isComingSoon": false,
+      "color": "Röd",
+      "businessArea": "Kids",
+      "customBadge": null,
+      "secondaryColor": null,
+      "pattern": "Rutigt",
+      "isPopular": false,
+      "existsInContentIndex": true,
+      "isOnlineExclusive": true,
+      "collectionReleaseDate": null,
+      "customHintContent": null,
+      "isPreAccess": false,
+      "lipscoreProductCode": "730774",
+      "hasOfferBanner": false,
+      "pcsPerSalesPack": 1,
+      "usp": "Matchande julpyjamas för familjen",
+      "$cache": "partial",
+      "componentName": "Avensia.Common.Features.Product.ProductViewModel"
+    },
+    {
+      "linkIdentifier": "Ozc7Izs5MzY2MTc7IzsjOy9mYXNoaW9uL0RFU0tUT1AvTEFORElOR19QQUdFL05BVklHQVRJT05fUkVTVUxUOyM7Izt0OzM7Njk7IzsjOzEwNzM3NDE4NThfX0NhdGFsb2dDb250ZW50OyM7L25ld2JpZTs",
+      "url": "/sv-se/newbie/sovklader/pyjamas/936617",
+      "shouldCache": true,
+      "meta": {
+        "title": null,
+        "elements": {}
+      },
+      "images": [
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Sidovy av barn i röd- och beigerutig pyjamas med långa ärmar.",
+          "imageType": "modelImage",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/936617_f.jpg?ref=B22A10E720"
+        },
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Framifrån: Baby-overall med lång ärm, rött och beige ginghamrutigt mönster, krage och knappar.",
+          "imageType": "frontCutOut",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/936617_l.jpg?ref=67CF837DCF"
+        },
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Närbild av en röd och benvit gingham-skjorta med krage, bröstficka och knappar.",
+          "imageType": "detailImage",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/936617_e.jpg?ref=CF8507F908"
+        }
+      ],
+      "price": {
+        "current": {
+          "inclVat": 349,
+          "exclVat": 279.2,
+          "vatPercent": 25
+        },
+        "original": {
+          "inclVat": 349,
+          "exclVat": 279.2,
+          "vatPercent": 25
+        },
+        "previous": null,
+        "memberCurrent": {
+          "inclVat": 349,
+          "exclVat": 279.2,
+          "vatPercent": 25
+        },
+        "memberOriginal": {
+          "inclVat": 349,
+          "exclVat": 279.2,
+          "vatPercent": 25
+        },
+        "outlet": null,
+        "unitCurrent": {
+          "inclVat": 349,
+          "exclVat": 279.2,
+          "vatPercent": 25
+        },
+        "hasAttractiveMemberPrice": false,
+        "isPermanentMarkdown": false,
+        "isOutlet": false
+      },
+      "displayName": "Julpyjamas i flanell",
+      "nameShort": null,
+      "code": "936617",
+      "articleNumber": "936617",
+      "variationCode": null,
+      "buyable": true,
+      "isNew": true,
+      "variationCount": 4,
+      "variationIds": [
+        "1001005167",
+        "1001005168",
+        "1001005169",
+        "1001005170"
+      ],
+      "addToCartRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936617",
+          "discoveryKey": null,
+          "type": "addToCart",
+          "algorithm": "addToCartRecs"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "sliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936617",
+          "discoveryKey": null,
+          "type": "slider",
+          "algorithm": "alternatives"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "secondSliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936617",
+          "discoveryKey": null,
+          "type": "secondSlider",
+          "algorithm": "upsell"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "thirdSliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936617",
+          "discoveryKey": null,
+          "type": "thirdSlider",
+          "algorithm": "recentlyViewed"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "quickShop": {
+        "type": "Avensia.Common.Features.SiteLayout.QuickShop.QuickShopDetailsDataViewModel,Avensia.Common",
+        "context": {
+          "productCode": "936617"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "promotionName": null,
+      "memberPromotionName": null,
+      "isPriceProduct": false,
+      "badgeBackgroundColor": null,
+      "badgeTheme": "light",
+      "swatches": [
+        {
+          "primaryHex": "#7B1F2F",
+          "secondaryHex": null
+        }
+      ],
+      "brandName": "Newbie",
+      "siblingCount": 1,
+      "isComingSoon": false,
+      "color": "Röd",
+      "businessArea": "Baby",
+      "customBadge": null,
+      "secondaryColor": null,
+      "pattern": "Rutigt",
+      "isPopular": false,
+      "existsInContentIndex": true,
+      "isOnlineExclusive": true,
+      "collectionReleaseDate": null,
+      "customHintContent": null,
+      "isPreAccess": false,
+      "lipscoreProductCode": "730772",
+      "hasOfferBanner": false,
+      "pcsPerSalesPack": 1,
+      "usp": "Matchande julpyjamas för familjen",
+      "$cache": "partial",
+      "componentName": "Avensia.Common.Features.Product.ProductViewModel"
+    },
+    {
+      "linkIdentifier": "Ozc7Izs5MjUzMzk7IzsjOy9mYXNoaW9uL0RFU0tUT1AvTEFORElOR19QQUdFL05BVklHQVRJT05fUkVTVUxUOyM7Izt0OzQ7Njk7IzsjOzEwNzM3NDE4NThfX0NhdGFsb2dDb250ZW50OyM7L25ld2JpZTs",
+      "url": "/sv-se/newbie/pojke-2-8-ar-92-128/skjortor/925339",
+      "shouldCache": true,
+      "meta": {
+        "title": null,
+        "elements": {}
+      },
+      "images": [
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Framsida: barn bär vitmönstrad skjorta, röda manchesterbyxor och bruna stövlar.",
+          "imageType": "modelImage",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/925339_f_1.jpg?ref=A45FF9958C"
+        },
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Framsida av vit långärmad barnskjorta med julmönster och Peter Pan-krage.",
+          "imageType": "frontCutOut",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/925339_l.jpg?ref=12477B3F35"
+        },
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Sidovy av ett barn i röda manchesterbyxor, vit skjorta med naturtryck och bruna skor.",
+          "imageType": "modelImageExtra",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/925339_d_1.jpg?ref=FA7F8E6EEA"
+        }
+      ],
+      "price": {
+        "current": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "original": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "previous": null,
+        "memberCurrent": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "memberOriginal": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "outlet": null,
+        "unitCurrent": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "hasAttractiveMemberPrice": false,
+        "isPermanentMarkdown": false,
+        "isOutlet": false
+      },
+      "displayName": "Helmönstrad skjorta",
+      "nameShort": null,
+      "code": "925339",
+      "articleNumber": "925339",
+      "variationCode": null,
+      "buyable": true,
+      "isNew": true,
+      "variationCount": 9,
+      "variationIds": [
+        "1000857476",
+        "1000857477",
+        "1000857469",
+        "1000857470",
+        "1000857471",
+        "1000857472",
+        "1000857473",
+        "1000857474",
+        "1000857475"
+      ],
+      "addToCartRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "925339",
+          "discoveryKey": null,
+          "type": "addToCart",
+          "algorithm": "addToCartRecs"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "sliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "925339",
+          "discoveryKey": null,
+          "type": "slider",
+          "algorithm": "alternatives"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "secondSliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "925339",
+          "discoveryKey": null,
+          "type": "secondSlider",
+          "algorithm": "upsell"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "thirdSliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "925339",
+          "discoveryKey": null,
+          "type": "thirdSlider",
+          "algorithm": "recentlyViewed"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "quickShop": {
+        "type": "Avensia.Common.Features.SiteLayout.QuickShop.QuickShopDetailsDataViewModel,Avensia.Common",
+        "context": {
+          "productCode": "925339"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "promotionName": null,
+      "memberPromotionName": null,
+      "isPriceProduct": false,
+      "badgeBackgroundColor": null,
+      "badgeTheme": "light",
+      "swatches": [
+        {
+          "primaryHex": "#EDE5DA",
+          "secondaryHex": null
+        },
+        {
+          "primaryHex": "#7B1F2F",
+          "secondaryHex": null
+        }
+      ],
+      "brandName": "Newbie",
+      "siblingCount": 2,
+      "isComingSoon": false,
+      "color": "Offwhite",
+      "businessArea": "Kids",
+      "customBadge": null,
+      "secondaryColor": null,
+      "pattern": "Djurmönstrad",
+      "isPopular": false,
+      "existsInContentIndex": true,
+      "isOnlineExclusive": false,
+      "collectionReleaseDate": null,
+      "customHintContent": null,
+      "isPreAccess": false,
+      "lipscoreProductCode": "730394",
+      "hasOfferBanner": false,
+      "pcsPerSalesPack": 1,
+      "usp": null,
+      "$cache": "partial",
+      "componentName": "Avensia.Common.Features.Product.ProductViewModel"
+    },
+    {
+      "linkIdentifier": "Ozc7Izs5MjUzNzA7IzsjOy9mYXNoaW9uL0RFU0tUT1AvTEFORElOR19QQUdFL05BVklHQVRJT05fUkVTVUxUOyM7Izt0OzU7Njk7IzsjOzEwNzM3NDE4NThfX0NhdGFsb2dDb250ZW50OyM7L25ld2JpZTs",
+      "url": "/sv-se/newbie/pojke-0-18-man-44-86/925370",
+      "shouldCache": true,
+      "meta": {
+        "title": null,
+        "elements": {}
+      },
+      "images": [
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Frontvy av barn i vit långärmad julskjorta och röda manchesterbyxor.",
+          "imageType": "modelImage",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/925370_f.jpg?ref=581E858125"
+        },
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Framsida av en vit långärmad babybody med julmönster och knappar framtill.",
+          "imageType": "frontCutOut",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/925370_l.jpg?ref=D9BC99DA89"
+        },
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Barn i vit jultryckt skjorta, röda manchesterbyxor och bruna snörskor, sidovy.",
+          "imageType": "modelImageExtra",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/925370_d.jpg?ref=086FDFB343"
+        }
+      ],
+      "price": {
+        "current": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "original": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "previous": null,
+        "memberCurrent": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "memberOriginal": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "outlet": null,
+        "unitCurrent": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "hasAttractiveMemberPrice": false,
+        "isPermanentMarkdown": false,
+        "isOutlet": false
+      },
+      "displayName": "Mönstrad skjortbody",
+      "nameShort": null,
+      "code": "925370",
+      "articleNumber": "925370",
+      "variationCode": null,
+      "buyable": true,
+      "isNew": true,
+      "variationCount": 6,
+      "variationIds": [
+        "1000857507",
+        "1000857508",
+        "1000857509",
+        "1000857510",
+        "1000857511",
+        "1000857512"
+      ],
+      "addToCartRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "925370",
+          "discoveryKey": null,
+          "type": "addToCart",
+          "algorithm": "addToCartRecs"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "sliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "925370",
+          "discoveryKey": null,
+          "type": "slider",
+          "algorithm": "alternatives"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "secondSliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "925370",
+          "discoveryKey": null,
+          "type": "secondSlider",
+          "algorithm": "upsell"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "thirdSliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "925370",
+          "discoveryKey": null,
+          "type": "thirdSlider",
+          "algorithm": "recentlyViewed"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "quickShop": {
+        "type": "Avensia.Common.Features.SiteLayout.QuickShop.QuickShopDetailsDataViewModel,Avensia.Common",
+        "context": {
+          "productCode": "925370"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "promotionName": null,
+      "memberPromotionName": null,
+      "isPriceProduct": false,
+      "badgeBackgroundColor": null,
+      "badgeTheme": "light",
+      "swatches": [
+        {
+          "primaryHex": "#EDE5DA",
+          "secondaryHex": null
+        },
+        {
+          "primaryHex": "#7B1F2F",
+          "secondaryHex": null
+        }
+      ],
+      "brandName": "Newbie",
+      "siblingCount": 2,
+      "isComingSoon": false,
+      "color": "Offwhite",
+      "businessArea": "Baby",
+      "customBadge": null,
+      "secondaryColor": null,
+      "pattern": "Djurmönstrad",
+      "isPopular": false,
+      "existsInContentIndex": true,
+      "isOnlineExclusive": false,
+      "collectionReleaseDate": null,
+      "customHintContent": null,
+      "isPreAccess": false,
+      "lipscoreProductCode": "730396",
+      "hasOfferBanner": false,
+      "pcsPerSalesPack": 1,
+      "usp": null,
+      "$cache": "partial",
+      "componentName": "Avensia.Common.Features.Product.ProductViewModel"
+    },
+    {
+      "linkIdentifier": "Ozc7Izs5MjYwOTc7IzsjOy9mYXNoaW9uL0RFU0tUT1AvTEFORElOR19QQUdFL05BVklHQVRJT05fUkVTVUxUOyM7Izt0OzY7Njk7IzsjOzEwNzM3NDE4NThfX0NhdGFsb2dDb250ZW50OyM7L25ld2JpZTs",
+      "url": "/sv-se/newbie/bodys/langarmat/926097",
+      "shouldCache": true,
+      "meta": {
+        "title": null,
+        "elements": {}
+      },
+      "images": [
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Frontvy på en babypojke i rödrutig långärmad skjorta och röda byxor, håller ett randigt paket.",
+          "imageType": "modelImage",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/926097_f.jpg?ref=2935643298"
+        },
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Frontvy av en rödrutig långärmad babybody med krage och hjortbroderi.",
+          "imageType": "frontCutOut",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/926097_l.jpg?ref=4DA8E26BDE"
+        },
+        {
+          "width": 1400,
+          "height": 2100,
+          "altText": "Baby pojke i en röd rutig knappskjorta med hjortbroderi och röda byxor, framifrån.",
+          "imageType": "modelImageExtra",
+          "additional": {
+            "modelLength": null,
+            "modelSize": null,
+            "sizeCodes": [],
+            "quickChannelMediaId": null,
+            "cevoidImageUser": null,
+            "cevoidImageOriginalUrl": null,
+            "cevoidImageIsVideo": false
+          },
+          "url": "/globalassets/productimages/926097_d.jpg?ref=CECAEAFF73"
+        }
+      ],
+      "price": {
+        "current": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "original": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "previous": null,
+        "memberCurrent": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "memberOriginal": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "outlet": null,
+        "unitCurrent": {
+          "inclVat": 299,
+          "exclVat": 239.2,
+          "vatPercent": 25
+        },
+        "hasAttractiveMemberPrice": false,
+        "isPermanentMarkdown": false,
+        "isOutlet": false
+      },
+      "displayName": "Rutig skjortbody med krage",
+      "nameShort": null,
+      "code": "926097",
+      "articleNumber": "926097",
+      "variationCode": null,
+      "buyable": true,
+      "isNew": true,
+      "variationCount": 6,
+      "variationIds": [
+        "1001005490",
+        "1001005491",
+        "1001005492",
+        "1001005493",
+        "1001005494",
+        "1001005495"
+      ],
+      "addToCartRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "926097",
+          "discoveryKey": null,
+          "type": "addToCart",
+          "algorithm": "addToCartRecs"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "sliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "926097",
+          "discoveryKey": null,
+          "type": "slider",
+          "algorithm": "alternatives"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "secondSliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "926097",
+          "discoveryKey": null,
+          "type": "secondSlider",
+          "algorithm": "upsell"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "thirdSliderRecommendations": {
+        "type": "Avensia.Common.Features.Product.Recommendations.ProductPageRecommendationsViewModel,Avensia.Common",
+        "context": {
+          "productCode": "926097",
+          "discoveryKey": null,
+          "type": "thirdSlider",
+          "algorithm": "recentlyViewed"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "quickShop": {
+        "type": "Avensia.Common.Features.SiteLayout.QuickShop.QuickShopDetailsDataViewModel,Avensia.Common",
+        "context": {
+          "productCode": "926097"
+        },
+        "resolveMode": "manual",
+        "preloadBehavior": "overrideCache",
+        "preloaded": null
+      },
+      "promotionName": null,
+      "memberPromotionName": null,
+      "isPriceProduct": false,
+      "badgeBackgroundColor": null,
+      "badgeTheme": "light",
+      "swatches": [
+        {
+          "primaryHex": "#7B1F2F",
+          "secondaryHex": null
+        },
+        {
+          "primaryHex": "#3F514B",
+          "secondaryHex": null
+        },
+        {
+          "primaryHex": "#EDE5DA",
+          "secondaryHex": null
+        }
+      ],
+      "brandName": "Newbie",
+      "siblingCount": 3,
+      "isComingSoon": false,
+      "color": "Röd",
+      "businessArea": "Baby",
+      "customBadge": null,
+      "secondaryColor": null,
+      "pattern": "Rutigt",
+      "isPopular": false,
+      "existsInContentIndex": true,
+      "isOnlineExclusive": false,
+      "collectionReleaseDate": null,
+      "customHintContent": null,
+      "isPreAccess": false,
+      "lipscoreProductCode": "730455",
+      "hasOfferBanner": false,
+      "pcsPerSalesPack": 1,
+      "usp": null,
+      "$cache": "partial",
+      "componentName": "Avensia.Common.Features.Product.ProductViewModel"
+    }
+  ],
+  "tretorn": {
+    "id": "1613",
+    "sku": "800636719",
+    "name": "Rainshower Set — Regnställ Barn",
+    "uri": "/rainshower-set-regnstall-barn-800636719",
+    "short_description": "Klassiskt regnset med avtagbar huva och förstärkta byxor för extra komfort och hållbarhet. Perfekt för att plaska i vattenpölar, skogslek eller skoläventyr.",
+    "variations": [
+      {
+        "id": "1613-8070",
+        "sku": "80063671974/80",
+        "name": "74/80",
+        "in_stock": true
+      },
+      {
+        "id": "1613-8071",
+        "sku": "80063671986/92",
+        "name": "86/92",
+        "in_stock": true
+      },
+      {
+        "id": "1613-8072",
+        "sku": "80063671998/104",
+        "name": "98/104",
+        "in_stock": true
+      },
+      {
+        "id": "1613-8068",
+        "sku": "800636719110/11",
+        "name": "110/116",
+        "in_stock": true
+      },
+      {
+        "id": "1613-8069",
+        "sku": "800636719122/12",
+        "name": "122/128",
+        "in_stock": true
+      }
+    ],
+    "price": {
+      "id": 19,
+      "price": 599,
+      "on_sale": false,
+      "discount": 0,
+      "sale_price": 599,
+      "new_product": false,
+      "price_history": {
+        "price": 599,
+        "period_in_days": 30,
+        "price_with_currency": "599 SEK",
+        "price_before_discount": null,
+        "price_before_discount_with_currency": null
+      },
+      "discount_percentage": 0,
+      "price_with_currency": "599 SEK",
+      "discount_with_currency": "0 SEK",
+      "sale_price_with_currency": "599 SEK"
+    },
+    "media": [
+      "https://images.tretorn.eu/product-images/276_524cb4f0c9_rainshower-set-k-model-1-full.jpg",
+      "https://images.tretorn.eu/product-images/276_c36d069cda_rainshower-set-k-model-2-full.jpg",
+      "https://images.tretorn.eu/product-images/276_d7e5da9bff_rainshower-set-k-model-3-full.jpg",
+      "https://images.tretorn.eu/product-images/276_765e6cac19_rainshower-set-k-model-4-full.jpg",
+      "https://images.tretorn.eu/product-images/276_5d21381022_rainshower-set-k-model-5-full.jpg",
+      "https://images.tretorn.eu/product-images/276_9ab8dedab7_rainshower-set-rainset-k-product-1-full.jpg",
+      "https://images.tretorn.eu/product-images/276_4516a76531_rainshower-set-rainset-k-product-2-full.jpg",
+      "https://images.tretorn.eu/product-images/276_dabc8bc6dd_rainshower-set-rainset-k-product-3-full.jpg",
+      "https://images.tretorn.eu/product-images/276_e5c84dc56d_rainshower-set-rainset-k-product-4-full.jpg",
+      "https://images.tretorn.eu/product-images/276_cf774b8bb2_rainshower-set-rainset-k-product-5-full.jpg",
+      "https://images.tretorn.eu/product-images/276_22b5eaebcf_rainshower-set-rainset-k-product-6-full.jpg"
+    ],
+    "related_variations": [],
+    "custom_attributes": {
+      "attr_color": {
+        "code": "chateau_rose",
+        "title": "Chateau rose",
+        "hex_code": " #D2738F"
+      }
+    },
+    "categories": [
+      "Barn",
+      "Ytterkläder - Barn",
+      "Regnkläder - Barn",
+      "Regnställ - Barn"
+    ],
+    "brand": "Tretorn"
+  },
+  "lindex": {
+    "name": "Vävd rutig klänning",
+    "sanitizedName": "rod-vavd-rutig-klanning",
+    "styleId": "3011958",
+    "variantColorId": "6968",
+    "colorId": "6968",
+    "regularPrice": {
+      "value": 349,
+      "formattedValue": "349",
+      "suffix": {
+        "value": ":-",
+        "size": "large"
+      }
+    },
+    "additionalColorIds": [],
+    "variantStatus": "Available",
+    "sustainability": "Ekologisk bomull",
+    "onlineEdition": false,
+    "media": {
+      "fileName": "3011958_6968_PS_MX",
+      "altText": "Klänning - Barn - Röd",
+      "angle": "MX"
+    }
+  }
+}

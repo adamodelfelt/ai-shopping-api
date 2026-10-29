@@ -1,0 +1,13 @@
+.git/
+.github/
+.env*
+!.env.example
+node_modules/
+test/
+docs/
+db/
+data/runs/
+data/backups/
+*.log
+*.zip
+*.patch

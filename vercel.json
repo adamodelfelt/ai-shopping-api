@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": { "api/*.js": { "maxDuration": 45, "includeFiles": "{lib,config,data,public}/**" } },
+  "headers": [{ "source": "/(.*)", "headers": [
+    { "key": "X-Content-Type-Options", "value": "nosniff" },
+    { "key": "Referrer-Policy", "value": "no-referrer" },
+    { "key": "X-Frame-Options", "value": "DENY" },
+    { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
+    { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https://media.arket.com https://minirodini.centracdn.net https://www.polarnopyret.se https://polarnopyret.se https://static.kappahl.com https://i8.amplience.net https://images.tretorn.eu; connect-src 'self'; base-uri 'none'; object-src 'none'; frame-ancestors 'none'; form-action 'self'" }
+  ] }]
+}

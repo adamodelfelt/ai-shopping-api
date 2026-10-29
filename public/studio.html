@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Whool Studio – koda plagg</title>
+  <meta name="description" content="Interaktiv skiss för manuell produktkodning, färggranskning och subjektiva begrepp.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio.css">
+  <script type="module" src="/studio.js"></script>
+</head>
+<body>
+  <a class="skip" href="#review-title">Hoppa till kodningen</a>
+  <header class="studio-header">
+    <div class="brand-group"><a class="wordmark" href="/" aria-label="Till Whool">whool<span aria-hidden="true">✳</span></a><span class="studio-name">STUDIO</span><span class="header-divider"></span><strong>Produktkodning</strong></div>
+    <div class="header-actions"><a href="/" class="shop-link">Till butiken ↗</a><label class="role-label">Testroll<select id="review-role"><option value="coder">Kodare</option><option value="reviewer">Granskare</option></select></label><button id="export-reviews" class="button outline" type="button" disabled>Exportera förslag <span aria-hidden="true">↓</span></button></div>
+  </header>
+  <div class="prototype-bar"><span class="prototype-pill"><i aria-hidden="true"></i>Interaktiv skiss</span><p>Förslag finns i den här fliken. Den riktiga katalogen ändras inte.</p><span class="prototype-end">10 produktexempel</span></div>
+  <div class="studio-layout">
+    <aside class="queue-sidebar" aria-label="Produktkö">
+      <div class="queue-heading"><h2>Att gå igenom</h2><span id="queue-count" class="count">10</span></div>
+      <label class="queue-search"><span aria-hidden="true">⌕</span><input id="queue-search" type="search" placeholder="Sök i exempelkön" aria-label="Sök bland produktexemplen" maxlength="100"></label>
+      <div id="queue-filters" class="queue-filters" aria-label="Filtrera kön"></div>
+      <div id="product-queue" class="product-queue"><p class="muted">Hämtar produktkort…</p></div>
+      <p class="queue-footnote">En liten exempelkö för att prova arbetssättet.</p>
+    </aside>
+    <main class="workspace">
+      <div class="workspace-heading"><div><p class="eyebrow">MÄNSKLIG BEDÖMNING. TYDLIGT UNDERLAG.</p><h1 id="review-title">Koda plagg</h1><p class="muted intro">Det du ser i plagget, med dina ord.</p></div><div class="review-progress"><span id="review-position">1 / 10</span><div><button id="previous-product" class="icon-button" aria-label="Föregående plagg" type="button">←</button><button id="next-product-top" class="icon-button" aria-label="Nästa plagg" type="button">→</button></div></div></div>
+      <p id="studio-error" class="error" role="alert" hidden></p>
+      <div class="workbench">
+        <section class="product-reference" aria-label="Produkten som granskas">
+          <div class="reference-media"><img id="reference-image" alt=""><span id="reference-flag" class="image-flag" hidden>Färgkontroll</span><button id="enlarge-image" class="enlarge-button" type="button" aria-label="Förstora produktbild">⤢</button></div>
+          <div class="reference-details"><p id="reference-brand" class="eyebrow"></p><h2 id="reference-name"></h2><p id="reference-retailer" class="muted small"></p><div class="reference-price"><strong id="reference-price"></strong><span>Referenspris från underlaget</span></div><div id="reference-facts" class="reference-facts"></div><a id="reference-link" class="text-link" target="_blank" rel="noopener noreferrer">Öppna hos återförsäljaren ↗</a></div>
+          <details class="source-details"><summary>Källtext & produktreferens</summary><p id="reference-description"></p><p id="reference-id" class="small muted"></p></details>
+          <div class="source-note"><span class="note-icon" aria-hidden="true">i</span><p>Bedöm bilden och källtexten tillsammans. Lager kontrolleras inte i den här granskningsvyn.</p></div>
+        </section>
+        <section class="review-panel" aria-label="Manuell kodning">
+          <div class="panel-heading"><div><p class="eyebrow">DIN BEDÖMNING</p><h2>Hur ska plagget hittas?</h2></div><span id="record-status" class="status-badge">Ej bedömd</span></div>
+          <div class="editor-tabs" role="tablist" aria-label="Kodningsområde"><button id="tab-color" role="tab" aria-selected="true" aria-controls="pane-color" data-tab="color" type="button">Färg & mönster</button><button id="tab-terms" role="tab" aria-selected="false" aria-controls="pane-terms" data-tab="terms" type="button">Taggar <span id="term-reviewed-count">0</span></button><button id="tab-history" role="tab" aria-selected="false" aria-controls="pane-history" data-tab="history" type="button">Historik <span id="history-count">0</span></button></div>
+          <section id="pane-color" class="editor-pane" role="tabpanel" aria-labelledby="tab-color">
+            <div class="color-comparison"><div><p class="field-caption">Importerad färg</p><strong id="imported-color"></strong></div><span class="comparison-arrow" aria-hidden="true">→</span><div><p class="field-caption">Whool just nu</p><strong id="current-color"></strong></div></div>
+            <p id="color-flag-message" class="flag-message" hidden></p>
+            <fieldset class="assessment"><legend>Stämmer den importerade färgen med bilden?</legend><div id="color-verdicts" class="segmented"><button data-verdict="confirmed" type="button" aria-pressed="false">Stämmer</button><button data-verdict="flagged" type="button" aria-pressed="false">Fel färg</button><button data-verdict="uncertain" type="button" aria-pressed="false">Osäker</button></div></fieldset>
+            <div class="field-line"><h3>Föreslagen huvudfärg</h3><span id="proposed-color-label" class="muted small"></span></div>
+            <div id="primary-colors" class="color-palette" aria-label="Föreslagen huvudfärg"></div>
+            <p class="helper">Huvudfärgen styr vanlig färgsökning. Vinröd kan ingå i rött.</p>
+            <div id="color-issue-fields" class="color-issue-fields" hidden><label class="field">Vad är fel?<select id="color-reason"><option value="">Välj orsak</option><option value="wrong_family">Fel färgfamilj</option><option value="wrong_shade">Fel nyans</option><option value="pattern_color">Mönsterfärgen har blivit huvudfärg</option><option value="wrong_variant">Bilden visar en annan variant</option><option value="other">Annat – beskriv nedan</option></select></label><label class="field">Underlag / kommentar <span class="optional">valfritt</span><textarea id="color-note" maxlength="600" rows="2" placeholder="Till exempel: vit grund med röda prickar."></textarea></label></div>
+            <details id="color-detail-fields" class="coding-details"><summary>Mönster, mönsterfärger & färgyta</summary><div class="detail-content"><label class="field">Färgyta<select id="color-coverage"><option value="unknown">Ej bedömd</option><option value="solid">Tydlig huvudfärg</option><option value="patterned">Grundfärg med mönster</option><option value="mixed">Ingen tydlig huvudfärg</option></select></label><p class="field-caption">Andra färger i plagget</p><div id="secondary-colors" class="secondary-colors"></div><div class="field-line"><h3>Mönster</h3><button id="pattern-uncertain" type="button" class="text-button">Osäker</button></div><div id="pattern-options" class="chip-list"></div><p class="helper">Prickigt och randigt kan också vara stöd för ”rolig”.</p></div></details>
+          </section>
+          <section id="pane-terms" class="editor-pane" role="tabpanel" aria-labelledby="tab-terms" hidden>
+            <div class="field-line"><h3>Tagga plagget</h3><button id="add-term-open" type="button" class="text-button">+ Ny tagg</button></div><p class="tag-intro">Välj alla som passar. Ett plagg kan vara roligt, sött och sportigt samtidigt.</p><div id="term-tabs" class="product-tags" role="group" aria-label="Taggar – välj flera"></div><p id="tag-selection-summary" class="tag-selection-summary" aria-live="polite"></p><details id="tag-details" class="tag-details"><summary>Fördjupa en tagg <span aria-hidden="true">↗</span></summary><div class="tag-detail-content"><label class="field">Tagg att fördjupa<select id="detail-term"></select></label>
+            <div class="term-definition"><span class="definition-icon" aria-hidden="true">”</span><div><strong id="active-term-name">Rolig</strong><p id="active-term-definition"></p></div></div>
+            <fieldset class="assessment"><legend id="term-verdict-label">Passar begreppet på det här plagget?</legend><div id="term-verdicts" class="segmented"><button data-term-verdict="yes" type="button" aria-pressed="false">Passar</button><button data-term-verdict="no" type="button" aria-pressed="false">Passar inte</button><button data-term-verdict="uncertain" type="button" aria-pressed="false">Osäker</button></div></fieldset>
+            <div id="positive-term-fields" hidden><p class="field-caption">Hur tydligt passar det?</p><div id="term-strength" class="strength-options"><button data-strength="1" type="button" aria-pressed="false">Lite</button><button data-strength="2" type="button" aria-pressed="false">Tydligt</button><button data-strength="3" type="button" aria-pressed="false">Mycket</button></div><p class="field-caption evidence-caption">Vad i plagget ger uttrycket?</p><div id="term-evidence" class="chip-list evidence-options"></div></div>
+            <label class="field term-comment">Kommentar <span class="optional">valfritt</span><textarea id="term-note" maxlength="600" rows="3" placeholder="Beskriv din bedömning, särskilt när det är ett gränsfall."></textarea></label><p class="helper">En omarkerad tagg är inte bedömd. ”Passar inte” och ”osäker” kan anges här.</p></div></details>
+          </section>
+          <section id="pane-history" class="editor-pane" role="tabpanel" aria-labelledby="tab-history" hidden><h3>Vem bedömde vad?</h3><p class="muted small">Historik skapas när du sparar och granskar i skissen.</p><div id="review-history" class="review-history"></div></section>
+          <section class="effect-preview" aria-label="Förhandsvisning av kodningens effekt"><p class="field-caption">SÅ SKULLE KODNINGEN ANVÄNDAS</p><div id="effect-preview"></div><p class="helper">Förhandsvisning. Inga verkliga sökresultat ändras.</p></section>
+        </section>
+      </div>
+      <footer class="decision-bar"><div class="save-state"><span id="save-status-dot" class="save-status-dot"></span><div><strong id="save-state-title">Ej bedömd</strong><p id="save-state-note">Alla ändringar stannar i skissen.</p></div></div><div class="decision-actions"><button id="reset-review" type="button" class="text-button">Återställ utkast</button><button id="approve-review" type="button" class="button outline" hidden>Granska förslag</button><button id="save-review" type="button" class="button primary">Spara förslag</button><button id="next-product" type="button" class="button next">Nästa →</button></div></footer>
+    </main>
+  </div>
+  <div id="studio-toast" class="studio-toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="image-dialog" class="image-dialog" aria-labelledby="image-title"><div class="dialog-top"><h2 id="image-title">Produktbild</h2><button class="close-button" type="button" data-close aria-label="Stäng produktbild">×</button></div><img id="large-product-image" alt=""></dialog>
+  <dialog id="new-term-dialog" aria-labelledby="new-term-title"><div class="dialog-top"><h2 id="new-term-title">En ny tagg</h2><button class="close-button" type="button" data-close aria-label="Stäng nytt begrepp">×</button></div><p class="muted small">Ge taggen en kort definition så att vi använder den på liknande sätt.</p><form id="new-term-form"><label class="field">Tagg<input id="new-term-name" maxlength="32" placeholder="Till exempel Rockig" required></label><label class="field">Vad menar vi med det?<textarea id="new-term-definition" maxlength="240" rows="3" minlength="8" placeholder="Vilka uttryck eller detaljer kan vara stöd?" required></textarea></label><p id="new-term-error" class="error" hidden></p><button class="button primary" type="submit">Lägg till i skissen</button></form></dialog>
+  <dialog id="approval-dialog" aria-labelledby="approval-title"><div class="dialog-top"><div><p class="eyebrow">GRANSKARE · TESTROLL</p><h2 id="approval-title">Granska förslaget</h2></div><button class="close-button" type="button" data-close aria-label="Stäng granskning">×</button></div><p class="muted small">Jämför underlaget med den föreslagna kodningen. Godkännandet gäller bara skissen.</p><div id="approval-summary"></div><div class="approval-actions"><button id="return-review" type="button" class="button outline">Be om ny bedömning</button><button id="confirm-approval" type="button" class="button primary">Godkänn i skissen</button></div></dialog>
+  <noscript><p class="error">Aktivera JavaScript för att prova den interaktiva skissen.</p></noscript>
+</body>
+</html>

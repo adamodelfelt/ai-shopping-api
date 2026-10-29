@@ -1,0 +1,149 @@
+{
+  "state": {
+    "loaderData": {
+      "gears-route-wildcard": {
+        "pageResponse": {
+          "frontendContext": {
+            "currencyCode": "SEK"
+          },
+          "page": {
+            "productData": {
+              "name": "Basic T-shirt",
+              "categoryUri": "kids/tops/t-shirts-tank-tops",
+              "mp_age_group": "Kids",
+              "productSku": "10000001",
+              "price": {
+                "price": "220.00 SEK",
+                "priceBeforeDiscount": "220.00 SEK",
+                "priceReduction": "0.00 SEK",
+                "priceAsNumber": 220,
+                "priceBeforeDiscountAsNumber": 220,
+                "priceReductionAsNumber": 0,
+                "discountPercent": 0,
+                "showAsOnSale": false,
+                "newProduct": false,
+                "lowestPrice": [
+                  {
+                    "periodDays": 30,
+                    "price": "220.00 SEK",
+                    "priceAsNumber": 220,
+                    "priceBeforeDiscount": "220.00 SEK",
+                    "priceBeforeDiscountAsNumber": 220
+                  }
+                ]
+              },
+              "frontendItems": [
+                {
+                  "sizeId": "278",
+                  "item": "15908-35458",
+                  "ean": "7332754362732",
+                  "itemTableY": 0,
+                  "itemTableX": 0,
+                  "name": "56/62",
+                  "upc": "",
+                  "sku": "100000019956/62",
+                  "stock": 229,
+                  "quantity": 229
+                },
+                {
+                  "sizeId": "279",
+                  "item": "15908-35459",
+                  "ean": "7332754362749",
+                  "itemTableY": 0,
+                  "itemTableX": 1,
+                  "name": "68/74",
+                  "upc": "",
+                  "sku": "100000019968/74",
+                  "stock": 283,
+                  "quantity": 283
+                },
+                {
+                  "sizeId": "280",
+                  "item": "15908-35460",
+                  "ean": "7332754362756",
+                  "itemTableY": 0,
+                  "itemTableX": 2,
+                  "name": "80/86",
+                  "upc": "",
+                  "sku": "100000019980/86",
+                  "stock": 240,
+                  "quantity": 240
+                },
+                {
+                  "sizeId": "281",
+                  "item": "15908-35461",
+                  "ean": "7332754362763",
+                  "itemTableY": 0,
+                  "itemTableX": 3,
+                  "name": "92/98",
+                  "upc": "",
+                  "sku": "100000019992/98",
+                  "stock": 109,
+                  "quantity": 109
+                },
+                {
+                  "sizeId": "274",
+                  "item": "15908-35454",
+                  "ean": "7332754362695",
+                  "itemTableY": 0,
+                  "itemTableX": 4,
+                  "name": "104/110",
+                  "upc": "",
+                  "sku": "1000000199104/110",
+                  "stock": 0,
+                  "quantity": 0
+                },
+                {
+                  "sizeId": "275",
+                  "item": "15908-35455",
+                  "ean": "7332754362701",
+                  "itemTableY": 0,
+                  "itemTableX": 5,
+                  "name": "116/122",
+                  "upc": "",
+                  "sku": "1000000199116/122",
+                  "stock": 25,
+                  "quantity": 25
+                },
+                {
+                  "sizeId": "276",
+                  "item": "15908-35456",
+                  "ean": "7332754362718",
+                  "itemTableY": 0,
+                  "itemTableX": 6,
+                  "name": "128/134",
+                  "upc": "",
+                  "sku": "1000000199128/134",
+                  "stock": 66,
+                  "quantity": 66
+                },
+                {
+                  "sizeId": "277",
+                  "item": "15908-35457",
+                  "ean": "7332754362725",
+                  "itemTableY": 0,
+                  "itemTableX": 7,
+                  "name": "140/146",
+                  "upc": "",
+                  "sku": "1000000199140/146",
+                  "stock": 14,
+                  "quantity": 14
+                }
+              ],
+              "mediaUrls": [
+                "https://minirodini.centracdn.net/client/dynamic/images/7686_f1ff185889-1000000199-1-1350x0.jpg",
+                "https://minirodini.centracdn.net/client/dynamic/images/7686_6db0fd05cc-1000000199-2-1350x0.jpg"
+              ],
+              "variantName": "Svart",
+              "mp_material_text": "• Mini Rodini Panda-märke påsytt framtill<br>• 95 % TENCEL™ Lyocell 5 % Elastan<br> <br>TENCEL™ Lyocell är ett 100 % biologiskt nedbrytbart fiber tillverkat från miljöcertifierat bok- och granträ. Processen sker i ett unikt slutet kretslopp, där inga kemikalier läcker ut i naturen, utan återanvänds för ny produktion. Lyocell kräver mycket mindre vatten och landyta i jämförelse med konventionell bomull och viskos. Förutom att vara en pionjär i textilindustrin är Lyocell ett slitstarkt material som känns silkeslent och svalt mot huden.",
+              "description": "Svart T-shirt tillverkad i mjuk TENCEL™ Lyocell med komfortstretch. Designad med ett påsytt Mini Rodini Panda-märke framtill.<br><br>Storlek 56/62–68/74 har tryckknappar vid axeln för enklare påklädnad.<br><br>Tröjan ingår i Mini Rodinis Basic-serie med mjuka och hållbara basplagg som är enkla att kombinera med dina garderobsfavoriter."
+            },
+            "meta": {
+              "canonicalUrl": "/se/basic-t-shirt-black"
+            }
+          }
+        }
+      }
+    }
+  }
+}

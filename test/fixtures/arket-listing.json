@@ -1,0 +1,430 @@
+{
+  "_uid": "64c9106c-3777-48ae-92a5-0b2aa19d5fb9",
+  "title": "Barnkläder",
+  "component": "productList",
+  "description": "Vår barnkollektion består av noga utvalda plagg och accessoarer för den minsta vardagsgarderoben. Klassiska essentials designade med fokus på material, detaljer och lekfull enkelhet.",
+  "productsType": "full_price",
+  "bigCardIndexes": [],
+  "numberOfDaysAsNew": "",
+  "_parentSection": "body",
+  "_parentStoryId": 503388311,
+  "_parentStoryName": "main",
+  "breadcrumbs": [
+    {
+      "href": "/sv-se/",
+      "label": "ARKET"
+    },
+    {
+      "href": "/sv-se/children",
+      "label": "Barn"
+    },
+    {
+      "href": "/sv-se/children/clothing/",
+      "label": "Barnkläder"
+    }
+  ],
+  "categoryArray": [
+    "children"
+  ],
+  "editorialCards": [],
+  "initialSearchParams": "",
+  "initialSortOrder": "relevance",
+  "initialTotalItems": 444,
+  "pageSize": 48,
+  "products": [
+    {
+      "available": true,
+      "campaignInfo": null,
+      "categoryUri": "children/knitwear/girls",
+      "categoryName": [
+        "children",
+        "knitwear",
+        "girls"
+      ],
+      "discountPercent": 0,
+      "items": [],
+      "lowestPrice": [
+        {
+          "price": "590 SEK",
+          "priceAsNumber": 590
+        }
+      ],
+      "mediaObjects": [
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/6c/0a/6c0a15543f546f3422ec90e00b9bd769d42724b3_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/e1/48/e148c0c89bc4888ccecd46f7206dab50ca70f682_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/d2/6c/d26c3bea52f3dc8fff0648b4b4b58e40421a8c40_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/3e/19/3e191e3cd1a741cf7cf91e50fe461c54a6e0625d_xxl-1.jpg"
+          }
+        }
+      ],
+      "name": "Intarsiastickad ulltröja",
+      "pr_disable_in_country": [],
+      "pr_disable_in_market": [],
+      "pr_presentation_product_type_desc": "Stickad tröja",
+      "pr_product_group_id_desc": "27",
+      "pr_product_type_id_desc": "1220",
+      "pr_sales_mode_qty_desc": "1",
+      "price": "590 SEK",
+      "priceAsNumber": 590,
+      "priceBeforeDiscount": "590 SEK",
+      "priceBeforeDiscountAsNumber": 590,
+      "product": "20930",
+      "relatedProductsCount": 0,
+      "showAsNew": true,
+      "showAsOnSale": false,
+      "sku": "1355434001",
+      "ticket": "Ozc7IzsxMzU1NDM0MDAxOyM7IzsvZmFzaGlvbi9ERVNLVE9QL0xBTkRJTkdfUEFHRS9OQVZJR0FUSU9OX1JFU1VMVDsjOyM7dDsxOzE4OyM7IzsvY2hpbGRyZW47IzsjOw",
+      "uri": "intarsia-knit-wool-jumper-pinkhorses-1355434001",
+      "var_colour_details_desc": "Pink",
+      "var_net_weight_text": "180",
+      "var_swatches": [
+        {
+          "hex": "#f1c1c1",
+          "name": "Intarsiastickad ulltröja"
+        }
+      ],
+      "variantName": "Pink"
+    },
+    {
+      "available": true,
+      "campaignInfo": null,
+      "categoryUri": "children/outerwear/boys",
+      "categoryName": [
+        "children",
+        "outerwear",
+        "boys"
+      ],
+      "discountPercent": 0,
+      "items": [],
+      "lowestPrice": [
+        {
+          "price": "790 SEK",
+          "priceAsNumber": 790
+        }
+      ],
+      "mediaObjects": [
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/f3/a9/f3a9af0d41d2eb57851029c60cfa88490ddd5158_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/11/b7/11b763f410e22ab6cfc977cac958191a02edd9b1_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/d7/74/d774472de41933a6fa608ba1e9cd2ecea1e3c6cf_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/b3/c9/b3c94507cd13393b3963151ee0dca1e5a729466d_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/cb/82/cb820cbe5a735991d5fe76201088bfe395a30539_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/0b/cd/0bcd373e42a3d828c953d57ad5101aa21c8104e0_xxl-1.jpg"
+          }
+        }
+      ],
+      "name": "Vadderad pufferjacka",
+      "pr_disable_in_country": [],
+      "pr_disable_in_market": [],
+      "pr_presentation_product_type_desc": "Jacka",
+      "pr_product_group_id_desc": "27",
+      "pr_product_type_id_desc": "262",
+      "pr_sales_mode_qty_desc": "1",
+      "price": "790 SEK",
+      "priceAsNumber": 790,
+      "priceBeforeDiscount": "790 SEK",
+      "priceBeforeDiscountAsNumber": 790,
+      "product": "16905",
+      "relatedProductsCount": 4,
+      "showAsNew": true,
+      "showAsOnSale": false,
+      "sku": "1297655002",
+      "ticket": "Ozc7IzsxMjk3NjU1MDAyOyM7IzsvZmFzaGlvbi9ERVNLVE9QL0xBTkRJTkdfUEFHRS9OQVZJR0FUSU9OX1JFU1VMVDsjOyM7dDsyOzE4OyM7IzsvY2hpbGRyZW47IzsjOw",
+      "uri": "padded-puffer-jacket-blue-1297655002",
+      "var_colour_details_desc": "Blue",
+      "var_net_weight_text": "500",
+      "var_swatches": [
+        {
+          "hex": "#4da1ed",
+          "name": "Vadderad pufferjacka"
+        },
+        {
+          "hex": "#a81631",
+          "name": "Vadderad pufferjacka"
+        },
+        {
+          "hex": "#483937",
+          "name": "Vadderad pufferjacka"
+        },
+        {
+          "hex": "#12332b",
+          "name": "Vadderad pufferjacka"
+        },
+        {
+          "hex": "#b98db6",
+          "name": "Vadderad pufferjacka"
+        }
+      ],
+      "variantName": "Blue"
+    },
+    {
+      "available": true,
+      "campaignInfo": null,
+      "categoryUri": "children/shoes/boys",
+      "categoryName": [
+        "children",
+        "shoes",
+        "boys"
+      ],
+      "discountPercent": 0,
+      "items": [],
+      "lowestPrice": [
+        {
+          "price": "1100 SEK",
+          "priceAsNumber": 1100
+        }
+      ],
+      "mediaObjects": [
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/44/27/442795a4f28bf5a7a8b15d7d1d7bf882cd1c135c_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/cf/e9/cfe97c1af25cc13135f988173cee49ffc2f623ef_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/1f/d3/1fd3621bfc55d1dce91224df5bad5143be25cd22_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/08/b9/08b930441412fbf5bddc9335732cabe6a92172bc_xxl-1.jpg"
+          }
+        }
+      ],
+      "name": "New Balance 1906-sneakers",
+      "pr_disable_in_country": [],
+      "pr_disable_in_market": [],
+      "pr_presentation_product_type_desc": "Skor",
+      "pr_product_group_id_desc": "10",
+      "pr_product_type_id_desc": "94",
+      "pr_sales_mode_qty_desc": "1",
+      "price": "1100 SEK",
+      "priceAsNumber": 1100,
+      "priceBeforeDiscount": "1100 SEK",
+      "priceBeforeDiscountAsNumber": 1100,
+      "product": "21237",
+      "relatedProductsCount": 4,
+      "showAsNew": true,
+      "showAsOnSale": false,
+      "sku": "1264805005",
+      "ticket": "Ozc7IzsxMjY0ODA1MDA1OyM7IzsvZmFzaGlvbi9ERVNLVE9QL0xBTkRJTkdfUEFHRS9OQVZJR0FUSU9OX1JFU1VMVDsjOyM7dDszOzE4OyM7IzsvY2hpbGRyZW47IzsjOw",
+      "uri": "new-balance-1906-trainers-grey-1264805005",
+      "var_colour_details_desc": "Grey",
+      "var_swatches": [
+        {
+          "hex": "#7e7d7d",
+          "name": "New Balance 1906-sneakers"
+        },
+        {
+          "hex": "#a9aba9",
+          "name": "New Balance 1906-sneakers"
+        },
+        {
+          "hex": "#9d9184",
+          "name": "New Balance 1906-sneakers"
+        }
+      ],
+      "variantName": "Grey"
+    },
+    {
+      "available": true,
+      "campaignInfo": null,
+      "categoryUri": "children/tops/boys",
+      "categoryName": [
+        "children",
+        "tops",
+        "boys"
+      ],
+      "discountPercent": 0,
+      "items": [],
+      "lowestPrice": [
+        {
+          "price": "390 SEK",
+          "priceAsNumber": 390
+        }
+      ],
+      "mediaObjects": [
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/da/a7/daa733bf58ee09fba51b70df291a2cc833f801a2_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/cd/a2/cda2ba705cb3c1da67be93e6b4ad8d33b8c4cdbf_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/ad/03/ad0318e90903211f7ec66dc31f7c34c95c36c006_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/61/c5/61c5924eedccafd1f44b15b43328cc290c0ef6be_xxl-1.jpg"
+          }
+        }
+      ],
+      "name": "Sweatshirt i French terry",
+      "pr_disable_in_country": [],
+      "pr_disable_in_market": [],
+      "pr_presentation_product_type_desc": "Tröja",
+      "pr_product_group_id_desc": "27",
+      "pr_product_type_id_desc": "252",
+      "pr_sales_mode_qty_desc": "1",
+      "price": "390 SEK",
+      "priceAsNumber": 390,
+      "priceBeforeDiscount": "390 SEK",
+      "priceBeforeDiscountAsNumber": 390,
+      "product": "20890",
+      "relatedProductsCount": 4,
+      "showAsNew": true,
+      "showAsOnSale": false,
+      "sku": "1330169009",
+      "ticket": "Ozc7IzsxMzMwMTY5MDA5OyM7IzsvZmFzaGlvbi9ERVNLVE9QL0xBTkRJTkdfUEFHRS9OQVZJR0FUSU9OX1JFU1VMVDsjOyM7dDs0OzE4OyM7IzsvY2hpbGRyZW47IzsjOw",
+      "uri": "terry-sweatshirt-greydachshund-1330169009",
+      "var_colour_details_desc": "Grey",
+      "var_net_weight_text": "150",
+      "var_swatches": [
+        {
+          "hex": "#cbcccd",
+          "name": "Sweatshirt i French terry"
+        },
+        {
+          "hex": "#272d44",
+          "name": "Sweatshirt i French terry"
+        },
+        {
+          "hex": "#252424",
+          "name": "Sweatshirt i French terry"
+        },
+        {
+          "hex": "#d8bed8",
+          "name": "Sweatshirt i French terry"
+        },
+        {
+          "hex": "#265330",
+          "name": "Sweatshirt i French terry"
+        }
+      ],
+      "variantName": "Grey"
+    },
+    {
+      "available": true,
+      "campaignInfo": null,
+      "categoryUri": "children/trousers/girls",
+      "categoryName": [
+        "children",
+        "trousers",
+        "girls"
+      ],
+      "discountPercent": 0,
+      "items": [],
+      "lowestPrice": [
+        {
+          "price": "490 SEK",
+          "priceAsNumber": 490
+        }
+      ],
+      "mediaObjects": [
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/aa/5e/aa5e5d5cc6c7dfcfba0548f51a183541ba3bec39_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/0f/45/0f459b721faa52b9ad8c398a6f3ae418067fcbbb_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/eb/21/eb211fd03106a8352ce181f242fea5cdbb5d510a_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/83/36/8336f2b3f20e392c027761018c67c4cd0c44e8fe_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/ef/82/ef82a4d50a5c86027c68188e97c211682da13a25_xxl-1.jpg"
+          }
+        },
+        {
+          "attributes": {
+            "media_original_url": "https://media.arket.com/assets/006/f5/54/f554dfec5802fc87a8be42ddf0fe008fde2db15e_xxl-1.jpg"
+          }
+        }
+      ],
+      "name": "Barrel jeans med broderi",
+      "pr_disable_in_country": [],
+      "pr_disable_in_market": [],
+      "pr_presentation_product_type_desc": "Jeans",
+      "pr_product_group_id_desc": "29",
+      "pr_product_type_id_desc": "1219",
+      "pr_sales_mode_qty_desc": "1",
+      "price": "490 SEK",
+      "priceAsNumber": 490,
+      "priceBeforeDiscount": "490 SEK",
+      "priceBeforeDiscountAsNumber": 490,
+      "product": "21281",
+      "relatedProductsCount": 0,
+      "showAsNew": true,
+      "showAsOnSale": false,
+      "sku": "1370184001",
+      "ticket": "Ozc7IzsxMzcwMTg0MDAxOyM7IzsvZmFzaGlvbi9ERVNLVE9QL0xBTkRJTkdfUEFHRS9OQVZJR0FUSU9OX1JFU1VMVDsjOyM7dDs1OzE4OyM7IzsvY2hpbGRyZW47IzsjOw",
+      "uri": "embroidered-barrel-jeans-bluehorses-1370184001",
+      "var_colour_details_desc": "Blue",
+      "var_swatches": [
+        {
+          "hex": "#5279a0",
+          "name": "Barrel jeans med broderi"
+        }
+      ],
+      "variantName": "Blue"
+    }
+  ],
+  "searchTerm": ""
+}

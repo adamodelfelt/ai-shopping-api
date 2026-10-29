@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Whool – Lindex-koppling",
+  "version": "0.1.0",
+  "description": "Överför uttryckligen valda Lindex-varor och leveransprofil från lokala Whool. Stannar före beställning och betalning.",
+  "permissions": ["storage", "alarms"],
+  "host_permissions": ["http://127.0.0.1/*", "http://localhost/*", "https://www.lindex.com/*"],
+  "background": { "scripts": ["background.js"], "type": "module", "persistent": false },
+  "content_scripts": [
+    { "matches": ["http://127.0.0.1/*", "http://localhost/*"], "js": ["whool-bridge.js"], "run_at": "document_idle" },
+    { "matches": ["https://www.lindex.com/se/*"], "js": ["lindex-content.js"], "run_at": "document_idle" }
+  ],
+  "content_security_policy": { "extension_pages": "script-src 'self'; object-src 'none'; connect-src 'none'" }
+}

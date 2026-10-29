@@ -1,13 +1,21 @@
 {
-  "name": "ai-shopping-api",
-  "version": "1.0.0",
+  "name": "whool",
+  "version": "2.0.0",
+  "private": true,
   "type": "module",
+  "engines": { "node": "24.x" },
   "scripts": {
-    "dev": "node dev-server.js"
-  },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.0.0",
-    "dotenv": "^17.4.1",
-    "openai": "^4.0.0"
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node scripts/build.js",
+    "test": "node --test test/*.test.js",
+    "check": "node scripts/check.js",
+    "scrape:kids": "node scripts/scrape.js",
+    "stock:check": "node scripts/check-stock.js",
+    "catalogue:import": "node scripts/import.js",
+    "catalogue:classify": "node scripts/classify.js",
+    "brands:sync": "node scripts/brands.js",
+    "sizing:audit": "node scripts/sizing-audit.js",
+    "sizing:reconcile": "node scripts/sizing-reconcile.js"
   }
 }
