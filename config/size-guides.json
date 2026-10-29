@@ -1,0 +1,2652 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-29T07:32:04.640Z",
+  "scope": "children_and_baby_apparel",
+  "brands": [
+    {
+      "store": "arket",
+      "sourceUrl": "https://www.arket.com/sv-se/customer-service/size-guide/children/",
+      "checkedAt": "2026-10-29T07:32:04.640Z",
+      "charts": [
+        {
+          "id": "children",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "unisex",
+          "rows": [
+            {
+              "label": "92",
+              "ageMonths": [
+                24,
+                24
+              ],
+              "height": [
+                92,
+                92
+              ],
+              "measurements": {
+                "chest": 52.5,
+                "waist": 50.5,
+                "hip": 53,
+                "inseam": 38
+              }
+            },
+            {
+              "label": "98",
+              "ageMonths": [
+                36,
+                36
+              ],
+              "height": [
+                98,
+                98
+              ],
+              "measurements": {
+                "chest": 54.25,
+                "waist": 52.5,
+                "hip": 56,
+                "inseam": 41
+              }
+            },
+            {
+              "label": "104",
+              "ageMonths": [
+                48,
+                48
+              ],
+              "height": [
+                104,
+                104
+              ],
+              "measurements": {
+                "chest": 56,
+                "waist": 54.5,
+                "hip": 60,
+                "inseam": 45.5
+              }
+            },
+            {
+              "label": "110",
+              "ageMonths": [
+                60,
+                60
+              ],
+              "height": [
+                110,
+                110
+              ],
+              "measurements": {
+                "chest": 58,
+                "waist": 55,
+                "hip": 62,
+                "inseam": 49.25
+              }
+            },
+            {
+              "label": "116",
+              "ageMonths": [
+                72,
+                72
+              ],
+              "height": [
+                116,
+                116
+              ],
+              "measurements": {
+                "chest": 60.5,
+                "waist": 56,
+                "hip": 64,
+                "inseam": 52
+              }
+            },
+            {
+              "label": "122",
+              "ageMonths": [
+                84,
+                84
+              ],
+              "height": [
+                122,
+                122
+              ],
+              "measurements": {
+                "chest": 63,
+                "waist": 57,
+                "hip": 66,
+                "inseam": 56
+              }
+            },
+            {
+              "label": "128",
+              "ageMonths": [
+                96,
+                96
+              ],
+              "height": [
+                128,
+                128
+              ],
+              "measurements": {
+                "chest": [
+                  65,
+                  64
+                ],
+                "waist": [
+                  58,
+                  59
+                ],
+                "hip": [
+                  70,
+                  68
+                ],
+                "inseam": [
+                  59.75,
+                  59.25
+                ]
+              }
+            },
+            {
+              "label": "134",
+              "ageMonths": [
+                108,
+                108
+              ],
+              "height": [
+                134,
+                134
+              ],
+              "measurements": {
+                "chest": [
+                  68.5,
+                  67.5
+                ],
+                "waist": 60,
+                "hip": [
+                  73.5,
+                  71
+                ],
+                "inseam": [
+                  63,
+                  62
+                ]
+              }
+            },
+            {
+              "label": "140",
+              "ageMonths": [
+                120,
+                120
+              ],
+              "height": [
+                140,
+                140
+              ],
+              "measurements": {
+                "chest": [
+                  71.5,
+                  71
+                ],
+                "waist": [
+                  61.75,
+                  61.5
+                ],
+                "hip": [
+                  77,
+                  74.25
+                ],
+                "inseam": [
+                  65.75,
+                  65
+                ]
+              }
+            },
+            {
+              "label": "146",
+              "ageMonths": [
+                132,
+                132
+              ],
+              "height": [
+                146,
+                146
+              ],
+              "measurements": {
+                "chest": [
+                  74.5,
+                  74.5
+                ],
+                "waist": [
+                  64,
+                  66
+                ],
+                "hip": [
+                  80.5,
+                  77.5
+                ],
+                "inseam": [
+                  69,
+                  67.5
+                ]
+              }
+            },
+            {
+              "label": "152",
+              "ageMonths": [
+                144,
+                144
+              ],
+              "height": [
+                152,
+                152
+              ],
+              "measurements": {
+                "chest": [
+                  78,
+                  78
+                ],
+                "waist": [
+                  65.5,
+                  68
+                ],
+                "hip": [
+                  84,
+                  81
+                ],
+                "inseam": [
+                  71.5,
+                  70.5
+                ]
+              }
+            },
+            {
+              "label": "158",
+              "ageMonths": [
+                156,
+                156
+              ],
+              "height": [
+                158,
+                158
+              ],
+              "measurements": {
+                "chest": [
+                  80,
+                  82
+                ],
+                "waist": [
+                  66.5,
+                  70.5
+                ],
+                "hip": [
+                  86.5,
+                  85
+                ],
+                "inseam": [
+                  74.5,
+                  73.5
+                ]
+              }
+            },
+            {
+              "label": "164",
+              "ageMonths": [
+                168,
+                168
+              ],
+              "height": [
+                164,
+                164
+              ],
+              "measurements": {
+                "chest": [
+                  82.5,
+                  86
+                ],
+                "waist": [
+                  67.25,
+                  73
+                ],
+                "hip": [
+                  88,
+                  89
+                ],
+                "inseam": [
+                  77.5,
+                  76.25
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "baby",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "unisex",
+          "rows": [
+            {
+              "label": "50",
+              "height": [
+                50,
+                50
+              ],
+              "ageMonths": [
+                0,
+                1
+              ],
+              "measurements": {
+                "chest": 36
+              }
+            },
+            {
+              "label": "56",
+              "height": [
+                56,
+                56
+              ],
+              "ageMonths": [
+                1,
+                2
+              ],
+              "measurements": {
+                "chest": 38.5
+              }
+            },
+            {
+              "label": "62",
+              "height": [
+                62,
+                62
+              ],
+              "ageMonths": [
+                2,
+                4
+              ],
+              "measurements": {
+                "chest": 43
+              }
+            },
+            {
+              "label": "68",
+              "height": [
+                68,
+                68
+              ],
+              "ageMonths": [
+                4,
+                6
+              ],
+              "measurements": {
+                "chest": 45.5
+              }
+            },
+            {
+              "label": "74",
+              "height": [
+                74,
+                74
+              ],
+              "ageMonths": [
+                6,
+                9
+              ],
+              "measurements": {
+                "chest": 47
+              }
+            },
+            {
+              "label": "80",
+              "height": [
+                80,
+                80
+              ],
+              "ageMonths": [
+                9,
+                12
+              ],
+              "measurements": {
+                "chest": 49.5
+              }
+            },
+            {
+              "label": "86",
+              "height": [
+                86,
+                86
+              ],
+              "ageMonths": [
+                12,
+                18
+              ],
+              "measurements": {
+                "chest": 50.75
+              }
+            },
+            {
+              "label": "92",
+              "height": [
+                92,
+                92
+              ],
+              "ageMonths": [
+                18,
+                24
+              ],
+              "measurements": {
+                "chest": 52.5
+              }
+            }
+          ],
+          "ageGroup": "baby"
+        }
+      ],
+      "notes": [
+        "Slash-separated measurements are source alternatives, not a measured interval; no gender is assumed.",
+        "Baby waist, hip and inseam are not published."
+      ]
+    },
+    {
+      "store": "minirodini",
+      "sourceUrl": "https://www.minirodini.com/se/size-guide",
+      "checkedAt": "2026-10-29T07:32:04.640Z",
+      "charts": [
+        {
+          "id": "Dubbla storlekar",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "unisex",
+          "rows": [
+            {
+              "label": "80/86",
+              "height": [
+                80,
+                86
+              ],
+              "ageMonths": [
+                9,
+                18
+              ],
+              "measurements": {
+                "chest": 51.5,
+                "waist": 49.5,
+                "hip": 52.5,
+                "inseam": 32.5
+              }
+            },
+            {
+              "label": "92/98",
+              "height": [
+                92,
+                98
+              ],
+              "ageMonths": [
+                18,
+                36
+              ],
+              "measurements": {
+                "chest": 54.5,
+                "waist": 52.5,
+                "hip": 57.5,
+                "inseam": 40
+              }
+            },
+            {
+              "label": "104/110",
+              "height": [
+                104,
+                110
+              ],
+              "ageMonths": [
+                36,
+                60
+              ],
+              "measurements": {
+                "chest": 57.5,
+                "waist": 55,
+                "hip": 62.5,
+                "inseam": 47.5
+              }
+            },
+            {
+              "label": "116/122",
+              "height": [
+                116,
+                122
+              ],
+              "ageMonths": [
+                60,
+                84
+              ],
+              "measurements": {
+                "chest": 61.5,
+                "waist": 57,
+                "hip": 67,
+                "inseam": 54.5
+              }
+            },
+            {
+              "label": "128/134",
+              "height": [
+                128,
+                134
+              ],
+              "ageMonths": [
+                84,
+                108
+              ],
+              "measurements": {
+                "chest": 67,
+                "waist": 60.5,
+                "hip": 72.5,
+                "inseam": 61.5
+              }
+            },
+            {
+              "label": "140/146",
+              "height": [
+                140,
+                146
+              ],
+              "ageMonths": [
+                108,
+                132
+              ],
+              "measurements": {
+                "chest": 73.5,
+                "waist": 64,
+                "hip": 78.5,
+                "inseam": 68.5
+              }
+            }
+          ],
+          "ageGroup": "kids",
+          "issues": []
+        },
+        {
+          "id": "Enkelstorlekar",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "unisex",
+          "rows": [
+            {
+              "label": "92",
+              "height": [
+                92,
+                92
+              ],
+              "ageMonths": [
+                18,
+                24
+              ],
+              "measurements": {
+                "chest": 53,
+                "hip": 55,
+                "inseam": 36.5
+              }
+            },
+            {
+              "label": "98",
+              "height": [
+                98,
+                98
+              ],
+              "ageMonths": [
+                24,
+                48
+              ],
+              "measurements": {
+                "chest": 54.5,
+                "hip": 57.5,
+                "inseam": 40
+              }
+            },
+            {
+              "label": "104",
+              "height": [
+                104,
+                104
+              ],
+              "ageMonths": [
+                36,
+                48
+              ],
+              "measurements": {
+                "chest": 56,
+                "hip": 60,
+                "inseam": 44
+              }
+            },
+            {
+              "label": "110",
+              "height": [
+                110,
+                110
+              ],
+              "ageMonths": [
+                48,
+                60
+              ],
+              "measurements": {
+                "chest": 57.5,
+                "hip": 62.5,
+                "inseam": 47.5
+              }
+            },
+            {
+              "label": "116",
+              "height": [
+                116,
+                116
+              ],
+              "ageMonths": [
+                60,
+                72
+              ],
+              "measurements": {
+                "chest": 59,
+                "hip": 64,
+                "inseam": 51
+              }
+            },
+            {
+              "label": "122",
+              "height": [
+                122,
+                122
+              ],
+              "ageMonths": [
+                72,
+                84
+              ],
+              "measurements": {
+                "chest": 61.5,
+                "hip": 67,
+                "inseam": 54.5
+              }
+            },
+            {
+              "label": "128",
+              "height": [
+                128,
+                128
+              ],
+              "ageMonths": [
+                84,
+                96
+              ],
+              "measurements": {
+                "chest": 64,
+                "hip": 70,
+                "inseam": 58
+              }
+            },
+            {
+              "label": "134",
+              "height": [
+                134,
+                134
+              ],
+              "ageMonths": [
+                96,
+                108
+              ],
+              "measurements": {
+                "chest": 67,
+                "hip": 72.5,
+                "inseam": 61.5
+              }
+            },
+            {
+              "label": "140",
+              "height": [
+                140,
+                140
+              ],
+              "ageMonths": [
+                108,
+                120
+              ],
+              "measurements": {
+                "chest": 70,
+                "hip": 75,
+                "inseam": 65
+              }
+            },
+            {
+              "label": "146",
+              "height": [
+                146,
+                146
+              ],
+              "ageMonths": [
+                120,
+                132
+              ],
+              "measurements": {
+                "chest": 73.5,
+                "hip": 78.5,
+                "inseam": 68.5
+              }
+            }
+          ],
+          "ageGroup": "kids",
+          "issues": [
+            {
+              "size": "92",
+              "column": "Midja",
+              "raw": 53,
+              "reason": "waist_duplicates_chest_entire_row"
+            },
+            {
+              "size": "98",
+              "column": "Midja",
+              "raw": 54.5,
+              "reason": "waist_duplicates_chest_entire_row"
+            },
+            {
+              "size": "104",
+              "column": "Midja",
+              "raw": 56,
+              "reason": "waist_duplicates_chest_entire_row"
+            },
+            {
+              "size": "110",
+              "column": "Midja",
+              "raw": 57.5,
+              "reason": "waist_duplicates_chest_entire_row"
+            },
+            {
+              "size": "116",
+              "column": "Midja",
+              "raw": 59,
+              "reason": "waist_duplicates_chest_entire_row"
+            },
+            {
+              "size": "122",
+              "column": "Midja",
+              "raw": 61.5,
+              "reason": "waist_duplicates_chest_entire_row"
+            },
+            {
+              "size": "128",
+              "column": "Midja",
+              "raw": 64,
+              "reason": "waist_duplicates_chest_entire_row"
+            },
+            {
+              "size": "134",
+              "column": "Midja",
+              "raw": 67,
+              "reason": "waist_duplicates_chest_entire_row"
+            },
+            {
+              "size": "140",
+              "column": "Midja",
+              "raw": 70,
+              "reason": "waist_duplicates_chest_entire_row"
+            },
+            {
+              "size": "146",
+              "column": "Midja",
+              "raw": 73.5,
+              "reason": "waist_duplicates_chest_entire_row"
+            }
+          ]
+        },
+        {
+          "id": "Baby dubbla storlekar",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "unisex",
+          "rows": [
+            {
+              "label": "56/62",
+              "height": [
+                56,
+                62
+              ],
+              "ageMonths": [
+                1,
+                4
+              ],
+              "measurements": {
+                "chest": 43,
+                "waist": 43,
+                "hip": 42,
+                "inseam": 21
+              }
+            },
+            {
+              "label": "68/74",
+              "height": [
+                68,
+                74
+              ],
+              "ageMonths": [
+                4,
+                9
+              ],
+              "measurements": {
+                "chest": 48,
+                "waist": 46.5,
+                "hip": 47.5,
+                "inseam": 26.5
+              }
+            },
+            {
+              "label": "80/86",
+              "height": [
+                80,
+                86
+              ],
+              "ageMonths": [
+                9,
+                18
+              ],
+              "measurements": {
+                "chest": 51.5,
+                "waist": 49.5,
+                "hip": 52.5,
+                "inseam": 32.5
+              }
+            }
+          ],
+          "ageGroup": "baby",
+          "issues": []
+        },
+        {
+          "id": "Baby enkelstorlekar",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "unisex",
+          "rows": [
+            {
+              "label": "50",
+              "height": [
+                50,
+                50
+              ],
+              "ageMonths": [
+                0,
+                1
+              ],
+              "measurements": {
+                "chest": 39,
+                "waist": 39,
+                "hip": 38,
+                "inseam": 16
+              }
+            },
+            {
+              "label": "56",
+              "height": [
+                56,
+                56
+              ],
+              "ageMonths": [
+                1,
+                2
+              ],
+              "measurements": {
+                "chest": 41,
+                "waist": 41,
+                "hip": 40,
+                "inseam": 18.5
+              }
+            },
+            {
+              "label": "62",
+              "height": [
+                62,
+                62
+              ],
+              "ageMonths": [
+                2,
+                4
+              ],
+              "measurements": {
+                "chest": 43,
+                "waist": 43,
+                "hip": 42,
+                "inseam": 21
+              }
+            },
+            {
+              "label": "68",
+              "height": [
+                68,
+                68
+              ],
+              "ageMonths": [
+                4,
+                6
+              ],
+              "measurements": {
+                "chest": 45.5,
+                "waist": 45.5,
+                "hip": 45,
+                "inseam": 23.5
+              }
+            },
+            {
+              "label": "74",
+              "height": [
+                74,
+                74
+              ],
+              "ageMonths": [
+                6,
+                9
+              ],
+              "measurements": {
+                "chest": 48,
+                "waist": 48,
+                "hip": 47.5,
+                "inseam": 26.5
+              }
+            },
+            {
+              "label": "80",
+              "height": [
+                80,
+                80
+              ],
+              "ageMonths": [
+                9,
+                12
+              ],
+              "measurements": {
+                "chest": 50,
+                "waist": 50,
+                "hip": 50,
+                "inseam": 29.5
+              }
+            },
+            {
+              "label": "86",
+              "height": [
+                86,
+                86
+              ],
+              "ageMonths": [
+                12,
+                18
+              ],
+              "measurements": {
+                "chest": 51.5,
+                "waist": 51.5,
+                "hip": 52.5,
+                "inseam": 32.5
+              }
+            }
+          ],
+          "ageGroup": "baby",
+          "issues": []
+        }
+      ],
+      "notes": [
+        "Single-size kids waist row duplicates the chest row verbatim. Quarantined pending brand confirmation; double-size waist values are kept separately."
+      ]
+    },
+    {
+      "store": "pop",
+      "sourceUrl": "https://www.polarnopyret.com/en/uk/pop-magazine/kids-size-guide",
+      "checkedAt": "2026-10-29T07:32:04.640Z",
+      "charts": [
+        {
+          "id": "children",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "unisex",
+          "rows": [
+            {
+              "label": "44",
+              "height": [
+                44,
+                44
+              ],
+              "ageMonths": [
+                0,
+                0
+              ],
+              "measurements": {
+                "chest": 38,
+                "waist": 39,
+                "hip": 39,
+                "inseam": 13.5
+              }
+            },
+            {
+              "label": "50",
+              "height": [
+                50,
+                50
+              ],
+              "ageMonths": [
+                0,
+                1
+              ],
+              "measurements": {
+                "chest": 40,
+                "waist": 40,
+                "hip": 41,
+                "inseam": 16
+              }
+            },
+            {
+              "label": "56",
+              "height": [
+                56,
+                56
+              ],
+              "ageMonths": [
+                1,
+                2
+              ],
+              "measurements": {
+                "chest": 42,
+                "waist": 42,
+                "hip": 43,
+                "inseam": 18.5
+              }
+            },
+            {
+              "label": "62",
+              "height": [
+                62,
+                62
+              ],
+              "ageMonths": [
+                2,
+                4
+              ],
+              "measurements": {
+                "chest": 44,
+                "waist": 43,
+                "hip": 45,
+                "inseam": 21
+              }
+            },
+            {
+              "label": "68",
+              "height": [
+                68,
+                68
+              ],
+              "ageMonths": [
+                4,
+                6
+              ],
+              "measurements": {
+                "chest": 46,
+                "waist": 45,
+                "hip": 47,
+                "inseam": 23.5
+              }
+            },
+            {
+              "label": "74",
+              "height": [
+                74,
+                74
+              ],
+              "ageMonths": [
+                6,
+                9
+              ],
+              "measurements": {
+                "chest": 48,
+                "waist": 46,
+                "hip": 49,
+                "inseam": 26.5
+              }
+            },
+            {
+              "label": "80",
+              "height": [
+                80,
+                80
+              ],
+              "ageMonths": [
+                9,
+                12
+              ],
+              "measurements": {
+                "chest": 50,
+                "waist": 47,
+                "hip": 51,
+                "inseam": 29.5
+              }
+            },
+            {
+              "label": "86",
+              "height": [
+                86,
+                86
+              ],
+              "ageMonths": [
+                12,
+                18
+              ],
+              "measurements": {
+                "chest": 52,
+                "waist": 49,
+                "hip": 53,
+                "inseam": 32.5
+              }
+            },
+            {
+              "label": "92",
+              "height": [
+                92,
+                92
+              ],
+              "ageMonths": [
+                18,
+                24
+              ],
+              "measurements": {
+                "chest": 54,
+                "waist": 50,
+                "hip": 55,
+                "inseam": 36.5
+              }
+            },
+            {
+              "label": "98",
+              "height": [
+                98,
+                98
+              ],
+              "ageMonths": [
+                24,
+                36
+              ],
+              "measurements": {
+                "chest": 56,
+                "waist": 52,
+                "hip": 57,
+                "inseam": 40
+              }
+            },
+            {
+              "label": "104",
+              "height": [
+                104,
+                104
+              ],
+              "ageMonths": [
+                36,
+                48
+              ],
+              "measurements": {
+                "chest": 58,
+                "waist": 53,
+                "hip": 59,
+                "inseam": 44
+              }
+            },
+            {
+              "label": "110",
+              "height": [
+                110,
+                110
+              ],
+              "ageMonths": [
+                48,
+                60
+              ],
+              "measurements": {
+                "chest": 60,
+                "waist": 54,
+                "hip": 61,
+                "inseam": 47.5
+              }
+            },
+            {
+              "label": "116",
+              "height": [
+                116,
+                116
+              ],
+              "ageMonths": [
+                60,
+                72
+              ],
+              "measurements": {
+                "chest": 62,
+                "waist": 55,
+                "hip": 63,
+                "inseam": 51
+              }
+            },
+            {
+              "label": "122",
+              "height": [
+                122,
+                122
+              ],
+              "ageMonths": [
+                72,
+                84
+              ],
+              "measurements": {
+                "chest": 64,
+                "waist": 57,
+                "hip": 66,
+                "inseam": 55
+              }
+            },
+            {
+              "label": "128",
+              "height": [
+                128,
+                128
+              ],
+              "ageMonths": [
+                84,
+                96
+              ],
+              "measurements": {
+                "chest": 66,
+                "waist": 59,
+                "hip": 69,
+                "inseam": 58.5
+              }
+            },
+            {
+              "label": "134",
+              "height": [
+                134,
+                134
+              ],
+              "ageMonths": [
+                96,
+                108
+              ],
+              "measurements": {
+                "chest": 69,
+                "waist": 61,
+                "hip": 72,
+                "inseam": 62
+              }
+            },
+            {
+              "label": "140",
+              "height": [
+                140,
+                140
+              ],
+              "ageMonths": [
+                108,
+                120
+              ],
+              "measurements": {
+                "chest": 72,
+                "waist": 64,
+                "hip": 75,
+                "inseam": 66
+              }
+            },
+            {
+              "label": "146",
+              "height": [
+                146,
+                146
+              ],
+              "ageMonths": [
+                120,
+                132
+              ],
+              "measurements": {
+                "chest": 75,
+                "waist": 67,
+                "hip": 78.5,
+                "inseam": 69
+              }
+            },
+            {
+              "label": "152",
+              "height": [
+                152,
+                152
+              ],
+              "ageMonths": [
+                132,
+                144
+              ],
+              "measurements": {
+                "chest": 78,
+                "waist": 70,
+                "hip": 82,
+                "inseam": 72.5
+              }
+            }
+          ]
+        }
+      ],
+      "market": "UK",
+      "notes": [
+        "Official brand guide in centimetres. SE product-linked size guide should take precedence when available."
+      ],
+      "crossCheckedSources": [
+        {
+          "sourceUrl": "https://www.polarnopyret.se/barnklader/stickad-hangselbyxa-beige-60604160-2013",
+          "checkedAt": "2026-10-29T07:52:36.842Z",
+          "result": "18 shared body measurement rows match the Swedish product-linked guide"
+        }
+      ]
+    },
+    {
+      "store": "newbie",
+      "sourceUrl": "https://www.kappahl.com/sv-se/storleksguider/storleksguide-barn",
+      "checkedAt": "2026-10-29T07:32:04.640Z",
+      "charts": [
+        {
+          "id": "baby",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "unisex",
+          "rows": [
+            {
+              "label": "44",
+              "height": [
+                44,
+                44
+              ],
+              "ageMonths": [
+                0,
+                0
+              ],
+              "measurements": {
+                "chest": 33.5,
+                "waist": 32.5,
+                "hip": 32.5
+              }
+            },
+            {
+              "label": "50",
+              "height": [
+                50,
+                50
+              ],
+              "ageMonths": [
+                0,
+                1
+              ],
+              "measurements": {
+                "chest": 36.5,
+                "waist": 36,
+                "hip": 35.5
+              }
+            },
+            {
+              "label": "56",
+              "height": [
+                56,
+                56
+              ],
+              "ageMonths": [
+                1,
+                2
+              ],
+              "measurements": {
+                "chest": 39.5,
+                "waist": 39.5,
+                "hip": 39.5
+              }
+            },
+            {
+              "label": "62",
+              "height": [
+                62,
+                62
+              ],
+              "ageMonths": [
+                2,
+                4
+              ],
+              "measurements": {
+                "chest": 42.5,
+                "waist": 41.5,
+                "hip": 43
+              }
+            },
+            {
+              "label": "68",
+              "height": [
+                68,
+                68
+              ],
+              "ageMonths": [
+                4,
+                6
+              ],
+              "measurements": {
+                "chest": 45.5,
+                "waist": 44.5,
+                "hip": 46
+              }
+            },
+            {
+              "label": "74",
+              "height": [
+                74,
+                74
+              ],
+              "ageMonths": [
+                6,
+                9
+              ],
+              "measurements": {
+                "chest": 47,
+                "waist": 46,
+                "hip": 48
+              }
+            },
+            {
+              "label": "80",
+              "height": [
+                80,
+                80
+              ],
+              "ageMonths": [
+                9,
+                12
+              ],
+              "measurements": {
+                "chest": 49,
+                "waist": 48,
+                "hip": 50
+              }
+            },
+            {
+              "label": "86",
+              "height": [
+                86,
+                86
+              ],
+              "ageMonths": [
+                12,
+                18
+              ],
+              "measurements": {
+                "chest": 51,
+                "waist": 50,
+                "hip": 52.5
+              }
+            },
+            {
+              "label": "92",
+              "height": [
+                92,
+                92
+              ],
+              "ageMonths": [
+                18,
+                24
+              ],
+              "measurements": {
+                "chest": 53,
+                "waist": 52,
+                "hip": 55
+              }
+            }
+          ],
+          "ageGroup": "baby"
+        },
+        {
+          "id": "children",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "unisex",
+          "rows": [
+            {
+              "label": "80",
+              "height": [
+                80,
+                80
+              ],
+              "ageMonths": [
+                9,
+                12
+              ],
+              "measurements": {
+                "chest": 49,
+                "waist": 48,
+                "hip": 50
+              }
+            },
+            {
+              "label": "86",
+              "height": [
+                86,
+                86
+              ],
+              "ageMonths": [
+                12,
+                18
+              ],
+              "measurements": {
+                "chest": 51,
+                "waist": 50,
+                "hip": 52.5,
+                "inseam": 33.5
+              }
+            },
+            {
+              "label": "92",
+              "height": [
+                92,
+                92
+              ],
+              "ageMonths": [
+                18,
+                24
+              ],
+              "measurements": {
+                "chest": 53,
+                "waist": 52,
+                "hip": 55,
+                "inseam": 37
+              }
+            },
+            {
+              "label": "98",
+              "height": [
+                98,
+                98
+              ],
+              "ageMonths": [
+                24,
+                36
+              ],
+              "measurements": {
+                "chest": 55,
+                "waist": 53,
+                "hip": 57,
+                "inseam": 40.5
+              }
+            },
+            {
+              "label": "104",
+              "height": [
+                104,
+                104
+              ],
+              "ageMonths": [
+                36,
+                48
+              ],
+              "measurements": {
+                "chest": 56.5,
+                "waist": 54,
+                "hip": 59,
+                "inseam": 44
+              }
+            },
+            {
+              "label": "110",
+              "height": [
+                110,
+                110
+              ],
+              "ageMonths": [
+                48,
+                60
+              ],
+              "measurements": {
+                "chest": 58,
+                "waist": 55,
+                "hip": 61,
+                "inseam": 47.5
+              }
+            },
+            {
+              "label": "116",
+              "height": [
+                116,
+                116
+              ],
+              "ageMonths": [
+                60,
+                72
+              ],
+              "measurements": {
+                "chest": 59.5,
+                "waist": 56,
+                "hip": 63,
+                "inseam": 51
+              }
+            },
+            {
+              "label": "122",
+              "height": [
+                122,
+                122
+              ],
+              "ageMonths": [
+                72,
+                84
+              ],
+              "measurements": {
+                "chest": 61,
+                "waist": 57,
+                "hip": 65,
+                "inseam": 54.5
+              }
+            },
+            {
+              "label": "128",
+              "height": [
+                128,
+                128
+              ],
+              "ageMonths": [
+                84,
+                96
+              ],
+              "measurements": {
+                "chest": 64,
+                "waist": 58,
+                "hip": 68,
+                "inseam": 59
+              }
+            }
+          ],
+          "ageGroup": "kids"
+        },
+        {
+          "id": "boys",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "boys",
+          "rows": [
+            {
+              "label": "134",
+              "height": [
+                134,
+                134
+              ],
+              "ageMonths": [
+                96,
+                108
+              ],
+              "measurements": {
+                "chest": 67,
+                "waist": 59.5,
+                "hip": 71,
+                "inseam": 62.5
+              }
+            },
+            {
+              "label": "140",
+              "height": [
+                140,
+                140
+              ],
+              "ageMonths": [
+                108,
+                120
+              ],
+              "measurements": {
+                "chest": 70,
+                "waist": 61,
+                "hip": 74,
+                "inseam": 66
+              }
+            },
+            {
+              "label": "146",
+              "height": [
+                146,
+                146
+              ],
+              "ageMonths": [
+                120,
+                132
+              ],
+              "measurements": {
+                "chest": 73,
+                "waist": 63.5,
+                "hip": 77,
+                "inseam": 69
+              }
+            },
+            {
+              "label": "152",
+              "height": [
+                152,
+                152
+              ],
+              "ageMonths": [
+                132,
+                144
+              ],
+              "measurements": {
+                "chest": 77,
+                "waist": 66.6,
+                "hip": 80.5,
+                "inseam": 72
+              }
+            },
+            {
+              "label": "158",
+              "height": [
+                158,
+                158
+              ],
+              "ageMonths": [
+                144,
+                156
+              ],
+              "measurements": {
+                "chest": 81,
+                "waist": 69.5,
+                "hip": 84,
+                "inseam": 75
+              }
+            },
+            {
+              "label": "164",
+              "height": [
+                164,
+                164
+              ],
+              "ageMonths": [
+                156,
+                168
+              ],
+              "measurements": {
+                "chest": 85,
+                "waist": 72.5,
+                "hip": 87.5,
+                "inseam": 78
+              }
+            },
+            {
+              "label": "170",
+              "height": [
+                170,
+                170
+              ],
+              "ageMonths": [
+                168,
+                168
+              ],
+              "measurements": {
+                "chest": 89,
+                "waist": 75.5,
+                "hip": 91,
+                "inseam": 81
+              }
+            }
+          ],
+          "ageGroup": "kids"
+        },
+        {
+          "id": "girls",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "girls",
+          "rows": [
+            {
+              "label": "134",
+              "height": [
+                134,
+                134
+              ],
+              "ageMonths": [
+                96,
+                108
+              ],
+              "measurements": {
+                "chest": 67,
+                "waist": 59.5,
+                "hip": 71,
+                "inseam": 62.5
+              }
+            },
+            {
+              "label": "140",
+              "height": [
+                140,
+                140
+              ],
+              "ageMonths": [
+                108,
+                120
+              ],
+              "measurements": {
+                "chest": 70,
+                "waist": 61,
+                "hip": 74,
+                "inseam": 66
+              }
+            },
+            {
+              "label": "146",
+              "height": [
+                146,
+                146
+              ],
+              "ageMonths": [
+                120,
+                132
+              ],
+              "measurements": {
+                "chest": 73,
+                "waist": 62.5,
+                "hip": 78,
+                "inseam": 69
+              }
+            },
+            {
+              "label": "152",
+              "height": [
+                152,
+                152
+              ],
+              "ageMonths": [
+                132,
+                144
+              ],
+              "measurements": {
+                "chest": 76,
+                "waist": 64,
+                "hip": 82,
+                "inseam": 72
+              }
+            },
+            {
+              "label": "158",
+              "height": [
+                158,
+                158
+              ],
+              "ageMonths": [
+                144,
+                156
+              ],
+              "measurements": {
+                "chest": 79,
+                "waist": 65.5,
+                "hip": 86,
+                "inseam": 75
+              }
+            },
+            {
+              "label": "164",
+              "height": [
+                164,
+                164
+              ],
+              "ageMonths": [
+                156,
+                168
+              ],
+              "measurements": {
+                "chest": 82,
+                "waist": 67,
+                "hip": 89,
+                "inseam": 78
+              }
+            },
+            {
+              "label": "170",
+              "height": [
+                170,
+                170
+              ],
+              "ageMonths": [
+                168,
+                168
+              ],
+              "measurements": {
+                "chest": 85,
+                "waist": 68.5,
+                "hip": 92,
+                "inseam": 81
+              }
+            }
+          ],
+          "ageGroup": "kids"
+        }
+      ],
+      "notes": [
+        "X-size source tables contradict their slim heading (larger waist than standard). Excluded pending review.",
+        "Double size labels resolve to their constituent single-size rows. No endpoint is averaged."
+      ]
+    },
+    {
+      "store": "lindex",
+      "sourceUrl": "https://www.lindex.com/se/storlek-guider?ba=barn&hl=sv",
+      "checkedAt": "2026-10-29T07:32:04.640Z",
+      "charts": [
+        {
+          "id": "girls",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "girls",
+          "rows": [
+            {
+              "label": "92",
+              "height": [
+                92,
+                92
+              ],
+              "ageMonths": [
+                18,
+                24
+              ],
+              "measurements": {
+                "chest": 52,
+                "waist": 51,
+                "hip": 57,
+                "inseam": 38
+              }
+            },
+            {
+              "label": "98",
+              "height": [
+                98,
+                98
+              ],
+              "ageMonths": [
+                24,
+                36
+              ],
+              "measurements": {
+                "chest": 54,
+                "waist": 52.5,
+                "hip": 60,
+                "inseam": 41.5
+              }
+            },
+            {
+              "label": "104",
+              "height": [
+                104,
+                104
+              ],
+              "ageMonths": [
+                36,
+                48
+              ],
+              "measurements": {
+                "chest": 56,
+                "waist": 54,
+                "hip": 60,
+                "inseam": 45
+              }
+            },
+            {
+              "label": "110",
+              "height": [
+                110,
+                110
+              ],
+              "ageMonths": [
+                48,
+                60
+              ],
+              "measurements": {
+                "chest": 58,
+                "waist": 55,
+                "hip": 62,
+                "inseam": 48.5
+              }
+            },
+            {
+              "label": "116",
+              "height": [
+                116,
+                116
+              ],
+              "ageMonths": [
+                60,
+                72
+              ],
+              "measurements": {
+                "chest": 60,
+                "waist": 56,
+                "hip": 64,
+                "inseam": 52
+              }
+            },
+            {
+              "label": "122",
+              "height": [
+                122,
+                122
+              ],
+              "ageMonths": [
+                72,
+                84
+              ],
+              "measurements": {
+                "chest": 63,
+                "waist": 57,
+                "hip": 66,
+                "inseam": 55.6
+              }
+            },
+            {
+              "label": "128",
+              "height": [
+                128,
+                128
+              ],
+              "ageMonths": [
+                84,
+                96
+              ],
+              "measurements": {
+                "chest": 66,
+                "waist": 58,
+                "hip": 69,
+                "inseam": 59
+              }
+            },
+            {
+              "label": "134",
+              "height": [
+                134,
+                134
+              ],
+              "ageMonths": [
+                96,
+                108
+              ],
+              "measurements": {
+                "chest": 69,
+                "waist": 60,
+                "hip": 73,
+                "inseam": 62.5
+              }
+            },
+            {
+              "label": "140",
+              "height": [
+                140,
+                140
+              ],
+              "ageMonths": [
+                108,
+                120
+              ],
+              "measurements": {
+                "chest": 72,
+                "waist": 62,
+                "hip": 77,
+                "inseam": 65.5
+              }
+            },
+            {
+              "label": "146",
+              "height": [
+                146,
+                146
+              ],
+              "ageMonths": [
+                120,
+                132
+              ],
+              "measurements": {
+                "chest": 75,
+                "waist": 64,
+                "hip": 80,
+                "inseam": 68.5
+              }
+            },
+            {
+              "label": "152",
+              "height": [
+                152,
+                152
+              ],
+              "ageMonths": [
+                132,
+                144
+              ],
+              "measurements": {
+                "chest": 78,
+                "waist": 66,
+                "hip": 83,
+                "inseam": 71.5
+              }
+            },
+            {
+              "label": "158",
+              "height": [
+                158,
+                158
+              ],
+              "ageMonths": [
+                144,
+                156
+              ],
+              "measurements": {
+                "chest": 81,
+                "waist": 67,
+                "hip": 86,
+                "inseam": 74.5
+              }
+            },
+            {
+              "label": "164",
+              "height": [
+                164,
+                164
+              ],
+              "ageMonths": [
+                156,
+                168
+              ],
+              "measurements": {
+                "chest": 83,
+                "waist": 68,
+                "hip": 88,
+                "inseam": 77.5
+              }
+            },
+            {
+              "label": "170",
+              "height": [
+                170,
+                170
+              ],
+              "ageMonths": [
+                156,
+                168
+              ],
+              "measurements": {
+                "chest": 85,
+                "waist": 69,
+                "hip": 90,
+                "inseam": 80.5
+              }
+            }
+          ]
+        },
+        {
+          "id": "boys",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "boys",
+          "rows": [
+            {
+              "label": "92",
+              "height": [
+                92,
+                92
+              ],
+              "ageMonths": [
+                18,
+                24
+              ],
+              "measurements": {
+                "chest": 52,
+                "waist": 51,
+                "hip": 57,
+                "inseam": 38
+              }
+            },
+            {
+              "label": "98",
+              "height": [
+                98,
+                98
+              ],
+              "ageMonths": [
+                24,
+                36
+              ],
+              "measurements": {
+                "chest": 54,
+                "waist": 52.5,
+                "hip": 60,
+                "inseam": 41.5
+              }
+            },
+            {
+              "label": "104",
+              "height": [
+                104,
+                104
+              ],
+              "ageMonths": [
+                36,
+                48
+              ],
+              "measurements": {
+                "chest": 56,
+                "waist": 54,
+                "hip": 60,
+                "inseam": 45
+              }
+            },
+            {
+              "label": "110",
+              "height": [
+                110,
+                110
+              ],
+              "ageMonths": [
+                48,
+                60
+              ],
+              "measurements": {
+                "chest": 58,
+                "waist": 55,
+                "hip": 62,
+                "inseam": 48.5
+              }
+            },
+            {
+              "label": "116",
+              "height": [
+                116,
+                116
+              ],
+              "ageMonths": [
+                60,
+                72
+              ],
+              "measurements": {
+                "chest": 60,
+                "waist": 56,
+                "hip": 64,
+                "inseam": 52
+              }
+            },
+            {
+              "label": "122",
+              "height": [
+                122,
+                122
+              ],
+              "ageMonths": [
+                72,
+                84
+              ],
+              "measurements": {
+                "chest": 63,
+                "waist": 57,
+                "hip": 66,
+                "inseam": 55.6
+              }
+            },
+            {
+              "label": "128",
+              "height": [
+                128,
+                128
+              ],
+              "ageMonths": [
+                84,
+                96
+              ],
+              "measurements": {
+                "chest": 65,
+                "waist": 59,
+                "hip": 68,
+                "inseam": 59
+              }
+            },
+            {
+              "label": "134",
+              "height": [
+                134,
+                134
+              ],
+              "ageMonths": [
+                96,
+                108
+              ],
+              "measurements": {
+                "chest": 68,
+                "waist": 61,
+                "hip": 71,
+                "inseam": 62
+              }
+            },
+            {
+              "label": "140",
+              "height": [
+                140,
+                140
+              ],
+              "ageMonths": [
+                108,
+                120
+              ],
+              "measurements": {
+                "chest": 71,
+                "waist": 63,
+                "hip": 74,
+                "inseam": 65
+              }
+            },
+            {
+              "label": "146",
+              "height": [
+                146,
+                146
+              ],
+              "ageMonths": [
+                120,
+                132
+              ],
+              "measurements": {
+                "chest": 74,
+                "waist": 65,
+                "hip": 77,
+                "inseam": 68
+              }
+            },
+            {
+              "label": "152",
+              "height": [
+                152,
+                152
+              ],
+              "ageMonths": [
+                132,
+                144
+              ],
+              "measurements": {
+                "chest": 78,
+                "waist": 67,
+                "hip": 81,
+                "inseam": 71
+              }
+            },
+            {
+              "label": "158",
+              "height": [
+                158,
+                158
+              ],
+              "ageMonths": [
+                144,
+                156
+              ],
+              "measurements": {
+                "chest": 82,
+                "waist": 70,
+                "hip": 85,
+                "inseam": 74
+              }
+            },
+            {
+              "label": "164",
+              "height": [
+                164,
+                164
+              ],
+              "ageMonths": [
+                156,
+                168
+              ],
+              "measurements": {
+                "chest": 86,
+                "waist": 73,
+                "hip": 89,
+                "inseam": 76.5
+              }
+            },
+            {
+              "label": "170",
+              "height": [
+                170,
+                170
+              ],
+              "ageMonths": [
+                156,
+                168
+              ],
+              "measurements": {
+                "chest": 89,
+                "waist": 76,
+                "hip": 92,
+                "inseam": 79
+              }
+            }
+          ]
+        },
+        {
+          "id": "baby",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "unisex",
+          "rows": [
+            {
+              "label": "44",
+              "height": [
+                44,
+                44
+              ],
+              "ageMonths": [
+                0,
+                0
+              ],
+              "measurements": {
+                "chest": 31.5,
+                "waist": 31.5
+              }
+            },
+            {
+              "label": "50",
+              "height": [
+                50,
+                50
+              ],
+              "ageMonths": [
+                0,
+                1
+              ],
+              "measurements": {
+                "chest": 35,
+                "waist": 35
+              }
+            },
+            {
+              "label": "56",
+              "height": [
+                56,
+                56
+              ],
+              "ageMonths": [
+                1,
+                2
+              ],
+              "measurements": {
+                "chest": 38.5,
+                "waist": 38.5
+              }
+            },
+            {
+              "label": "62",
+              "height": [
+                62,
+                62
+              ],
+              "ageMonths": [
+                2,
+                4
+              ],
+              "measurements": {
+                "chest": 42,
+                "waist": 41.5
+              }
+            },
+            {
+              "label": "68",
+              "height": [
+                68,
+                68
+              ],
+              "ageMonths": [
+                4,
+                6
+              ],
+              "measurements": {
+                "chest": 45.5,
+                "waist": 44.5
+              }
+            },
+            {
+              "label": "74",
+              "height": [
+                74,
+                74
+              ],
+              "ageMonths": [
+                7,
+                9
+              ],
+              "measurements": {
+                "chest": 47.5,
+                "waist": 46.5
+              }
+            },
+            {
+              "label": "80",
+              "height": [
+                80,
+                80
+              ],
+              "ageMonths": [
+                10,
+                12
+              ],
+              "measurements": {
+                "chest": 49,
+                "waist": 48
+              }
+            },
+            {
+              "label": "86",
+              "height": [
+                86,
+                86
+              ],
+              "ageMonths": [
+                12,
+                18
+              ],
+              "measurements": {
+                "chest": 50.5,
+                "waist": 49.5
+              }
+            }
+          ],
+          "ageGroup": "baby"
+        }
+      ]
+    },
+    {
+      "store": "tretorn",
+      "sourceUrl": "https://se.tretorn.com/kundservice/storleksguide-for-barn",
+      "checkedAt": "2026-10-29T07:32:04.640Z",
+      "charts": [
+        {
+          "id": "height-age",
+          "basis": "body",
+          "unit": "cm",
+          "audience": "unisex",
+          "rows": [
+            {
+              "label": "86/92",
+              "height": [
+                86,
+                92
+              ],
+              "ageMonths": [
+                12,
+                24
+              ],
+              "measurements": {}
+            },
+            {
+              "label": "98/104",
+              "height": [
+                98,
+                104
+              ],
+              "ageMonths": [
+                24,
+                48
+              ],
+              "measurements": {}
+            },
+            {
+              "label": "110/116",
+              "height": [
+                110,
+                116
+              ],
+              "ageMonths": [
+                48,
+                72
+              ],
+              "measurements": {}
+            },
+            {
+              "label": "122/128",
+              "height": [
+                122,
+                128
+              ],
+              "ageMonths": [
+                72,
+                96
+              ],
+              "measurements": {}
+            },
+            {
+              "label": "134/140",
+              "height": [
+                134,
+                140
+              ],
+              "ageMonths": [
+                96,
+                120
+              ],
+              "measurements": {}
+            },
+            {
+              "label": "146/152",
+              "height": [
+                146,
+                152
+              ],
+              "ageMonths": [
+                120,
+                144
+              ],
+              "measurements": {}
+            },
+            {
+              "label": "158/164",
+              "height": [
+                158,
+                164
+              ],
+              "ageMonths": [
+                144,
+                168
+              ],
+              "measurements": {}
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "General guide supplies age and height, not waist or hip. Use product garment charts for dimensions."
+      ]
+    }
+  ]
+}

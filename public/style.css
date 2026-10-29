@@ -24,3 +24,10 @@
 @media(max-width:380px){.cart-button .cart-label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}}@media(max-width:340px){.nav{flex-wrap:wrap;height:auto;min-height:84px;padding-top:14px;padding-bottom:14px;gap:10px}.nav-right{margin-left:auto}}
 
 .retailer-name{font-size:.63rem;line-height:1.5;margin:0 0 10px}.playful-reason{display:inline-block;font-size:.61rem;line-height:1.4;padding:4px 8px;margin:0 0 12px;border-radius:999px;background:#edf3e7;color:#526b57}
+/* Measurements stay inside a compact, keyboard-accessible disclosure. */
+.sizing-details { margin-top: 12px; border-top: 1px solid #dedbd5; padding-top: 10px; }
+.sizing-details summary { cursor: pointer; font-size: 13px; font-weight: 600; }
+.sizing-details p { margin: 8px 0; }
+.sizing-details .store-link { display: block; margin-top: 8px; }
+.sizing-heading { font-weight: 600; }
+.size-pill.suggested-size { box-shadow: 0 0 0 2px #47634c; }

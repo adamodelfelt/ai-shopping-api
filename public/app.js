@@ -134,10 +134,44 @@ function sizePills(product) {
     }, 'size-pill');
     pill.disabled = !stockFresh(product.availability) || !variant.available;
     pill.title = `${variant.label}${variant.available ? ' · I lager vid kontrollen' : ' · Slut i lager'}`;
+    if (product.sizeRecommendation?.labels.includes(variant.label)) {
+      pill.classList.add('suggested-size'); pill.title += ' · Ungefärligt storleksförslag';
+    }
     pill.setAttribute('aria-label', `${variant.label} för ${product.name}${variant.available ? '' : ', slut i lager'}`);
     pill.setAttribute('aria-pressed', String(selectedVariant(product) === variant.id)); choices.append(pill);
   }
   container.append(choices); return container;
+}
+function sizingDetails(product) {
+  if (!product.sizing) return null;
+  const details = element('details', 'sizing-details');
+  details.append(element('summary', '', 'Mått & passform'));
+  const recommendation = product.sizeRecommendation;
+  if (recommendation?.labels.length) details.append(element('p', 'small', `Storleksförslag: ${recommendation.labels.join(', ')}`));
+  for (const reason of recommendation?.reasons ?? []) details.append(element('p', 'small', reason));
+  details.append(element('p', 'small muted', recommendation?.notice ?? 'Kroppsmått är märkets riktlinjer. Jämför plaggmått med ett plagg som sitter bra.'));
+  if (product.sizing.productCheckedAt) details.append(element('p', 'small muted', `Produktuppgifter kontrollerade ${new Date(product.sizing.productCheckedAt).toLocaleDateString('sv-SE')}`));
+  const labels = (recommendation?.labels ?? availableSizes(product).map(size => size.label)).map(label => String(label).replace(/\s*[/-]\s*/g, '/'));
+  const names = { chest: 'Bröst', waist: 'Midja', hip: 'Stuss', inseam: 'Innerben', outseam: 'Ytterben', waistFlat: '½ midjevidd', waistRelaxedFlat: '½ midjevidd i vila', waistStretchedFlat: '½ midjevidd utsträckt', chestFlat: '½ bröstvidd', hipFlat: '½ stussvidd', hemFlat: '½ vidd nedtill', backLength: 'Rygglängd', sleeveLength: 'Ärmlängd', length: 'Produktens längd', width: 'Produktens bredd' };
+  function addRows(rows, heading) {
+    if (!rows.length) return;
+    details.append(element('p', 'small sizing-heading', heading));
+    for (const row of rows) {
+      const format = value => new Intl.NumberFormat('sv-SE').format(value);
+      const values = Object.entries(row.measurements ?? {}).filter(([key]) => names[key]).map(([key, value]) => `${names[key]} ${Array.isArray(value) ? value.map(format).join(' / ') : format(value)} cm`);
+      if (row.height) values.unshift(`Längd ${[...new Set(row.height)].map(format).join('–')} cm`);
+      if (values.length) details.append(element('p', 'small muted', `${row.label}${row.audience === 'boys' ? ' · pojke' : row.audience === 'girls' ? ' · flicka' : ''}: ${values.join(' · ')}`));
+    }
+  }
+  const garments = product.sizing.productCharts.flatMap(chart => chart.rows.filter(row => labels.includes(row.label)));
+  addRows(garments, 'Produktens plaggmått · används i första hand');
+  const body = recommendation?.rows.flatMap(row => row.body) ?? product.sizing.bodyCharts.flatMap(chart => chart.rows.filter(row => labels.some(label => label === row.label || /^\d{2,3}[/-]\d{2,3}$/.test(label) && label.split(/[/-]/).includes(row.label))).map(row => ({ ...row, audience: chart.audience })));
+  addRows(body, 'Märkets kroppsmått · vägledning');
+  if (product.sizing.productCharts.some(chart => chart.issues?.length)) details.append(element('p', 'small muted', 'Vissa mått har utelämnats eftersom källvärdena behöver granskas.'));
+  if (product.sizing.productStatus === 'not_checked') details.append(element('p', 'small muted', 'Produktspecifika mått har ännu inte verifierats.'));
+  details.append(externalLink(product.sizing.guideUrl, 'Märkets storleksguide ↗', 'store-link'));
+  if (garments.length) details.append(externalLink(product.url, 'Kontrollera produktens mått ↗', 'store-link'));
+  return details;
 }
 function productCard(product, group) {
   favoriteProducts.set(product.id, product);
@@ -166,6 +200,7 @@ function productCard(product, group) {
   actions.append(cart, externalLink(product.url, product.store === 'newbie' ? 'Till Kappahl ↗' : 'Till butik ↗', 'store-link'));
   details.append(actions);
   details.append(sizePills(product));
+  const measurements = sizingDetails(product); if (measurements) details.append(measurements);
   if (group) details.append(button('Hitta liknande', () => findSimilar(product), 'similar-button'));
   card.append(media, details); return card;
 }

@@ -49,6 +49,10 @@ Daglig insamling är förberedd i GitHub Actions men spärrad med `WHOOL_ROTATIO
 
 Detaljer om den genomförda incidentgranskningen levereras separat till ägaren. Inga gamla miljöfiler, Git-mappar, kompilerade beroenden eller hemligheter ska föras in i denna kodbas.
 
+## Storlekar och passform
+
+Sök exempelvis `byxor för smal sjuåring` eller `byxor 122 cm lång midja 54,5 cm`. Märkets kroppstabell kopplas till plagget, tillgängliga storlekar verifieras och produktspecifika mått används där de finns. Öppna **Mått & passform** på produktkortet för mått, underlag och källänkar. Se [storleksdokumentationen](docs/SIZING.md) för täckning, databrister och uppdatering.
+
 ## Mitt konto och leveransprofil
 
 Öppna **Mitt konto → Testa med fiktiva uppgifter** för att granska det nya profilflödet. **Prova autofyllning i demokassan** fyller ett lokalt testformulär, inklusive separat C/O och leveranspostnummer. Riktig kontolagring är avstängd tills en säker kontomiljö och e-postkod konfigurerats. Extern butiksifyllning behöver en separat runner/integration. Se [kontodokumentationen](docs/ACCOUNTS.md).

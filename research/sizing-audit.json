@@ -1,0 +1,166 @@
+{
+  "checkedAt": "2026-10-29T07:54:16.541Z",
+  "catalogueCount": 3592,
+  "stores": {
+    "arket": {
+      "products": 438,
+      "descriptionsScanned": 438,
+      "completed": 0,
+      "cached": 0,
+      "blocked": 438,
+      "failures": 1,
+      "failureReasons": {
+        "Retailer request stopped (HTTP 403)": 1
+      },
+      "withMeasurements": 0,
+      "withFitEvidence": 0,
+      "issues": 0,
+      "stopReason": "Retailer request stopped (HTTP 403)",
+      "localFitEvidence": 0,
+      "coverage": {
+        "catalogueProducts": 438,
+        "productPagesVerified": 0,
+        "unchecked": 438,
+        "productsWithGarmentMeasurements": 0,
+        "productsWithLinkedBodyGuide": 0,
+        "adjustableWaist": 0,
+        "slimFit": 0,
+        "invalidMeasurements": 0,
+        "measurementsNeedingReview": 0
+      }
+    },
+    "minirodini": {
+      "products": 663,
+      "descriptionsScanned": 663,
+      "completed": 472,
+      "cached": 191,
+      "blocked": 0,
+      "failures": 0,
+      "failureReasons": {},
+      "withMeasurements": 0,
+      "withFitEvidence": 54,
+      "issues": 0,
+      "localFitEvidence": 52,
+      "coverage": {
+        "catalogueProducts": 663,
+        "productPagesVerified": 663,
+        "unchecked": 0,
+        "productsWithGarmentMeasurements": 0,
+        "productsWithLinkedBodyGuide": 0,
+        "adjustableWaist": 53,
+        "slimFit": 1,
+        "invalidMeasurements": 0,
+        "measurementsNeedingReview": 0
+      }
+    },
+    "pop": {
+      "products": 741,
+      "descriptionsScanned": 741,
+      "completed": 734,
+      "cached": 6,
+      "blocked": 0,
+      "failures": 1,
+      "failureReasons": {
+        "fetch failed": 1
+      },
+      "withMeasurements": 0,
+      "withFitEvidence": 50,
+      "issues": 0,
+      "localFitEvidence": 21,
+      "coverage": {
+        "catalogueProducts": 741,
+        "productPagesVerified": 740,
+        "unchecked": 1,
+        "productsWithGarmentMeasurements": 0,
+        "productsWithLinkedBodyGuide": 0,
+        "adjustableWaist": 50,
+        "slimFit": 0,
+        "invalidMeasurements": 0,
+        "measurementsNeedingReview": 0
+      }
+    },
+    "newbie": {
+      "products": 538,
+      "descriptionsScanned": 538,
+      "completed": 456,
+      "cached": 82,
+      "blocked": 0,
+      "failures": 0,
+      "failureReasons": {},
+      "withMeasurements": 0,
+      "withFitEvidence": 53,
+      "issues": 0,
+      "localFitEvidence": 1,
+      "coverage": {
+        "catalogueProducts": 538,
+        "productPagesVerified": 538,
+        "unchecked": 0,
+        "productsWithGarmentMeasurements": 0,
+        "productsWithLinkedBodyGuide": 0,
+        "adjustableWaist": 53,
+        "slimFit": 0,
+        "invalidMeasurements": 0,
+        "measurementsNeedingReview": 0
+      }
+    },
+    "lindex": {
+      "products": 1163,
+      "descriptionsScanned": 1163,
+      "completed": 194,
+      "cached": 969,
+      "blocked": 0,
+      "failures": 0,
+      "failureReasons": {},
+      "withMeasurements": 1,
+      "withFitEvidence": 221,
+      "issues": 0,
+      "localFitEvidence": 0,
+      "coverage": {
+        "catalogueProducts": 1163,
+        "productPagesVerified": 1163,
+        "unchecked": 0,
+        "productsWithGarmentMeasurements": 1,
+        "productsWithLinkedBodyGuide": 0,
+        "adjustableWaist": 221,
+        "slimFit": 3,
+        "invalidMeasurements": 0,
+        "measurementsNeedingReview": 0
+      }
+    },
+    "tretorn": {
+      "products": 49,
+      "descriptionsScanned": 49,
+      "completed": 0,
+      "cached": 49,
+      "blocked": 0,
+      "failures": 0,
+      "failureReasons": {},
+      "withMeasurements": 42,
+      "withFitEvidence": 12,
+      "issues": 8,
+      "localFitEvidence": 1,
+      "coverage": {
+        "catalogueProducts": 49,
+        "productPagesVerified": 49,
+        "unchecked": 0,
+        "productsWithGarmentMeasurements": 42,
+        "productsWithLinkedBodyGuide": 0,
+        "adjustableWaist": 12,
+        "slimFit": 2,
+        "invalidMeasurements": 8,
+        "measurementsNeedingReview": 0
+      }
+    }
+  },
+  "finalizedAt": "2026-10-29T07:57:59.249Z",
+  "complete": false,
+  "unresolvedProducts": [
+    {
+      "sourceUrl": "https://www.polarnopyret.se/barnklader/trikaoverall-randig-rod-60603173-588",
+      "reason": "redirect_to_different_article",
+      "requestedArticle": "60603173",
+      "observedArticle": "60604188",
+      "measurementsReused": false
+    }
+  ]
+}
